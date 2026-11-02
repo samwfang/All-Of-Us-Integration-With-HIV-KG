@@ -1,0 +1,583 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HIV KG × All of Us Map</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<script src="https://cdn.jsdelivr.net/npm/vis-network@9.1.9/standalone/umd/vis-network.min.js"></script>
+<style>
+/* Same tokens as the KG explorer, plus coverage colors for the All of Us mapping. */
+:root {
+  --bg: #f6f7f6; --surface: #ffffff; --surface-2: #f0f2f1; --fg: #16201d; --fg-2: #4b5652; --muted: #7b8581;
+  --line: #dde2df; --accent: #1d6b64; --accent-soft: #e3efed;
+  --direct: #1d6b64; --direct-soft: #dcefeb; --proxy: #b8740a; --proxy-soft: #f8ecd6;
+  --gap: #8a908d; --gap-soft: #ecedec; --none: #c9cecb; --warn: #b3413f; --warn-soft: #f7e3e2;
+  --c-demo: #eb6834; --c-psy: #e87ba4; --c-soc: #eda100; --c-adh: #1baf7a; --c-trt: #4a3aa7; --c-bio: #008300; --c-out: #2a6fc4;
+  --sans: "Public Sans", "Helvetica Neue", Arial, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #111513; --surface: #1a1f1d; --surface-2: #222826; --fg: #edf1ef; --fg-2: #b3bcb8; --muted: #86908c;
+  --line: #2c3431; --accent: #5cb8ad; --accent-soft: #1f3330;
+  --direct: #5cb8ad; --direct-soft: #1c3431; --proxy: #e0a54a; --proxy-soft: #3a2f1c;
+  --gap: #8f9894; --gap-soft: #262b29; --none: #3a423f; --warn: #ef6b6a; --warn-soft: #3b2222;
+  --c-demo: #d95926; --c-psy: #d55181; --c-soc: #c98500; --c-adh: #199e70; --c-trt: #9085e9; --c-bio: #2a9a2a; --c-out: #5d9de9; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #111513; --surface: #1a1f1d; --surface-2: #222826; --fg: #edf1ef; --fg-2: #b3bcb8; --muted: #86908c;
+  --line: #2c3431; --accent: #5cb8ad; --accent-soft: #1f3330;
+  --direct: #5cb8ad; --direct-soft: #1c3431; --proxy: #e0a54a; --proxy-soft: #3a2f1c;
+  --gap: #8f9894; --gap-soft: #262b29; --none: #3a423f; --warn: #ef6b6a; --warn-soft: #3b2222;
+  --c-demo: #d95926; --c-psy: #d55181; --c-soc: #c98500; --c-adh: #199e70; --c-trt: #9085e9; --c-bio: #2a9a2a; --c-out: #5d9de9; color-scheme: dark }
+
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--fg); font-family: var(--sans); font-size: 15px; line-height: 1.5; }
+.wrap { max-width: 1320px; margin: 0 auto; padding: 24px 20px 64px; }
+h1 { font-size: 24px; margin: 0 0 4px; letter-spacing: -0.01em; }
+.lede { color: var(--fg-2); margin: 0 0 18px; max-width: 900px; }
+.stats { display: flex; flex-wrap: wrap; gap: 10px; margin: 0 0 18px; }
+.stat { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 8px 14px; min-width: 130px; }
+.stat b { display: block; font-size: 20px; font-variant-numeric: tabular-nums; }
+.stat span { color: var(--muted); font-size: 12.5px; }
+nav.tabs { display: flex; gap: 2px; border-bottom: 1px solid var(--line); margin-bottom: 18px; overflow-x: auto; }
+nav.tabs button { background: none; border: 0; border-bottom: 2px solid transparent; padding: 10px 14px; font: inherit; font-weight: 600; color: var(--fg-2); cursor: pointer; white-space: nowrap; }
+nav.tabs button[aria-selected="true"] { color: var(--accent); border-bottom-color: var(--accent); }
+section[hidden] { display: none !important; }
+.controls { display: flex; flex-wrap: wrap; gap: 10px 18px; align-items: center; margin-bottom: 12px; font-size: 14px; }
+.controls label { display: inline-flex; gap: 6px; align-items: center; color: var(--fg-2); }
+input[type=search], select { font: inherit; padding: 6px 10px; border: 1px solid var(--line); border-radius: 6px; background: var(--surface); color: var(--fg); }
+input[type=search] { min-width: 240px; }
+.btn { font: inherit; font-size: 13.5px; padding: 6px 12px; border: 1px solid var(--line); border-radius: 6px; background: var(--surface); color: var(--fg); cursor: pointer; }
+.btn:hover { border-color: var(--accent); }
+.two { display: grid; grid-template-columns: minmax(0, 1fr) 420px; gap: 16px; align-items: start; }
+@media (max-width: 980px) { .two { grid-template-columns: 1fr; } }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; }
+#g-canvas { height: 680px; }
+.side { padding: 16px 18px; max-height: 820px; overflow: auto; position: sticky; top: 12px; }
+.side h2 { font-size: 19px; margin: 0 0 2px; }
+.side h3 { font-size: 13px; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); margin: 18px 0 8px; }
+.side .empty { color: var(--muted); }
+.meta { color: var(--fg-2); font-size: 13.5px; }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 12.5px; color: var(--fg-2); margin-top: 8px; }
+.legend i { display: inline-block; width: 11px; height: 11px; border-radius: 50%; margin-right: 5px; vertical-align: -1px; }
+.chip { display: inline-flex; align-items: center; gap: 4px; padding: 1px 8px; border-radius: 999px; font-size: 12px; font-weight: 600; white-space: nowrap; }
+.chip.direct { background: var(--direct-soft); color: var(--direct); }
+.chip.proxy { background: var(--proxy-soft); color: var(--proxy); }
+.chip.gap { background: var(--gap-soft); color: var(--gap); }
+.chip.supp { background: var(--warn-soft); color: var(--warn); }
+.chip.gen { background: var(--surface-2); color: var(--fg-2); }
+.chip.src { background: var(--surface-2); color: var(--fg-2); font-family: var(--mono); font-weight: 500; }
+.chip.cnt { background: var(--accent-soft); color: var(--accent); font-variant-numeric: tabular-nums; }
+.chip.cnt.low { background: var(--warn-soft); color: var(--warn); }
+.chip.cnt.support { background: var(--surface-2); color: var(--muted); font-weight: 500; }
+.best { margin-top: 8px; font-size: 13.5px; padding: 8px 10px; border-radius: 8px; background: var(--surface-2); }
+.best b { font-variant-numeric: tabular-nums; }
+.var { border: 1px solid var(--line); border-radius: 8px; margin-bottom: 10px; overflow: hidden; }
+.var > header { display: flex; gap: 8px; align-items: center; justify-content: space-between; padding: 8px 10px; background: var(--surface-2); }
+.var > header b { font-size: 14px; }
+.var .why { font-size: 12.5px; color: var(--fg-2); padding: 6px 10px 0; }
+.var ul { list-style: none; margin: 0; padding: 4px 0; }
+.var li { padding: 6px 10px; border-top: 1px solid var(--line); font-size: 13px; }
+.var li:first-child { border-top: 0; }
+.var li .fid { font-family: var(--mono); font-size: 12px; color: var(--fg); word-break: break-all; cursor: pointer; text-decoration: underline dotted; text-underline-offset: 2px; }
+.var li .lbl { color: var(--fg-2); display: block; }
+.var li .note { color: var(--muted); display: block; font-size: 12px; }
+.var .more { width: 100%; border: 0; border-top: 1px solid var(--line); background: none; padding: 6px; font: inherit; font-size: 12.5px; color: var(--accent); cursor: pointer; }
+.nbrs { list-style: none; margin: 0; padding: 0; columns: 1; }
+.nbrs li button { all: unset; cursor: pointer; display: flex; justify-content: space-between; gap: 8px; width: 100%; padding: 3px 0; font-size: 13px; border-bottom: 1px dashed var(--line); }
+.nbrs li button:hover { color: var(--accent); }
+.nbrs .dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 6px; }
+.gapbox { background: var(--gap-soft); border-radius: 8px; padding: 10px 12px; font-size: 13.5px; color: var(--fg-2); }
+table { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+th, td { text-align: left; padding: 7px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font-size: 12px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); position: sticky; top: 0; background: var(--surface); }
+tbody tr { cursor: pointer; }
+tbody tr:hover { background: var(--accent-soft); }
+tr.sel { background: var(--accent-soft); }
+.tbl-wrap { max-height: 760px; overflow: auto; }
+.num { font-variant-numeric: tabular-nums; text-align: right; }
+.pager { display: flex; gap: 8px; align-items: center; padding: 10px; font-size: 13px; color: var(--fg-2); }
+/* schema */
+.flow { padding: 18px; margin-bottom: 16px; }
+.flow .hub { text-align: center; font-family: var(--mono); font-size: 13px; background: var(--accent-soft); color: var(--accent); border-radius: 8px; padding: 8px; margin-bottom: 14px; }
+.flow .srcs { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 10px; }
+.flow .src { border: 1px solid var(--line); border-top: 4px solid var(--accent); border-radius: 8px; padding: 10px 12px; cursor: pointer; background: var(--surface); }
+.flow .src:hover, .flow .src.on { border-color: var(--accent); }
+.flow .src b { display: block; }
+.flow .src span { font-size: 12.5px; color: var(--fg-2); display: block; }
+.flow .arrow { font-size: 12px; color: var(--muted); margin-top: 6px; }
+.tiles { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 8px; margin-bottom: 16px; }
+.tile { border: 1px solid var(--line); border-radius: 8px; padding: 9px 11px; cursor: pointer; background: var(--surface); position: relative; overflow: hidden; }
+.tile:hover, .tile.on { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent) inset; }
+.tile .nm { font-family: var(--mono); font-size: 12.5px; font-weight: 500; word-break: break-all; }
+.tile .ct { font-size: 12px; color: var(--muted); }
+.tile .heat { position: absolute; left: 0; bottom: 0; height: 3px; background: var(--direct); }
+.fields-head { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; flex-wrap: wrap; padding: 14px 16px 6px; }
+.fields-head h2 { margin: 0; font-size: 18px; font-family: var(--mono); }
+td .ents { display: flex; flex-wrap: wrap; gap: 4px; }
+td .ents button { all: unset; cursor: pointer; font-size: 12px; padding: 1px 7px; border-radius: 999px; background: var(--surface-2); }
+td .ents button.direct { background: var(--direct-soft); color: var(--direct); }
+td .ents button.proxy { background: var(--proxy-soft); color: var(--proxy); }
+tr.hl { outline: 2px solid var(--accent); outline-offset: -2px; }
+.prose { max-width: 860px; }
+.prose h2 { font-size: 18px; margin: 26px 0 8px; }
+.prose p, .prose li { color: var(--fg-2); }
+.prose code { font-family: var(--mono); font-size: 13px; background: var(--surface-2); padding: 1px 5px; border-radius: 4px; }
+.mono { font-family: var(--mono); font-size: 12.5px; }
+@media (max-width: 640px) { .wrap { padding-inline: 16px; } #g-canvas { height: 460px; } input[type=search] { min-width: 0; width: 100%; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>HIV virologic failure KG × All of Us Registered Tier</h1>
+  <p class="lede">Which All of Us fields can measure each factor in the knowledge graph? Click any entity to see the All of Us survey items, EHR tables and concept sets it maps to. Each link is labelled <span class="chip direct">Direct</span> (same construct, objective derivation) or <span class="chip proxy">Proxy</span> (related construct, or derivation needs judgement).</p>
+  <div class="stats" id="stats"></div>
+  <nav class="tabs" role="tablist">
+    <button role="tab" data-tab="graph" aria-selected="true">Graph</button>
+    <button role="tab" data-tab="table" aria-selected="false">Entity → field map</button>
+    <button role="tab" data-tab="schema" aria-selected="false">All of Us schema</button>
+    <button role="tab" data-tab="methods" aria-selected="false">Method & definitions</button>
+  </nav>
+
+  <section id="tab-graph">
+    <div class="controls">
+      <input type="search" id="g-q" list="ent-list" placeholder="Find an entity (e.g. depression)">
+      <datalist id="ent-list"></datalist>
+      <label>Min. articles per connection <input type="range" id="g-min" min="2" max="30" value="5"> <output id="g-min-out">5</output></label>
+      <label>Color by <select id="g-color"><option value="cov">All of Us coverage</option><option value="avail">HIV cohort data</option><option value="cat">KG category</option></select></label>
+      <button class="btn" id="g-reset" type="button">Overview</button>
+      <button class="btn" id="g-fit" type="button">Fit</button>
+    </div>
+    <div class="two">
+      <div class="card"><div id="g-canvas"></div><div class="legend" id="g-legend" style="padding:0 12px 10px"></div></div>
+      <aside class="card side" id="g-side"><p class="empty">Click a node to see its All of Us fields and KG connections.</p></aside>
+    </div>
+  </section>
+
+  <section id="tab-table" hidden>
+    <div class="controls">
+      <input type="search" id="t-q" placeholder="Search entities or variables">
+      <label>Category <select id="t-cat"><option value="">All</option></select></label>
+      <label>Coverage <select id="t-cov">
+        <option value="">All</option><option value="direct">Has a Direct link</option><option value="proxy">Proxy only</option>
+        <option value="gap">Out of scope (reason given)</option><option value="none">No rule matched</option></select></label>
+      <label>Variable <select id="t-var"><option value="">Any</option></select></label>
+      <label>Sort by <select id="t-sort"><option value="n">Articles</option><option value="hiv">HIV cohort data (best Direct field)</option></select></label>
+    </div>
+    <div class="two">
+      <div class="card"><div class="tbl-wrap"><table><thead><tr><th>Entity</th><th>Category</th><th class="num">Articles</th><th class="num" id="t-hiv-h">HIV n (best Direct)</th><th>All of Us variables</th></tr></thead><tbody id="t-body"></tbody></table></div>
+        <div class="pager"><button class="btn" id="t-prev" type="button">‹ Prev</button><span id="t-page"></span><button class="btn" id="t-next" type="button">Next ›</button></div></div>
+      <aside class="card side" id="t-side"><p class="empty">Select a row to see the mapped fields.</p></aside>
+    </div>
+  </section>
+
+  <section id="tab-schema" hidden>
+    <div class="card flow">
+      <div class="hub">person_id — every table below joins on the participant's research ID</div>
+      <div class="srcs" id="s-srcs"></div>
+    </div>
+    <div class="controls">
+      <input type="search" id="s-q" placeholder="Search all fields, questions and concept sets">
+      <label><input type="checkbox" id="s-mapped"> Only tables with KG mappings</label>
+    </div>
+    <div class="tiles" id="s-tiles"></div>
+    <div class="card" id="s-fields"><p class="empty" style="padding:16px">Pick a table or survey module above.</p></div>
+  </section>
+
+  <section id="tab-methods" hidden><div class="prose" id="methods"></div></section>
+</div>
+
+<script>
+const DATA = /*__DATA__*/null;
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"}[c]));
+const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+
+const CAT = {Demographic: "--c-demo", Psychosocial: "--c-psy", SocialEnvironmental: "--c-soc", AdherenceBehavior: "--c-adh",
+             Treatment: "--c-trt", BiologicalMarker: "--c-bio", Outcome: "--c-out"};
+const CAT_LABEL = {Demographic: "Demographic", Psychosocial: "Psychosocial", SocialEnvironmental: "Social / environmental",
+                   AdherenceBehavior: "Adherence / engagement", Treatment: "Treatment", BiologicalMarker: "Biological marker", Outcome: "Outcome"};
+const SRC = {omop: "OMOP", ehr: "EHR concept set", survey: "Survey", ds: "Workbench", wear: "Wearable", emt: "Exploring the Mind"};
+const COV_LABEL = {direct: "Has a Direct link", proxy: "Proxy only", gap: "Out of scope", none: "No rule matched"};
+
+// ---- indexes ---------------------------------------------------------------------------
+const FIELD = new Map(DATA.fields.map(f => [f[0], {id: f[0], src: f[1], group: f[2], name: f[3], label: f[4], desc: f[5], type: f[6],
+  choices: f[7], privacy: f[8], pnote: f[9], versions: f[10]}]));
+const VARS = DATA.vars;
+const ENT = new Map();
+for (const [name, cat, deg, n, vars] of DATA.ents) {
+  const vs = vars.map(([v, s]) => ({v, s}));
+  const hasDirect = vs.some(x => x.s === "direct" && VARS[x.v].fields.some(f => f[1] === "direct"));
+  const cov = hasDirect ? "direct" : vs.length ? "proxy" : (name in DATA.gaps ? "gap" : "none");
+  ENT.set(name, {name, cat, deg, n, vars: vs, cov, gap: name in DATA.gaps ? DATA.gap_reasons[DATA.gaps[name]] : null});
+}
+const link = (vs, fs) => vs === "direct" && fs === "direct" ? "direct" : "proxy";
+// field id -> [{entity, link}]
+const FIELD_ENTS = new Map();
+for (const e of ENT.values()) for (const {v, s} of e.vars) for (const [fid, fs] of VARS[v].fields) {
+  if (!FIELD_ENTS.has(fid)) FIELD_ENTS.set(fid, new Map());
+  const m = FIELD_ENTS.get(fid), l = link(s, fs);
+  if (m.get(e.name) !== "direct") m.set(e.name, l);
+}
+// HIV-cohort counts from the Workbench notebook (absent until it has been run and merged).
+const COUNTS = DATA.counts || {}, COHORT = DATA.cohort;
+const cnum = v => v == null || v === "" ? null : String(v).startsWith("<=") ? 10 : +v;   // masked "<=20" sorts as 10
+function countOf(fid) {
+  const c = COUNTS[fid]; if (!c) return null;
+  return {n: c[0], num: cnum(c[0]), pct: c[1] === "" ? null : +c[1], status: c[2], all: c[3], support: !!c[4]};
+}
+const fmtN = n => String(n).startsWith("<=") ? "≤" + String(n).slice(2) : (+n).toLocaleString();
+function countChip(fid) {
+  const c = countOf(fid); if (!COHORT || !c) return "";
+  if (c.status === "generic placeholder (not countable)") return `<span class="chip gap">not countable</span>`;
+  if (c.status !== "ok") return `<span class="chip gap" title="${esc(c.status)}">${esc(c.status)}</span>`;
+  const cls = c.support ? "support" : (c.num || 0) < Math.max(21, 0.01 * COHORT.n_hiv_cohort) ? "low" : "";
+  const title = c.support ? "Generic column: any record in this table, not specific to the construct" : "HIV-cohort participants with a valid entry";
+  return `<span class="chip cnt ${cls}" title="${title}">HIV n=${fmtN(c.n)}${c.pct != null ? ` · ${c.pct}%` : ""}${c.support ? " (any record)" : ""}</span>`;
+}
+// Best-populated construct-specific field per entity (generic event-table columns excluded).
+for (const e of ENT.values()) {
+  e.bestD = e.bestAny = null;
+  for (const {v, s} of e.vars) for (const [fid, fs] of VARS[v].fields) {
+    const c = countOf(fid);
+    if (!c || c.status !== "ok" || c.support || c.num == null) continue;
+    const cand = {fid, ...c};
+    if (link(s, fs) === "direct" && (!e.bestD || c.num > e.bestD.num)) e.bestD = cand;
+    if (!e.bestAny || c.num > e.bestAny.num) e.bestAny = cand;
+  }
+}
+const availBin = e => {
+  const p = e.bestD?.pct ?? (e.bestD ? 0 : null);
+  return p == null ? "none" : p >= 25 ? "hi" : p >= 5 ? "mid" : "lo";
+};
+const AVAIL = {hi: ["--direct", "Direct field, ≥25% of HIV cohort"], mid: ["--proxy", "Direct field, 5–25%"],
+               lo: ["--warn", "Direct field, <5%"], none: ["--none", "No populated Direct field"]};
+
+// KG pairs (aggregate predicates)
+const PAIRS = new Map(), ADJ = new Map();
+for (const [s, p, o, n, pmids] of DATA.rels) {
+  const k = s + "|" + o;
+  if (!PAIRS.has(k)) PAIRS.set(k, {s, o, n: 0, preds: {}});
+  const x = PAIRS.get(k); x.n += n; x.preds[p] = (x.preds[p] || 0) + n;
+  for (const [a, b] of [[s, o], [o, s]]) { if (!ADJ.has(a)) ADJ.set(a, []); }
+}
+for (const p of PAIRS.values()) { ADJ.get(p.s).push(p); ADJ.get(p.o).push(p); }
+
+// ---- header stats ------------------------------------------------------------------------
+(() => {
+  const all = [...ENT.values()], c = k => all.filter(e => e.cov === k).length;
+  const degAll = all.reduce((a, e) => a + e.deg, 0), degMapped = all.filter(e => e.vars.length).reduce((a, e) => a + e.deg, 0);
+  const links = [...FIELD_ENTS.values()].reduce((a, m) => a + m.size, 0);
+  $("#stats").innerHTML = [
+    [all.length.toLocaleString(), "KG entities"],
+    [c("direct").toLocaleString(), "with a Direct All of Us link"],
+    [c("proxy").toLocaleString(), "Proxy only"],
+    [c("gap").toLocaleString(), "out of scope, with reason"],
+    [Math.round(100 * degMapped / degAll) + "%", "of KG edge-ends touch a mapped entity"],
+    [FIELD_ENTS.size.toLocaleString(), "All of Us fields used"],
+    ...(COHORT ? [[(+COHORT.n_hiv_cohort).toLocaleString(), `HIV cohort (${COHORT.cohort.replace("|", " or ")})`],
+                  [all.filter(e => availBin(e) === "hi").length.toLocaleString(), "entities with a Direct field for ≥25% of the cohort"]] : []),
+  ].map(([b, s]) => `<div class="stat"><b>${b}</b><span>${s}</span></div>`).join("");
+  $("#ent-list").innerHTML = all.sort((a, b) => b.deg - a.deg).map(e => `<option value="${esc(e.name)}">`).join("");
+})();
+
+// ---- tabs --------------------------------------------------------------------------------
+function show(tab) {
+  document.querySelectorAll("nav.tabs button").forEach(b => b.setAttribute("aria-selected", b.dataset.tab === tab));
+  document.querySelectorAll("section[id^=tab-]").forEach(s => s.hidden = s.id !== "tab-" + tab);
+  if (tab === "graph" && !G.net) drawOverview();
+  if (tab === "table") renderTable();
+  if (tab === "schema" && !S.ready) initSchema();
+}
+document.querySelectorAll("nav.tabs button").forEach(b => b.onclick = () => show(b.dataset.tab));
+
+// ---- entity detail panel (shared by graph and table tabs) ---------------------------------
+function privacyChip(f) {
+  if (f.privacy === "suppressed") return `<span class="chip supp" title="${esc(f.pnote)}">Suppressed in RT</span>`;
+  if (f.privacy === "generalized") return `<span class="chip gen" title="${esc(f.pnote)}">Generalized</span>`;
+  return "";
+}
+function entityHTML(name) {
+  const e = ENT.get(name);
+  if (!e) return `<p class="empty">Unknown entity.</p>`;
+  const color = css(CAT[e.cat]);
+  let h = `<h2>${esc(e.name)}</h2><div class="meta"><span class="nbrs"><span class="dot" style="background:${color}"></span></span>${esc(CAT_LABEL[e.cat])} · ${e.deg} KG connections · ${e.n} articles · <span class="chip ${e.cov === "none" ? "gap" : e.cov}">${COV_LABEL[e.cov]}</span></div>`;
+  if (COHORT && e.vars.length) {
+    const b = e.bestD || e.bestAny, f = b && FIELD.get(b.fid);
+    h += `<div class="best">${b ? `Best-populated ${e.bestD ? "Direct" : "Proxy"} field in the HIV cohort: <b>${fmtN(b.n)}</b>${b.pct != null ? ` (${b.pct}%)` : ""} · ${esc(f.src === "ehr" ? f.label : f.group + " · " + f.name)}`
+                                : "No mapped field is populated in the HIV cohort."}</div>`;
+  }
+  h += `<h3>All of Us fields</h3>`;
+  if (e.gap) h += `<div class="gapbox">${esc(e.gap)}</div>`;
+  else if (!e.vars.length) h += `<div class="gapbox">No mapping rule matched this entity. It may still be findable through a concept search in the Workbench.</div>`;
+  const notes = DATA.rule_notes[name] || {};
+  const ordered = [...e.vars].sort((a, b) => (a.s === "direct" ? 0 : 1) - (b.s === "direct" ? 0 : 1));
+  for (const {v, s} of ordered) {
+    const V = VARS[v];
+    const rank = r => { const c = countOf(r.f.id); return c && c.status === "ok" && !c.support ? c.num : -1; };
+    const rows = V.fields.map(([fid, fs, note]) => ({f: FIELD.get(fid), l: link(s, fs), note}))
+      .sort((a, b) => (a.l === "direct" ? 0 : 1) - (b.l === "direct" ? 0 : 1) || rank(b) - rank(a));
+    const items = rows.map(({f, l, note}, i) => `<li ${i >= 6 ? 'hidden data-more' : ""}>
+        <span class="chip ${l}">${l === "direct" ? "Direct" : "Proxy"}</span> <span class="chip src">${esc(SRC[f.src])}</span> ${privacyChip(f)} ${countChip(f.id)}
+        <span class="fid" data-fid="${esc(f.id)}">${esc(f.src === "ehr" ? f.group + " · " + f.label : f.group + " · " + f.name)}</span>
+        <span class="lbl">${esc(f.src === "ehr" ? f.desc : (f.label !== f.name ? f.label : f.desc).slice(0, 220))}</span>
+        ${note ? `<span class="note">${esc(note)}</span>` : ""}</li>`).join("");
+    h += `<div class="var"><header><b>${esc(V.label)}</b><span class="chip ${s}">${s === "direct" ? "Direct construct" : "Proxy construct"}</span></header>
+      ${notes[v] ? `<div class="why">${esc(notes[v])}</div>` : ""}<ul>${items}</ul>
+      ${rows.length > 6 ? `<button class="more" type="button">Show all ${rows.length} fields</button>` : ""}</div>`;
+  }
+  const nb = (ADJ.get(name) || []).slice().sort((a, b) => b.n - a.n).slice(0, 25);
+  if (nb.length) {
+    h += `<h3>Strongest KG connections</h3><ul class="nbrs">` + nb.map(p => {
+      const other = p.s === name ? p.o : p.s, oe = ENT.get(other);
+      return `<li><button type="button" data-ent="${esc(other)}"><span><span class="dot" style="background:${css("--" + (oe.cov === "none" ? "none" : oe.cov))}"></span>${p.s === name ? "→ " : "← "}${esc(other)}</span><b class="mono">${p.n}</b></button></li>`;
+    }).join("") + `</ul>`;
+  }
+  return h;
+}
+function bindPanel(el, onEntity) {
+  el.addEventListener("click", ev => {
+    const more = ev.target.closest(".more");
+    if (more) { more.parentElement.querySelectorAll("[data-more]").forEach(li => li.hidden = false); more.remove(); return; }
+    const fid = ev.target.closest("[data-fid]");
+    if (fid) { openField(fid.dataset.fid); return; }
+    const ent = ev.target.closest("[data-ent]");
+    if (ent) onEntity(ent.dataset.ent);
+  });
+}
+
+// ---- graph -------------------------------------------------------------------------------
+const G = {net: null, nodes: null, edges: null, focus: null};
+function nodeColor(e) {
+  const mode = $("#g-color").value;
+  if (mode === "cat") return css(CAT[e.cat]);
+  if (mode === "avail") return css(AVAIL[availBin(e)][0]);
+  return css("--" + (e.cov === "none" ? "none" : e.cov));
+}
+function legend() {
+  const mode = $("#g-color").value;
+  const items = mode === "cat"
+    ? Object.entries(CAT_LABEL).map(([k, l]) => [css(CAT[k]), l])
+    : mode === "avail" ? Object.values(AVAIL).map(([v, l]) => [css(v), l])
+    : [["--direct", "Has a Direct All of Us link"], ["--proxy", "Proxy only"], ["--gap", "Out of scope (reason given)"], ["--none", "No rule matched"]].map(([v, l]) => [css(v), l]);
+  $("#g-legend").innerHTML = items.map(([c, l]) => `<span><i style="background:${c}"></i>${esc(l)}</span>`).join("") + `<span>Node size = KG connections</span>`;
+}
+function render(pairs, highlight) {
+  const names = new Set(); pairs.forEach(p => { names.add(p.s); names.add(p.o); });
+  if (highlight) names.add(highlight);
+  const fg = css("--fg"), line = css("--line");
+  const nodes = [...names].map(n => {
+    const e = ENT.get(n), c = nodeColor(e);
+    return {id: n, label: n, value: e.deg, title: `${n}\n${CAT_LABEL[e.cat]} · ${COV_LABEL[e.cov]}`,
+            color: {background: c, border: n === highlight ? fg : c, highlight: {background: c, border: fg}},
+            borderWidth: n === highlight ? 3 : 1, font: {color: fg, size: 13}};
+  });
+  const edges = pairs.map(p => ({id: p.s + "|" + p.o, from: p.s, to: p.o, value: p.n, title: `${p.s} → ${p.o}: ${p.n} articles`,
+                                 color: {color: line, highlight: css("--accent")}}));
+  legend();
+  if (!G.net) {
+    G.nodes = new vis.DataSet(nodes); G.edges = new vis.DataSet(edges);
+    G.net = new vis.Network($("#g-canvas"), {nodes: G.nodes, edges: G.edges}, {
+      nodes: {shape: "dot", scaling: {min: 6, max: 30, label: {enabled: true, min: 11, max: 18}}},
+      edges: {arrows: {to: {enabled: true, scaleFactor: 0.4}}, smooth: {type: "continuous"}, scaling: {min: 1, max: 6}},
+      physics: {solver: "forceAtlas2Based", forceAtlas2Based: {gravitationalConstant: -70, springLength: 120, avoidOverlap: 0.5},
+                stabilization: {iterations: 300, fit: true}},
+      interaction: {hover: true, tooltipDelay: 120},
+    });
+    G.net.on("stabilizationIterationsDone", () => G.net.setOptions({physics: false}));
+    G.net.on("click", ev => { if (ev.nodes.length) selectEntity(ev.nodes[0], false); });
+    G.net.on("doubleClick", ev => { if (ev.nodes.length) focusEntity(ev.nodes[0]); });
+  } else {
+    G.net.setOptions({physics: true});
+    G.nodes.clear(); G.edges.clear(); G.nodes.add(nodes); G.edges.add(edges);
+    G.net.stabilize(300);
+  }
+  if (highlight) setTimeout(() => G.net.selectNodes([highlight]), 50);
+}
+function drawOverview() {
+  G.focus = null;
+  const min = +$("#g-min").value;
+  render([...PAIRS.values()].filter(p => p.n >= min));
+}
+function focusEntity(name) {
+  G.focus = name;
+  const pairs = (ADJ.get(name) || []).slice().sort((a, b) => b.n - a.n).slice(0, 30);
+  render(pairs, name);
+}
+function selectEntity(name, refocus = true) {
+  if (!ENT.has(name)) return;
+  $("#g-side").innerHTML = entityHTML(name);
+  if (refocus && (!G.nodes || !G.nodes.get(name))) focusEntity(name);
+  else if (G.net) G.net.selectNodes([name]);
+}
+bindPanel($("#g-side"), n => selectEntity(n));
+$("#g-min").oninput = () => { $("#g-min-out").value = $("#g-min").value; };
+$("#g-min").onchange = drawOverview;
+$("#g-color").onchange = () => G.focus ? focusEntity(G.focus) : drawOverview();
+$("#g-reset").onclick = drawOverview;
+$("#g-fit").onclick = () => G.net && G.net.fit({animation: true});
+$("#g-q").onchange = () => { const n = $("#g-q").value.trim(); if (ENT.has(n)) { focusEntity(n); selectEntity(n, false); } };
+
+// ---- table -------------------------------------------------------------------------------
+const T = {page: 0, size: 100, sel: null};
+for (const [k, l] of Object.entries(CAT_LABEL)) $("#t-cat").insertAdjacentHTML("beforeend", `<option value="${k}">${esc(l)}</option>`);
+for (const [k, v] of Object.entries(VARS).sort((a, b) => a[1].label.localeCompare(b[1].label)))
+  $("#t-var").insertAdjacentHTML("beforeend", `<option value="${k}">${esc(v.label)}</option>`);
+function renderTable() {
+  const q = $("#t-q").value.trim().toLowerCase(), cat = $("#t-cat").value, cov = $("#t-cov").value, vv = $("#t-var").value;
+  const rows = [...ENT.values()].filter(e => (!cat || e.cat === cat) && (!cov || e.cov === cov) && (!vv || e.vars.some(x => x.v === vv))
+      && (!q || e.name.includes(q) || e.vars.some(x => VARS[x.v].label.toLowerCase().includes(q))))
+    .sort($("#t-sort").value === "hiv" ? (a, b) => (b.bestD?.num ?? -1) - (a.bestD?.num ?? -1) || b.n - a.n
+                                       : (a, b) => b.n - a.n || b.deg - a.deg);
+  const pages = Math.max(1, Math.ceil(rows.length / T.size));
+  T.page = Math.min(T.page, pages - 1);
+  $("#t-body").innerHTML = rows.slice(T.page * T.size, (T.page + 1) * T.size).map(e => `<tr data-ent="${esc(e.name)}" class="${e.name === T.sel ? "sel" : ""}">
+      <td>${esc(e.name)}</td><td><span class="nbrs"><span class="dot" style="background:${css(CAT[e.cat])}"></span></span>${esc(CAT_LABEL[e.cat])}</td><td class="num">${e.n}</td>
+      <td class="num">${e.bestD ? `${fmtN(e.bestD.n)}${e.bestD.pct != null ? `<div class="meta">${e.bestD.pct}%</div>` : ""}` : COHORT ? "—" : ""}</td>
+      <td>${e.vars.length ? e.vars.map(x => `<span class="chip ${x.s}">${esc(VARS[x.v].label)}</span>`).join(" ")
+          : `<span class="chip gap">${e.gap ? "Out of scope" : "No rule matched"}</span>`}</td></tr>`).join("");
+  $("#t-page").textContent = `${rows.length.toLocaleString()} entities · page ${T.page + 1} of ${pages}`;
+}
+if (!COHORT) { $("#t-hiv-h").textContent = ""; $("#t-sort").parentElement.hidden = true; }
+["#t-q", "#t-cat", "#t-cov", "#t-var", "#t-sort"].forEach(s => $(s).addEventListener("input", () => { T.page = 0; renderTable(); }));
+$("#t-prev").onclick = () => { T.page = Math.max(0, T.page - 1); renderTable(); };
+$("#t-next").onclick = () => { T.page++; renderTable(); };
+$("#t-body").addEventListener("click", ev => { const tr = ev.target.closest("tr[data-ent]"); if (tr) tableSelect(tr.dataset.ent); });
+function tableSelect(name) {
+  T.sel = name; $("#t-side").innerHTML = entityHTML(name) + `<p><button class="btn" type="button" id="t-graph">Show in graph</button></p>`;
+  document.querySelectorAll("#t-body tr").forEach(tr => tr.classList.toggle("sel", tr.dataset.ent === name));
+  $("#t-graph").onclick = () => { show("graph"); focusEntity(name); selectEntity(name, false); };
+}
+bindPanel($("#t-side"), tableSelect);
+
+// ---- schema ------------------------------------------------------------------------------
+const S = {ready: false, group: null};
+const SECTIONS = [
+  {key: "omop", title: "EHR · OMOP CDM tables", sub: "Diagnoses, drugs, labs, visits, death. Clinical content lives in concept rows (EHR concept sets).", srcs: ["omop", "ehr"]},
+  {key: "survey", title: "Surveys (participant-provided)", sub: "Stored as rows in observation; flattened in ds_survey.", srcs: ["survey"]},
+  {key: "ds", title: "Workbench tables (ds_ / cb_)", sub: "Denormalized views, incl. ZIP-level socioeconomic data.", srcs: ["ds"]},
+  {key: "wear", title: "Wearables", sub: "Fitbit and Apple HealthKit (subset of participants).", srcs: ["wear"]},
+  {key: "emt", title: "Exploring the Mind", sub: "Online cognitive tasks (subset of participants).", srcs: ["emt"]},
+];
+function groupKey(f) { return f.src === "ehr" ? "omop::" + f.group : f.src + "::" + f.group; }
+const GROUPS = new Map();
+for (const f of FIELD.values()) {
+  const k = groupKey(f);
+  if (!GROUPS.has(k)) GROUPS.set(k, {key: k, sec: f.src === "ehr" ? "omop" : f.src, name: f.group, fields: []});
+  GROUPS.get(k).fields.push(f);
+}
+for (const g of GROUPS.values()) {
+  const ents = new Set();
+  g.fields.forEach(f => (FIELD_ENTS.get(f.id) || new Map()).forEach((_, e) => ents.add(e)));
+  g.nEnts = ents.size;
+}
+function initSchema() {
+  S.ready = true;
+  $("#s-srcs").innerHTML = SECTIONS.map(s => {
+    const gs = [...GROUPS.values()].filter(g => g.sec === s.key);
+    const nf = gs.reduce((a, g) => a + g.fields.length, 0);
+    return `<div class="src" data-sec="${s.key}"><b>${esc(s.title)}</b><span>${esc(s.sub)}</span>
+      <div class="arrow">${gs.length} tables/modules · ${nf.toLocaleString()} fields · ${gs.filter(g => g.nEnts).length} with KG mappings</div></div>`;
+  }).join("");
+  S.sec = "omop"; drawTiles();
+}
+function drawTiles() {
+  const onlyMapped = $("#s-mapped").checked;
+  document.querySelectorAll("#s-srcs .src").forEach(el => el.classList.toggle("on", el.dataset.sec === S.sec));
+  const gs = [...GROUPS.values()].filter(g => g.sec === S.sec && (!onlyMapped || g.nEnts)).sort((a, b) => b.nEnts - a.nEnts || a.name.localeCompare(b.name));
+  const max = Math.max(1, ...gs.map(g => g.nEnts));
+  $("#s-tiles").innerHTML = gs.map(g => `<div class="tile ${g.key === S.group ? "on" : ""}" data-g="${esc(g.key)}">
+      <div class="nm">${esc(g.name)}</div><div class="ct">${g.fields.length} fields · ${g.nEnts} KG entities</div>
+      <div class="heat" style="width:${100 * g.nEnts / max}%"></div></div>`).join("") || `<p class="empty">No tables match.</p>`;
+}
+function drawFields(gk, highlight) {
+  S.group = gk;
+  const g = GROUPS.get(gk);
+  drawTiles();
+  const rows = g.fields.slice().sort((a, b) => (FIELD_ENTS.get(b.id)?.size || 0) - (FIELD_ENTS.get(a.id)?.size || 0));
+  $("#s-fields").innerHTML = `<div class="fields-head"><h2>${esc(g.name)}</h2><span class="meta">${g.fields.length} fields · ${g.nEnts} KG entities map here</span></div>
+    <div class="tbl-wrap"><table><thead><tr><th>Field / item</th><th>Description</th><th>Registered Tier</th>${COHORT ? "<th>HIV cohort</th>" : ""}<th>Mapped KG entities</th></tr></thead><tbody>
+    ${rows.map(f => {
+      const m = FIELD_ENTS.get(f.id) || new Map();
+      const list = [...m.entries()].sort((a, b) => ENT.get(b[0]).deg - ENT.get(a[0]).deg);
+      return `<tr id="f-${CSS.escape(f.id)}" class="${f.id === highlight ? "hl" : ""}"><td><span class="mono">${esc(f.src === "ehr" ? f.label : f.name)}</span>${f.src === "ehr" ? ` <span class="chip src">concept set</span>` : ""}<div class="meta">${esc(f.type)}</div></td>
+        <td>${esc(f.src === "ehr" || f.label === f.name ? f.desc : f.label)}${f.choices ? `<div class="meta">Choices: ${esc(f.choices.slice(0, 200))}</div>` : ""}${f.versions ? `<div class="meta">Versions: ${esc(f.versions)}</div>` : ""}</td>
+        <td>${privacyChip(f) || `<span class="meta">Available</span>`}${f.pnote && f.privacy === "available" ? `<div class="meta">${esc(f.pnote.slice(0, 120))}</div>` : ""}</td>
+        ${COHORT ? `<td>${countChip(f.id) || `<span class="meta">not counted</span>`}</td>` : ""}
+        <td><div class="ents">${list.slice(0, 12).map(([e, l]) => `<button type="button" class="${l}" data-ent="${esc(e)}">${esc(e)}</button>`).join("")}${list.length > 12 ? `<span class="meta">+${list.length - 12} more</span>` : ""}</div></td></tr>`;
+    }).join("")}</tbody></table></div>`;
+  if (highlight) setTimeout(() => { const r = document.getElementById("f-" + highlight); r && r.scrollIntoView({block: "center"}); }, 30);
+}
+function openField(fid) {
+  const f = FIELD.get(fid); if (!f) return;
+  show("schema"); S.sec = f.src === "ehr" ? "omop" : f.src; drawFields(groupKey(f), fid);
+  $("#s-fields").scrollIntoView({behavior: "smooth", block: "start"});
+}
+$("#s-srcs").addEventListener("click", ev => { const el = ev.target.closest("[data-sec]"); if (el) { S.sec = el.dataset.sec; S.group = null; drawTiles(); } });
+$("#s-tiles").addEventListener("click", ev => { const el = ev.target.closest("[data-g]"); if (el) drawFields(el.dataset.g); });
+$("#s-mapped").onchange = drawTiles;
+$("#s-fields").addEventListener("click", ev => { const b = ev.target.closest("[data-ent]"); if (b) { show("table"); tableSelect(b.dataset.ent); } });
+$("#s-q").addEventListener("input", () => {
+  const q = $("#s-q").value.trim().toLowerCase();
+  if (q.length < 2) { drawTiles(); return; }
+  const hits = [...FIELD.values()].filter(f => (f.name + " " + f.label + " " + f.desc + " " + f.group).toLowerCase().includes(q)).slice(0, 300);
+  $("#s-tiles").innerHTML = "";
+  $("#s-fields").innerHTML = `<div class="fields-head"><h2>Search: “${esc(q)}”</h2><span class="meta">${hits.length}${hits.length === 300 ? "+" : ""} matches</span></div>
+    <div class="tbl-wrap"><table><thead><tr><th>Field / item</th><th>Table / module</th><th>Description</th><th>KG entities</th></tr></thead><tbody>
+    ${hits.map(f => `<tr><td><span class="fid mono" data-fid="${esc(f.id)}" style="cursor:pointer;text-decoration:underline dotted">${esc(f.src === "ehr" ? f.label : f.name)}</span> ${privacyChip(f)}</td>
+      <td><span class="chip src">${esc(SRC[f.src])}</span> ${esc(f.group)}</td><td>${esc((f.label !== f.name ? f.label : f.desc).slice(0, 200))}</td>
+      <td class="num">${FIELD_ENTS.get(f.id)?.size || ""}</td></tr>`).join("")}</tbody></table></div>`;
+});
+$("#s-fields").addEventListener("click", ev => { const el = ev.target.closest("[data-fid]"); if (el) openField(el.dataset.fid); });
+
+// ---- methods -----------------------------------------------------------------------------
+(() => {
+  const gapCounts = {};
+  for (const e of ENT.values()) if (e.gap) gapCounts[e.gap] = (gapCounts[e.gap] || 0) + 1;
+  $("#methods").innerHTML = `
+  <h2>Direct vs Proxy</h2>
+  <p><span class="chip direct">Direct</span> The All of Us field measures the same construct as the KG entity. It is either read off as-is or derived by a standard, objective rule: a threshold, a date difference, a code list. Examples: <em>younger age</em> ← <code>ds_person.date_of_birth</code>; <em>virologic failure</em> ← HIV-1 RNA in <code>measurement</code> above a threshold; <em>food insecurity</em> ← Hunger Vital Sign items in the SDOH survey.</p>
+  <p><span class="chip proxy">Proxy</span> The field measures a related, broader or narrower construct, or deriving the entity needs assumptions. Examples: <em>HIV stigma</em> ← Everyday Discrimination Scale (not HIV-specific); <em>retention in care</em> ← visit dates (only care at All of Us partner sites); <em>medication adherence</em> ← refill gaps in <code>drug_exposure</code>; <em>MSM</em> ← sexual-orientation identity (no behavior items).</p>
+  <p>Mapping happens in two layers so it can be audited. (1) KG entities are routed by name rules to a named All of Us <b>variable</b> (construct), with a construct-level strength. (2) Each variable lists the <b>fields</b> that measure it, each with its own strength. A link is Direct only if both layers are Direct.</p>
+  <h2>Where things live in All of Us</h2>
+  <ul>
+    <li><b>Surveys</b> are not columns. Each answer is a row in <code>observation</code> (or <code>ds_survey</code>), identified by the question code shown here (e.g. <code>hvs_1</code>).</li>
+    <li><b>EHR clinical content</b> (diagnoses, drugs, labs) is stored as concept rows in OMOP domain tables. The <span class="chip src">EHR concept set</span> entries give vocabulary hints (ICD-10-CM, LOINC, RxNorm/ATC) for building concept sets in the Workbench. Resolve exact concept IDs in Athena or the cohort builder; they are not invented here.</li>
+    <li><b>Registered Tier privacy</b>: in <code>person</code>, race, ethnicity, gender and birth year are suppressed; use the Basics survey items (generalized) and <code>birth_datetime</code>. Cause of death is suppressed. <code>provider</code>, <code>care_site</code> and <code>location</code> tables are dropped. Some violence and maltreatment codes are row-suppressed.</li>
+    <li><b>COPE</b> items (PHQ-9, GAD-7, resilience, AUDIT-C) were collected in 2020–21 only. Wearables and Exploring the Mind cover only subsets of participants.</li>
+  </ul>
+  ${COHORT ? `<h2>HIV-cohort counts</h2>
+  <p>Counts come from the Workbench notebook run on <code>${esc(COHORT.cdr)}</code> (${esc(COHORT.run_at || "")}). The HIV cohort is
+  <b>${(+COHORT.n_hiv_cohort).toLocaleString()}</b> participants defined as <code>${esc(COHORT.cohort)}</code>: <code>dx</code> = an HIV
+  diagnosis code (ICD-10-CM B20, Z21, O98.7, B97.35; ICD-9-CM 042, V08, 079.53), <code>self</code> = self-reported HIV/AIDS in the
+  Personal and Family Health History survey.</p>
+  <table><thead><tr><th>Definition</th><th class="num">Participants</th></tr></thead><tbody>${(COHORT.summary || []).map(([d, n]) =>
+    `<tr><td>${esc(d)}</td><td class="num">${esc(fmtN(n))}</td></tr>`).join("")}</tbody></table>
+  <p><b>HIV n</b> = cohort participants with a <b>valid</b> entry: a survey answer other than Skip / Prefer not to answer /
+  Don't know; for labs, a record with a result; for other EHR concept sets, at least one record; for table columns, a
+  non-null value. Counts of 1–${esc(COHORT.mask_at_or_below)} are shown as ≤${esc(COHORT.mask_at_or_below)} (All of Us
+  dissemination policy). <span class="chip cnt low">red</span> marks fields populated for fewer than 1% of the cohort.
+  Grey <span class="chip cnt support">any record</span> chips are generic columns of event tables (e.g.
+  <code>measurement.value_as_number</code>); their counts cover every record in the table, so they are ignored when
+  choosing an entity's best-populated field.</p>
+  <p>The EHR codes for violence and abuse history (T74, T76, Z91.41, Z62.81, Z69, X92–Y09) are row-suppressed in the
+  Registered Tier, so those sets are effectively empty; only survey proxies are available.</p>` : ""}
+  <h2>Out-of-scope entities</h2>
+  <p>These entities match a gap rule and get no mapping, with the reason shown:</p>
+  <table><thead><tr><th class="num">Entities</th><th>Reason</th></tr></thead><tbody>${Object.entries(gapCounts).sort((a, b) => b[1] - a[1]).map(([r, n]) => `<tr><td class="num">${n}</td><td>${esc(r)}</td></tr>`).join("")}</tbody></table>
+  <h2>Caveats</h2>
+  <ul>
+    <li>The rules are hand-written regexes over entity names, then audited by inspecting matches. Compound entities (e.g. <em>missed ART doses due to food insecurity</em>) map each component separately.</li>
+    <li>“Mapped” means a field exists. It does not mean the field is well populated for people with HIV in All of Us; check counts in the Workbench.</li>
+    <li>EHR coverage is limited to care at All of Us partner sites, so retention, ART start and diagnosis dates can be left-censored.</li>
+  </ul>
+  <h2>Files</h2>
+  <p><code>out/entity_field_map.csv</code> (one row per entity × field), <code>out/entity_variable_map.csv</code>, <code>out/entity_gaps.csv</code>, <code>out/aou_fields.csv</code> (full catalog). Rules: <code>mapping_rules.py</code>. Rebuild: <code>python3 build_map.py</code>.</p>`;
+})();
+
+show("graph");
+</script>
+</body>
+</html>

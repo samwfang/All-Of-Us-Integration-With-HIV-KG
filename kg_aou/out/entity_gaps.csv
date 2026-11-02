@@ -1,0 +1,1010 @@
+entity,category,degree,n_articles,status,reason
+hiv status disclosure,Psychosocial,70,93,out_of_scope,All of Us has no item on HIV status disclosure.
+non-disclosure of hiv status,Psychosocial,20,33,out_of_scope,All of Us has no item on HIV status disclosure.
+nevirapine plasma concentration,BiologicalMarker,13,7,out_of_scope,Antiretroviral drug levels are not routinely measured or stored as structured EHR results.
+self-esteem,Psychosocial,9,10,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+immune activation,BiologicalMarker,9,7,out_of_scope,"Research immunology / inflammation biomarkers are not part of routine clinical care, so they rarely appear in EHR measurements."
+tenofovir diphosphate concentration,BiologicalMarker,8,6,out_of_scope,Antiretroviral drug levels are not routinely measured or stored as structured EHR results.
+case management,Treatment,7,6,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+intentional nonadherence,AdherenceBehavior,7,5,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+interleukin-6,BiologicalMarker,6,5,out_of_scope,"Research immunology / inflammation biomarkers are not part of routine clinical care, so they rarely appear in EHR measurements."
+cd8 t-cell activation,BiologicalMarker,6,5,out_of_scope,"Research immunology / inflammation biomarkers are not part of routine clinical care, so they rarely appear in EHR measurements."
+t-cell activation,BiologicalMarker,5,4,out_of_scope,"Research immunology / inflammation biomarkers are not part of routine clinical care, so they rarely appear in EHR measurements."
+hiv subtype d,BiologicalMarker,5,4,out_of_scope,"Viral subtype, tropism, reservoir, minority-variant and compartment assays are research measures not captured in EHR data."
+maternal viral load,BiologicalMarker,5,4,out_of_scope,"Describes another person (partner, parent, family, network); All of Us records data about the participant only."
+hiv transmission risk,Outcome,5,1,out_of_scope,HIV acquisition route / transmission category is not recorded in All of Us.
+hiv transmission risk behavior,Outcome,5,3,out_of_scope,HIV acquisition route / transmission category is not recorded in All of Us.
+hiv subtype a,BiologicalMarker,5,4,out_of_scope,"Viral subtype, tropism, reservoir, minority-variant and compartment assays are research measures not captured in EHR data."
+vertical transmission,Outcome,5,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+behavioral skills,Psychosocial,4,3,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+soluble cd14,BiologicalMarker,4,4,out_of_scope,"Research immunology / inflammation biomarkers are not part of routine clinical care, so they rarely appear in EHR measurements."
+differentiated service delivery,Treatment,4,4,out_of_scope,"Health-system, facility, policy or calendar-period factor; the Registered Tier has no facility / provider identifiers (provider and care_site tables are suppressed)."
+heterosexual transmission,Demographic,4,5,out_of_scope,HIV acquisition route / transmission category is not recorded in All of Us.
+subtherapeutic drug levels,Treatment,4,3,out_of_scope,Antiretroviral drug levels are not routinely measured or stored as structured EHR results.
+mindfulness,Psychosocial,4,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+syndemic burden,Psychosocial,4,2,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+impaired growth,BiologicalMarker,4,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+medication stockouts,SocialEnvironmental,4,1,out_of_scope,"Health-system, facility, policy or calendar-period factor; the Registered Tier has no facility / provider identifiers (provider and care_site tables are suppressed)."
+orphan status,SocialEnvironmental,4,4,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+illness perception,Psychosocial,4,2,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+efavirenz plasma concentration,BiologicalMarker,4,4,out_of_scope,Antiretroviral drug levels are not routinely measured or stored as structured EHR results.
+serostatus disclosure,Psychosocial,4,3,out_of_scope,All of Us has no item on HIV status disclosure.
+hiv dna level,BiologicalMarker,4,2,out_of_scope,"Viral subtype, tropism, reservoir, minority-variant and compartment assays are research measures not captured in EHR data."
+hiv transmission,Outcome,4,3,out_of_scope,Concerns HIV prevention or onward transmission rather than the participant's own HIV care; not observable in All of Us.
+medication concerns,Psychosocial,4,3,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+medical transition,Treatment,4,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+support groups,Psychosocial,4,2,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+syndemics,Psychosocial,4,2,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+successful transition to adult care,Outcome,4,2,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+perinatal hiv acquisition,Demographic,4,3,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+enhanced adherence counselling,Treatment,3,6,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+low efavirenz plasma concentration,BiologicalMarker,3,5,out_of_scope,Antiretroviral drug levels are not routinely measured or stored as structured EHR results.
+low weight-for-age z-score,BiologicalMarker,3,4,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+motivation,Psychosocial,3,4,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+hiv subtype c,BiologicalMarker,3,4,out_of_scope,"Viral subtype, tropism, reservoir, minority-variant and compartment assays are research measures not captured in EHR data."
+inflammation,BiologicalMarker,3,4,out_of_scope,"Research immunology / inflammation biomarkers are not part of routine clinical care, so they rarely appear in EHR measurements."
+community-based adherence support,Psychosocial,3,3,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+anti-hiv antibody level,BiologicalMarker,3,1,out_of_scope,"Research immunology / inflammation biomarkers are not part of routine clinical care, so they rarely appear in EHR measurements."
+behavioral problems,Psychosocial,3,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+attachment-related avoidance,Psychosocial,3,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+cell-associated hiv rna,BiologicalMarker,3,3,out_of_scope,"Viral subtype, tropism, reservoir, minority-variant and compartment assays are research measures not captured in EHR data."
+child mortality,Outcome,3,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+peer health navigation,Psychosocial,3,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+community-based art delivery,Treatment,3,2,out_of_scope,"Health-system, facility, policy or calendar-period factor; the Registered Tier has no facility / provider identifiers (provider and care_site tables are suppressed)."
+video-counseling intervention,Treatment,3,2,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+lopinavir concentration,Treatment,3,3,out_of_scope,Antiretroviral drug levels are not routinely measured or stored as structured EHR results.
+externalising disorder,Psychosocial,3,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+hiv disclosure without consent,Psychosocial,3,1,out_of_scope,All of Us has no item on HIV status disclosure.
+discussion of undetectable equals untransmittable,Psychosocial,3,1,out_of_scope,Concerns HIV prevention or onward transmission rather than the participant's own HIV care; not observable in All of Us.
+interleukin-18,BiologicalMarker,3,2,out_of_scope,"Research immunology / inflammation biomarkers are not part of routine clinical care, so they rarely appear in EHR measurements."
+sub-saharan african origin,Demographic,3,3,out_of_scope,"Health-system, facility, policy or calendar-period factor; the Registered Tier has no facility / provider identifiers (provider and care_site tables are suppressed)."
+down-referral to primary health clinics,SocialEnvironmental,3,1,out_of_scope,"Health-system, facility, policy or calendar-period factor; the Registered Tier has no facility / provider identifiers (provider and care_site tables are suppressed)."
+triple infection,BiologicalMarker,3,1,no_rule,
+low cabotegravir/rilpivirine trough concentration,BiologicalMarker,3,1,out_of_scope,Antiretroviral drug levels are not routinely measured or stored as structured EHR results.
+attachment-related anxiety,Psychosocial,3,2,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+community hiv prevalence,SocialEnvironmental,3,1,out_of_scope,"Health-system, facility, policy or calendar-period factor; the Registered Tier has no facility / provider identifiers (provider and care_site tables are suppressed)."
+mobile phone text messaging,Treatment,3,2,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+motivational readiness,Psychosocial,3,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+patient activation,Psychosocial,3,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+interactive toxicity beliefs,Psychosocial,3,3,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+monocyte activation,BiologicalMarker,3,2,out_of_scope,"Research immunology / inflammation biomarkers are not part of routine clinical care, so they rarely appear in EHR measurements."
+multimonth dispensing enrollment,AdherenceBehavior,3,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+pill aversion,AdherenceBehavior,3,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+ritonavir concentration in hair,BiologicalMarker,3,1,out_of_scope,Antiretroviral drug levels are not routinely measured or stored as structured EHR results.
+severe short stature,Outcome,3,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+soluble cd163,BiologicalMarker,3,3,out_of_scope,"Research immunology / inflammation biomarkers are not part of routine clinical care, so they rarely appear in EHR measurements."
+telephone counseling adherence,AdherenceBehavior,3,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+stunting,BiologicalMarker,3,3,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+antiretroviral hair concentration,BiologicalMarker,3,3,out_of_scope,Antiretroviral drug levels are not routinely measured or stored as structured EHR results.
+aids orphan status,SocialEnvironmental,3,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+enhanced adherence counseling,Treatment,2,4,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+psychotropic medication adherence,AdherenceBehavior,2,2,out_of_scope,"Viral subtype, tropism, reservoir, minority-variant and compartment assays are research measures not captured in EHR data."
+low weight-for-age,BiologicalMarker,2,3,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+adherence clubs,Treatment,2,2,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+text messaging intervention,Treatment,2,2,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+patient navigation,Treatment,2,2,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+low nevirapine plasma concentration,BiologicalMarker,2,3,out_of_scope,Antiretroviral drug levels are not routinely measured or stored as structured EHR results.
+concern about being seen taking medication,Psychosocial,2,2,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+medication necessity beliefs,Psychosocial,2,2,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+adherence motivation,Psychosocial,2,2,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+antiretroviral drug concentration,BiologicalMarker,2,1,out_of_scope,Antiretroviral drug levels are not routinely measured or stored as structured EHR results.
+arterial inflammation,BiologicalMarker,2,1,out_of_scope,"Research immunology / inflammation biomarkers are not part of routine clinical care, so they rarely appear in EHR measurements."
+hiv diversity,BiologicalMarker,2,2,out_of_scope,"Viral subtype, tropism, reservoir, minority-variant and compartment assays are research measures not captured in EHR data."
+psychological resources,Psychosocial,2,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+cyp2b6 slow-metabolizer genotype,BiologicalMarker,2,1,out_of_scope,Host genotype data (srWGS / arrays) are available only in the Controlled Tier.
+infant viral load,BiologicalMarker,2,2,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+maternal cd4 count,BiologicalMarker,2,2,out_of_scope,"Describes another person (partner, parent, family, network); All of Us records data about the participant only."
+adolescent club attendance,Psychosocial,2,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+ccl2/mcp-1,BiologicalMarker,2,1,out_of_scope,"Research immunology / inflammation biomarkers are not part of routine clinical care, so they rarely appear in EHR measurements."
+gendered racial microaggression frequency,Psychosocial,2,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+psychological intervention,Treatment,2,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+support group participation,Psychosocial,2,2,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+partner stimulant use,SocialEnvironmental,2,1,out_of_scope,"Describes another person (partner, parent, family, network); All of Us records data about the participant only."
+perinatally acquired hiv,Demographic,2,2,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+crf01_ae subtype,BiologicalMarker,2,2,out_of_scope,"Viral subtype, tropism, reservoir, minority-variant and compartment assays are research measures not captured in EHR data."
+low-frequency drug resistance mutations,BiologicalMarker,2,2,out_of_scope,"Viral subtype, tropism, reservoir, minority-variant and compartment assays are research measures not captured in EHR data."
+high pharmacogenetic risk,BiologicalMarker,2,1,out_of_scope,Host genotype data (srWGS / arrays) are available only in the Controlled Tier.
+concern about art,Psychosocial,2,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+hiv serostatus disclosure,Psychosocial,2,2,out_of_scope,All of Us has no item on HIV status disclosure.
+child age,Demographic,2,2,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+death of a family member,SocialEnvironmental,2,2,out_of_scope,"Describes another person (partner, parent, family, network); All of Us records data about the participant only."
+treatment supporter,SocialEnvironmental,2,2,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+homonegativity,Psychosocial,2,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+inflammation biomarkers,BiologicalMarker,2,1,out_of_scope,"Research immunology / inflammation biomarkers are not part of routine clinical care, so they rarely appear in EHR measurements."
+perceived sensitivity to medicines,Psychosocial,2,2,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+life expectancy,Outcome,2,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+scd14,BiologicalMarker,2,2,out_of_scope,"Research immunology / inflammation biomarkers are not part of routine clinical care, so they rarely appear in EHR measurements."
+adherence club participation,Treatment,2,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+adult clinic care,SocialEnvironmental,2,2,out_of_scope,"Health-system, facility, policy or calendar-period factor; the Registered Tier has no facility / provider identifiers (provider and care_site tables are suppressed)."
+"age (15-19 years, behaviourally acquired hiv)",Demographic,2,1,out_of_scope,HIV acquisition route / transmission category is not recorded in All of Us.
+art adherence club participation,Treatment,2,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+community-based support,SocialEnvironmental,2,1,no_rule,
+program size,SocialEnvironmental,2,1,out_of_scope,"Health-system, facility, policy or calendar-period factor; the Registered Tier has no facility / provider identifiers (provider and care_site tables are suppressed)."
+recently opened clinic,SocialEnvironmental,2,1,out_of_scope,"Health-system, facility, policy or calendar-period factor; the Registered Tier has no facility / provider identifiers (provider and care_site tables are suppressed)."
+low adherence motivation,Psychosocial,2,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+low antiretroviral plasma concentration,BiologicalMarker,2,1,out_of_scope,Antiretroviral drug levels are not routinely measured or stored as structured EHR results.
+adherence counseling,Psychosocial,2,2,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+adherence device use,AdherenceBehavior,2,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+comprehensive case management model,Treatment,2,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+fear of disclosure,Psychosocial,2,2,out_of_scope,All of Us has no item on HIV status disclosure.
+financial incentives,Treatment,2,2,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+ingestible sensor system,Treatment,2,1,out_of_scope,"Health-system, facility, policy or calendar-period factor; the Registered Tier has no facility / provider identifiers (provider and care_site tables are suppressed)."
+male partner involvement,SocialEnvironmental,2,2,no_rule,
+medication managers intervention,Treatment,2,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+mental health-related syndemic,Psychosocial,2,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+mobile phone short message service,SocialEnvironmental,2,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+outpatient pharmacy care,SocialEnvironmental,2,1,out_of_scope,"Health-system, facility, policy or calendar-period factor; the Registered Tier has no facility / provider identifiers (provider and care_site tables are suppressed)."
+pillbox organizer,Treatment,2,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+requesting informational assistance,SocialEnvironmental,2,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+rumination,Psychosocial,2,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+safe and affordable facilities,SocialEnvironmental,2,1,no_rule,
+step-ad intervention,Treatment,2,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+syndemic condition count,Psychosocial,2,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+unawareness of hiv status,Psychosocial,2,2,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+virtual care,Treatment,2,1,no_rule,
+weekly sms messaging,Treatment,2,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+affect regulation,Psychosocial,2,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+caregiver alcohol use,SocialEnvironmental,2,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+counseling,Treatment,2,1,no_rule,
+unwillingness to disclose hiv status,Psychosocial,2,2,out_of_scope,All of Us has no item on HIV status disclosure.
+digital care navigation engagement,Treatment,2,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+community-based accompaniment,Treatment,2,1,no_rule,
+hiv subtype crf08_bc,BiologicalMarker,2,1,out_of_scope,"Viral subtype, tropism, reservoir, minority-variant and compartment assays are research measures not captured in EHR data."
+mother-to-child transmission,Outcome,2,2,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+tnfri,BiologicalMarker,2,1,out_of_scope,"Research immunology / inflammation biomarkers are not part of routine clinical care, so they rarely appear in EHR measurements."
+perinatal hiv infection,Outcome,2,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+perinatal hiv transmission,Outcome,2,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+perinatal transmission,Demographic,2,2,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+prep adherence,AdherenceBehavior,2,1,out_of_scope,Concerns HIV prevention or onward transmission rather than the participant's own HIV care; not observable in All of Us.
+household decision-making power,Psychosocial,2,1,no_rule,
+residual viral replication,BiologicalMarker,2,1,out_of_scope,"Research immunology / inflammation biomarkers are not part of routine clinical care, so they rarely appear in EHR measurements."
+peer navigation,SocialEnvironmental,2,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+adolescent-friendly clinic,SocialEnvironmental,2,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+cares program,Treatment,2,1,out_of_scope,"Health-system, facility, policy or calendar-period factor; the Registered Tier has no facility / provider identifiers (provider and care_site tables are suppressed)."
+community and facility-based interventions,Treatment,2,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+patient portal access,SocialEnvironmental,2,1,out_of_scope,"Health-system, facility, policy or calendar-period factor; the Registered Tier has no facility / provider identifiers (provider and care_site tables are suppressed)."
+patient portal enrollment,SocialEnvironmental,2,1,out_of_scope,"Health-system, facility, policy or calendar-period factor; the Registered Tier has no facility / provider identifiers (provider and care_site tables are suppressed)."
+patient-centered hiv care model,Treatment,2,1,out_of_scope,"Health-system, facility, policy or calendar-period factor; the Registered Tier has no facility / provider identifiers (provider and care_site tables are suppressed)."
+point-of-care viral load testing,Treatment,2,1,out_of_scope,"Health-system, facility, policy or calendar-period factor; the Registered Tier has no facility / provider identifiers (provider and care_site tables are suppressed)."
+practice transformations,SocialEnvironmental,2,1,out_of_scope,"Health-system, facility, policy or calendar-period factor; the Registered Tier has no facility / provider identifiers (provider and care_site tables are suppressed)."
+pyxe insertion,BiologicalMarker,2,1,out_of_scope,"Research immunology / inflammation biomarkers are not part of routine clinical care, so they rarely appear in EHR measurements."
+cultural capabilities to resist stigma,Psychosocial,2,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+low self-esteem,Psychosocial,2,2,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+soluble pd-l1,BiologicalMarker,2,1,out_of_scope,"Research immunology / inflammation biomarkers are not part of routine clinical care, so they rarely appear in EHR measurements."
+government cash transfer,SocialEnvironmental,2,1,out_of_scope,"Health-system, facility, policy or calendar-period factor; the Registered Tier has no facility / provider identifiers (provider and care_site tables are suppressed)."
+systemic inflammation,BiologicalMarker,2,2,out_of_scope,"Research immunology / inflammation biomarkers are not part of routine clinical care, so they rarely appear in EHR measurements."
+drug-resistant minority variants,BiologicalMarker,2,2,out_of_scope,"Viral subtype, tropism, reservoir, minority-variant and compartment assays are research measures not captured in EHR data."
+tenofovir hair concentration,BiologicalMarker,2,2,out_of_scope,Antiretroviral drug levels are not routinely measured or stored as structured EHR results.
+lopinavir hair concentration,BiologicalMarker,2,2,out_of_scope,Antiretroviral drug levels are not routinely measured or stored as structured EHR results.
+support group membership,SocialEnvironmental,2,2,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+disclosure status,Psychosocial,2,2,out_of_scope,All of Us has no item on HIV status disclosure.
+indinavir hair levels,BiologicalMarker,2,1,out_of_scope,Antiretroviral drug levels are not routinely measured or stored as structured EHR results.
+non-b hiv subtype,BiologicalMarker,2,2,out_of_scope,"Viral subtype, tropism, reservoir, minority-variant and compartment assays are research measures not captured in EHR data."
+vicriviroc,Treatment,2,2,no_rule,
+hair lamivudine concentration,BiologicalMarker,2,1,out_of_scope,Antiretroviral drug levels are not routinely measured or stored as structured EHR results.
+pharmacy delay,AdherenceBehavior,2,1,no_rule,
+large hospital size,SocialEnvironmental,2,1,out_of_scope,"Health-system, facility, policy or calendar-period factor; the Registered Tier has no facility / provider identifiers (provider and care_site tables are suppressed)."
+nonreadiness to haart,AdherenceBehavior,2,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+plasma drug concentration,BiologicalMarker,2,1,out_of_scope,Antiretroviral drug levels are not routinely measured or stored as structured EHR results.
+higher peak plasma indinavir levels,Treatment,2,1,out_of_scope,Antiretroviral drug levels are not routinely measured or stored as structured EHR results.
+treatment attitudes,Psychosocial,1,2,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+conduct problems,Psychosocial,1,2,no_rule,
+clinical monitoring alone,Treatment,1,2,out_of_scope,"Health-system, facility, policy or calendar-period factor; the Registered Tier has no facility / provider identifiers (provider and care_site tables are suppressed)."
+weight-for-age z-score,BiologicalMarker,1,2,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+hiv subtype a6/a1,BiologicalMarker,1,2,out_of_scope,"Viral subtype, tropism, reservoir, minority-variant and compartment assays are research measures not captured in EHR data."
+low lopinavir concentration,BiologicalMarker,1,2,out_of_scope,Antiretroviral drug levels are not routinely measured or stored as structured EHR results.
+prevention of mother-to-child transmission regimen exposure,Treatment,1,2,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+subtherapeutic nnrti levels,BiologicalMarker,1,2,out_of_scope,Antiretroviral drug levels are not routinely measured or stored as structured EHR results.
+social skills,Psychosocial,1,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+adverse hiv clinical outcomes,Outcome,1,1,no_rule,
+cd8 activation,BiologicalMarker,1,1,out_of_scope,"Research immunology / inflammation biomarkers are not part of routine clinical care, so they rarely appear in EHR measurements."
+aids diagnosis in paediatric care,Outcome,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+demographic density,Demographic,1,1,no_rule,
+amplified hiv transmission risk,Outcome,1,1,out_of_scope,HIV acquisition route / transmission category is not recorded in All of Us.
+physical challenges,BiologicalMarker,1,1,no_rule,
+lower self-esteem,Psychosocial,1,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+hiv-positive identity salience,Psychosocial,1,1,no_rule,
+mind-body beliefs,Psychosocial,1,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+art distrust beliefs,Psychosocial,1,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+belief that god controls health,Psychosocial,1,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+empathy,Psychosocial,1,1,no_rule,
+avoidance attitude,Psychosocial,1,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+biobehavioral transmission risk,Outcome,1,1,out_of_scope,HIV acquisition route / transmission category is not recorded in All of Us.
+blood-brain barrier dysfunction,BiologicalMarker,1,1,no_rule,
+body fat,BiologicalMarker,1,1,no_rule,
+cd4 apoptosis,BiologicalMarker,1,1,out_of_scope,"Research immunology / inflammation biomarkers are not part of routine clinical care, so they rarely appear in EHR measurements."
+ccr5 delta32 genotype,BiologicalMarker,1,1,out_of_scope,Host genotype data (srWGS / arrays) are available only in the Controlled Tier.
+having hiv-infected family member,SocialEnvironmental,1,1,no_rule,
+chemotherapy and/or radiotherapy,Treatment,1,1,no_rule,
+hdl particles,BiologicalMarker,1,1,no_rule,
+cd8 t lymphocytes,BiologicalMarker,1,1,no_rule,
+high efavirenz plasma levels,BiologicalMarker,1,1,out_of_scope,Antiretroviral drug levels are not routinely measured or stored as structured EHR results.
+cns penetration effectiveness rank,Treatment,1,1,no_rule,
+cerebrospinal fluid viral load,BiologicalMarker,1,1,out_of_scope,"Viral subtype, tropism, reservoir, minority-variant and compartment assays are research measures not captured in EHR data."
+ethnic identity affirmation,Psychosocial,1,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+mobile health intervention,Treatment,1,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+negative self-image,Psychosocial,1,1,no_rule,
+support program participation,SocialEnvironmental,1,1,no_rule,
+teen club availability,SocialEnvironmental,1,1,no_rule,
+convulsions,Treatment,1,1,no_rule,
+cortisol level,BiologicalMarker,1,1,no_rule,
+death of a parent,SocialEnvironmental,1,1,out_of_scope,"Describes another person (partner, parent, family, network); All of Us records data about the participant only."
+disadvantaged social class,Demographic,1,1,no_rule,
+dispositional mindfulness,Psychosocial,1,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+dissatisfaction with life situation,Psychosocial,1,1,no_rule,
+gendered racial microaggressions,SocialEnvironmental,1,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+hostility,Psychosocial,1,1,no_rule,
+lack of control in sexual decision-making,Psychosocial,1,1,no_rule,
+livelihood program,SocialEnvironmental,1,1,no_rule,
+partner conflict,SocialEnvironmental,1,1,no_rule,
+school exclusion,SocialEnvironmental,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+speedball use,SocialEnvironmental,1,1,no_rule,
+measurement-based care,Treatment,1,1,no_rule,
+abnormal vaginal discharge,BiologicalMarker,1,1,no_rule,
+asylum seeker status,Demographic,1,1,no_rule,
+lack of awareness of hiv status,SocialEnvironmental,1,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+lack of household electricity,SocialEnvironmental,1,1,no_rule,
+low cabotegravir trough concentration,BiologicalMarker,1,1,out_of_scope,Antiretroviral drug levels are not routinely measured or stored as structured EHR results.
+low rilpivirine trough concentration,BiologicalMarker,1,1,out_of_scope,Antiretroviral drug levels are not routinely measured or stored as structured EHR results.
+missed antiretroviral doses,AdherenceBehavior,1,1,no_rule,
+missed cart doses,AdherenceBehavior,1,1,no_rule,
+nondisclosure of hiv status to partner,Psychosocial,1,1,out_of_scope,All of Us has no item on HIV status disclosure.
+nondisclosure to partner,Psychosocial,1,1,out_of_scope,All of Us has no item on HIV status disclosure.
+partner alcohol use,SocialEnvironmental,1,1,out_of_scope,"Describes another person (partner, parent, family, network); All of Us records data about the participant only."
+problem taking medication,AdherenceBehavior,1,1,no_rule,
+residing in hiv hotspot community,SocialEnvironmental,1,1,no_rule,
+social vulnerability index,SocialEnvironmental,1,1,no_rule,
+syncytium-inducing phenotype,BiologicalMarker,1,1,no_rule,
+absence of hiv status disclosure,Psychosocial,1,1,out_of_scope,All of Us has no item on HIV status disclosure.
+apobec3 editing,BiologicalMarker,1,1,no_rule,
+delayed pill pick-up,AdherenceBehavior,1,1,no_rule,
+failure to change reverse transcriptase inhibitor,Treatment,1,1,no_rule,
+former plasma donation,SocialEnvironmental,1,1,no_rule,
+pharmacy stock-outs,SocialEnvironmental,1,1,out_of_scope,"Health-system, facility, policy or calendar-period factor; the Registered Tier has no facility / provider identifiers (provider and care_site tables are suppressed)."
+undetectable protease inhibitor plasma concentration,Treatment,1,1,out_of_scope,Antiretroviral drug levels are not routinely measured or stored as structured EHR results.
+village clinic treatment,SocialEnvironmental,1,1,no_rule,
+disclosure to father,Psychosocial,1,1,out_of_scope,All of Us has no item on HIV status disclosure.
+cyp2b6*6 tt genotype,BiologicalMarker,1,1,out_of_scope,Host genotype data (srWGS / arrays) are available only in the Controlled Tier.
+cyp2b6 polymorphism,BiologicalMarker,1,1,out_of_scope,Host genotype data (srWGS / arrays) are available only in the Controlled Tier.
+disclosure to sexual partner,Psychosocial,1,1,out_of_scope,All of Us has no item on HIV status disclosure.
+elevated fibrinogen,BiologicalMarker,1,1,no_rule,
+elevated il-6,BiologicalMarker,1,1,out_of_scope,"Research immunology / inflammation biomarkers are not part of routine clinical care, so they rarely appear in EHR measurements."
+congenital hiv infection,Demographic,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+heterosexual male,Demographic,1,1,no_rule,
+gap in hiv primary care,AdherenceBehavior,1,1,no_rule,
+genital hiv shedding,BiologicalMarker,1,1,out_of_scope,"Viral subtype, tropism, reservoir, minority-variant and compartment assays are research measures not captured in EHR data."
+genital hiv suppression,BiologicalMarker,1,1,out_of_scope,"Viral subtype, tropism, reservoir, minority-variant and compartment assays are research measures not captured in EHR data."
+growth differentiation factor 15,BiologicalMarker,1,1,no_rule,
+hba1c discordance,BiologicalMarker,1,1,no_rule,
+healthcare avoidance,SocialEnvironmental,1,1,no_rule,
+high nevirapine plasma trough concentration,Treatment,1,1,out_of_scope,Antiretroviral drug levels are not routinely measured or stored as structured EHR results.
+minoritized sexual identity,Demographic,1,1,no_rule,
+macrophage inflammatory protein-1beta,BiologicalMarker,1,1,no_rule,
+maleness,Demographic,1,1,no_rule,
+hiv reservoir size,BiologicalMarker,1,1,out_of_scope,"Viral subtype, tropism, reservoir, minority-variant and compartment assays are research measures not captured in EHR data."
+adult unaware of child's status in household,SocialEnvironmental,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+internalized homophobia,Psychosocial,1,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+nonbiological parent status,SocialEnvironmental,1,1,no_rule,
+school awareness of child's status,SocialEnvironmental,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+infant nevirapine prophylaxis,Treatment,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+belief about hiv transmissibility,Psychosocial,1,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+haart coverage expansion,Treatment,1,1,out_of_scope,"Health-system, facility, policy or calendar-period factor; the Registered Tier has no facility / provider identifiers (provider and care_site tables are suppressed)."
+selenium deficiency,BiologicalMarker,1,1,no_rule,
+vitamin a deficiency,BiologicalMarker,1,1,no_rule,
+vitamin b12 deficiency,BiologicalMarker,1,1,no_rule,
+zinc deficiency,BiologicalMarker,1,1,no_rule,
+shooting gallery use,SocialEnvironmental,1,1,no_rule,
+multiple sex partners,SocialEnvironmental,1,1,no_rule,
+absence of stable partnership,Demographic,1,1,no_rule,
+urine lipoarabinomannan positivity,BiologicalMarker,1,1,no_rule,
+valganciclovir,Treatment,1,1,no_rule,
+immune deterioration,Outcome,1,1,no_rule,
+immune restoration,Outcome,1,1,no_rule,
+inflammatory markers,BiologicalMarker,1,1,out_of_scope,"Research immunology / inflammation biomarkers are not part of routine clinical care, so they rarely appear in EHR measurements."
+health center level,SocialEnvironmental,1,1,no_rule,
+intensive adherence counselling linkage,AdherenceBehavior,1,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+intergenerational sexual relationships,Outcome,1,1,no_rule,
+behaviorally infected status,Demographic,1,1,no_rule,
+poor counselling,SocialEnvironmental,1,1,no_rule,
+struggling to accept hiv status,Psychosocial,1,1,no_rule,
+interpersonal problems,Psychosocial,1,1,no_rule,
+lack of control in sexual relationships,Outcome,1,1,no_rule,
+healthcare communication barriers,SocialEnvironmental,1,1,no_rule,
+specialized hiv care facility,SocialEnvironmental,1,1,no_rule,
+fear of losing job,SocialEnvironmental,1,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+fear of stigma,Psychosocial,1,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+absence of treatment supporter,SocialEnvironmental,1,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+active patient outreach,Treatment,1,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+clinic dissatisfaction,Psychosocial,1,1,no_rule,
+community testing site,SocialEnvironmental,1,1,no_rule,
+community-based adherence club,Treatment,1,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+community-based adherence clubs,Treatment,1,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+family member co-enrollment,SocialEnvironmental,1,1,no_rule,
+foreigner status,Demographic,1,1,no_rule,
+hospital attendance,SocialEnvironmental,1,1,no_rule,
+hybrid hiv prevention and treatment site model,Treatment,1,1,no_rule,
+lack of cell phone ownership,SocialEnvironmental,1,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+lack of committed partner,Demographic,1,1,no_rule,
+lack of hiv status disclosure,Psychosocial,1,1,out_of_scope,All of Us has no item on HIV status disclosure.
+lack of medical social work visits,SocialEnvironmental,1,1,no_rule,
+lack of telephone,SocialEnvironmental,1,1,no_rule,
+late visit attendance,AdherenceBehavior,1,1,no_rule,
+low caregiver educational level,Demographic,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+missed treatment,AdherenceBehavior,1,1,no_rule,
+new hiv diagnosis,Psychosocial,1,1,no_rule,
+not disclosing hiv serostatus,Psychosocial,1,1,out_of_scope,All of Us has no item on HIV status disclosure.
+option b+ program,Treatment,1,1,no_rule,
+out of catchment area,SocialEnvironmental,1,1,no_rule,
+partner hiv-negative status,SocialEnvironmental,1,1,no_rule,
+partner involvement,Psychosocial,1,1,no_rule,
+poor pmtct prophylaxis compliance,AdherenceBehavior,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+same-day initiation policy,Treatment,1,1,out_of_scope,"Health-system, facility, policy or calendar-period factor; the Registered Tier has no facility / provider identifiers (provider and care_site tables are suppressed)."
+secondary-level care,SocialEnvironmental,1,1,no_rule,
+severe immune deficiency,BiologicalMarker,1,1,no_rule,
+six-month clinic return interval,Treatment,1,1,no_rule,
+treatment adherence support,Treatment,1,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+undocumented disease stage,BiologicalMarker,1,1,no_rule,
+universal test and treat policy,Treatment,1,1,out_of_scope,"Health-system, facility, policy or calendar-period factor; the Registered Tier has no facility / provider identifiers (provider and care_site tables are suppressed)."
+urban health facility,SocialEnvironmental,1,1,out_of_scope,"Health-system, facility, policy or calendar-period factor; the Registered Tier has no facility / provider identifiers (provider and care_site tables are suppressed)."
+youth-targeted clinic,SocialEnvironmental,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+digestive symptoms,Treatment,1,1,no_rule,
+checkpoint inhibitor therapy,Treatment,1,1,no_rule,
+hiv dna load,BiologicalMarker,1,1,out_of_scope,"Viral subtype, tropism, reservoir, minority-variant and compartment assays are research measures not captured in EHR data."
+non-parental caregiver,SocialEnvironmental,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+pediatric age,Demographic,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+subtype b' infection,BiologicalMarker,1,1,out_of_scope,"Viral subtype, tropism, reservoir, minority-variant and compartment assays are research measures not captured in EHR data."
+treatment intensification,Treatment,1,1,no_rule,
+mcp-1 level,BiologicalMarker,1,1,out_of_scope,"Research immunology / inflammation biomarkers are not part of routine clinical care, so they rarely appear in EHR measurements."
+adherence club membership duration,Treatment,1,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+adherence reminder methods,Treatment,1,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+art benefit beliefs,Psychosocial,1,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+asset index,Demographic,1,1,no_rule,
+attitude toward hiv status and medication,Psychosocial,1,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+autonomous support,Psychosocial,1,1,no_rule,
+belief that nonadherence strengthens virus,Psychosocial,1,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+belief that spirituality helps coping with side effects,Psychosocial,1,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+belief towards art,Psychosocial,1,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+buddy system,Psychosocial,1,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+caregiver education level,Demographic,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+caregiver educational status,Demographic,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+caregiver knowledge about art,Psychosocial,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+caregiver substance use,SocialEnvironmental,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+clinic buddy support,SocialEnvironmental,1,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+community health worker intervention,Treatment,1,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+concern about missing doses,Psychosocial,1,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+concerns about adverse effects,Psychosocial,1,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+concomitant illness,BiologicalMarker,1,1,no_rule,
+confusion,Treatment,1,1,no_rule,
+counselling and sms combined,Treatment,1,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+criminalization of hiv transmission,SocialEnvironmental,1,1,out_of_scope,"Health-system, facility, policy or calendar-period factor; the Registered Tier has no facility / provider identifiers (provider and care_site tables are suppressed)."
+debt,SocialEnvironmental,1,1,no_rule,
+disclosing hiv status to family,Psychosocial,1,1,out_of_scope,All of Us has no item on HIV status disclosure.
+disclosure of hiv status to spouse,Psychosocial,1,1,out_of_scope,All of Us has no item on HIV status disclosure.
+disclosure to mother,Psychosocial,1,1,out_of_scope,All of Us has no item on HIV status disclosure.
+discordant partnership status,Psychosocial,1,1,no_rule,
+early hiv disclosure,Psychosocial,1,1,out_of_scope,All of Us has no item on HIV status disclosure.
+enhanced standard of care,Treatment,1,1,no_rule,
+family and spousal support,Psychosocial,1,1,no_rule,
+family communication,Psychosocial,1,1,no_rule,
+fatalistic religious belief,Psychosocial,1,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+fear of covid-19,Psychosocial,1,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+fear of hiv disclosure,Psychosocial,1,1,out_of_scope,All of Us has no item on HIV status disclosure.
+future health concern beliefs,Psychosocial,1,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+hiv disclosure intervention,Psychosocial,1,1,out_of_scope,All of Us has no item on HIV status disclosure.
+hiv disclosure required by law,SocialEnvironmental,1,1,out_of_scope,All of Us has no item on HIV status disclosure.
+hiv support group participation,Psychosocial,1,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+hiv-focused pharmacy use,SocialEnvironmental,1,1,no_rule,
+household conflict,SocialEnvironmental,1,1,no_rule,
+knowing spouse's hiv status,Psychosocial,1,1,out_of_scope,"Describes another person (partner, parent, family, network); All of Us records data about the participant only."
+livestock ownership,SocialEnvironmental,1,1,no_rule,
+loss of motivation,Psychosocial,1,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+low-income country residence,SocialEnvironmental,1,1,out_of_scope,"Health-system, facility, policy or calendar-period factor; the Registered Tier has no facility / provider identifiers (provider and care_site tables are suppressed)."
+married caregiver status,Demographic,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+medication diversion,AdherenceBehavior,1,1,no_rule,
+medication reminder methods,Psychosocial,1,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+missed scheduled clinical visit,AdherenceBehavior,1,1,no_rule,
+negative outcome expectancy,Psychosocial,1,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+normative beliefs,Psychosocial,1,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+number of previous deliveries,Demographic,1,1,no_rule,
+one tablet per day,Treatment,1,1,no_rule,
+outcome expectancy,Psychosocial,1,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+partner with hiv,SocialEnvironmental,1,1,no_rule,
+patient education program,Treatment,1,1,no_rule,
+peer support with telephone,Psychosocial,1,1,no_rule,
+positive attitude towards medication,Psychosocial,1,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+positive reappraisal,Psychosocial,1,1,no_rule,
+problem solving,Psychosocial,1,1,no_rule,
+psychoeducative intervention,Treatment,1,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+public healthcare facility attendance,SocialEnvironmental,1,1,no_rule,
+regular follow-up,AdherenceBehavior,1,1,no_rule,
+reminder tools,Psychosocial,1,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+retention in intervention,AdherenceBehavior,1,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+secure messaging use,AdherenceBehavior,1,1,no_rule,
+selective serotonin reuptake inhibitor use,Treatment,1,1,no_rule,
+self-control,Psychosocial,1,1,no_rule,
+significant other support,Psychosocial,1,1,no_rule,
+single regular sexual partner,SocialEnvironmental,1,1,no_rule,
+sms text message intervention,Treatment,1,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+social desirability,Psychosocial,1,1,no_rule,
+social support interventions,Psychosocial,1,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+ssri treatment,Treatment,1,1,no_rule,
+sufficient nutrition,SocialEnvironmental,1,1,no_rule,
+syndemic conditions,Psychosocial,1,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+taste disturbances,Treatment,1,1,no_rule,
+telephone support,Treatment,1,1,no_rule,
+treatment intrusiveness,Psychosocial,1,1,no_rule,
+treatment motivation,Psychosocial,1,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+treatment necessity beliefs,Psychosocial,1,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+treatment supporters,Treatment,1,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+treatment-related conspiracy beliefs,Psychosocial,1,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+use of medication reminder tools,AdherenceBehavior,1,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+use of other medications,Treatment,1,1,no_rule,
+use of reminder devices,SocialEnvironmental,1,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+widowed/divorced caregiver status,Demographic,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+diagnosis disclosure,Psychosocial,1,1,out_of_scope,All of Us has no item on HIV status disclosure.
+acquiring hiv behaviorally,Demographic,1,1,no_rule,
+alcohol-interactive toxicity beliefs,Psychosocial,1,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+behavioral impairment,Psychosocial,1,1,no_rule,
+caregiver depression,Psychosocial,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+caregiver not fully responsible for medications,SocialEnvironmental,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+caregiver perceived difficulty of arv administration,Psychosocial,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+caregiver stress,Psychosocial,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+concerns about negative effects of art,Psychosocial,1,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+difficult medication routine,Treatment,1,1,no_rule,
+double orphan status,SocialEnvironmental,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+dysphagia,Treatment,1,1,no_rule,
+failure to disclose hiv status,Psychosocial,1,1,out_of_scope,All of Us has no item on HIV status disclosure.
+family history of hiv/aids,SocialEnvironmental,1,1,no_rule,
+fear of being seen taking medication,Psychosocial,1,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+general health perceptions,Psychosocial,1,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+grandparent or extended family caregiver,SocialEnvironmental,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+having a romantic partner,Psychosocial,1,1,no_rule,
+healthcare spending,SocialEnvironmental,1,1,no_rule,
+hiding hiv medication,Psychosocial,1,1,no_rule,
+hiv status concealment,Psychosocial,1,1,no_rule,
+hiv support group attendance,Psychosocial,1,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+hyperactivity,Psychosocial,1,1,no_rule,
+inadequate guardian support,Psychosocial,1,1,no_rule,
+inadequate knowledge,Psychosocial,1,1,no_rule,
+lack of access to health facilities,SocialEnvironmental,1,1,no_rule,
+lack of perceived treatment utility,Psychosocial,1,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+lack of personal goals,Psychosocial,1,1,no_rule,
+lack of status disclosure,Psychosocial,1,1,out_of_scope,All of Us has no item on HIV status disclosure.
+lack of task-shifting to nurses,SocialEnvironmental,1,1,out_of_scope,"Health-system, facility, policy or calendar-period factor; the Registered Tier has no facility / provider identifiers (provider and care_site tables are suppressed)."
+living in individual setting,SocialEnvironmental,1,1,out_of_scope,"Health-system, facility, policy or calendar-period factor; the Registered Tier has no facility / provider identifiers (provider and care_site tables are suppressed)."
+low caregiver well-being,Psychosocial,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+low perceived severity,Psychosocial,1,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+low perceived susceptibility,Psychosocial,1,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+non-disclosure of hiv status to family,Psychosocial,1,1,out_of_scope,All of Us has no item on HIV status disclosure.
+non-uk birth,Demographic,1,1,no_rule,
+nonbeneficial perceptions towards art,Psychosocial,1,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+parent-child communication,Psychosocial,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+parental supervision,SocialEnvironmental,1,1,no_rule,
+patient dissatisfaction,Psychosocial,1,1,no_rule,
+perceived good health,Psychosocial,1,1,no_rule,
+physical abuse by caregivers,Psychosocial,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+pill management skill,AdherenceBehavior,1,1,no_rule,
+poor caregiver-youth relations,Psychosocial,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+poor knowledge on art,Psychosocial,1,1,no_rule,
+pressure to share medication,SocialEnvironmental,1,1,no_rule,
+psychosocial syndemics,Psychosocial,1,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+regular daily routine,Psychosocial,1,1,no_rule,
+sacrificing health care for other necessities,SocialEnvironmental,1,1,no_rule,
+school pressure,Psychosocial,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+secret treatment use,Psychosocial,1,1,no_rule,
+self-perception about hiv,Psychosocial,1,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+sexual compulsivity,Psychosocial,1,1,no_rule,
+sibling caregiver,SocialEnvironmental,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+speaking english,Demographic,1,1,no_rule,
+teacher violence,Psychosocial,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+treatment dissatisfaction,Psychosocial,1,1,no_rule,
+under-nutrition,BiologicalMarker,1,1,no_rule,
+use of medication reminders,AdherenceBehavior,1,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+use of more than one health service,SocialEnvironmental,1,1,no_rule,
+low expectancy for appointments,Psychosocial,1,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+physical inactivity,SocialEnvironmental,1,1,no_rule,
+inequitable gender norm endorsement,Psychosocial,1,1,no_rule,
+sexual abstinence,SocialEnvironmental,1,1,no_rule,
+structural syndemic,SocialEnvironmental,1,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+missed hiv care visits,AdherenceBehavior,1,1,no_rule,
+clinic transfer,AdherenceBehavior,1,1,no_rule,
+coping focused on avoidance/denial,Psychosocial,1,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+missed treatment doses,AdherenceBehavior,1,1,no_rule,
+active duty status,Demographic,1,1,no_rule,
+acute hiv illness severity,BiologicalMarker,1,1,no_rule,
+advanced disease staging,BiologicalMarker,1,1,no_rule,
+ccr5 δ32 allele,BiologicalMarker,1,1,out_of_scope,Host genotype data (srWGS / arrays) are available only in the Controlled Tier.
+chronic gastroenteritis,BiologicalMarker,1,1,no_rule,
+clinically driven monitoring,Treatment,1,1,no_rule,
+crf07_bc genotype,BiologicalMarker,1,1,out_of_scope,"Viral subtype, tropism, reservoir, minority-variant and compartment assays are research measures not captured in EHR data."
+developmental delay,BiologicalMarker,1,1,no_rule,
+directly observed therapy,Treatment,1,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+early infant treatment,Treatment,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+fee-for-service healthcare,SocialEnvironmental,1,1,no_rule,
+gut epithelial barrier dysfunction,BiologicalMarker,1,1,no_rule,
+hiv subtype crf01_ae,BiologicalMarker,1,1,out_of_scope,"Viral subtype, tropism, reservoir, minority-variant and compartment assays are research measures not captured in EHR data."
+hiv susceptibility testing,Treatment,1,1,no_rule,
+hiv-positive primary caregiver,SocialEnvironmental,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+hscrp,BiologicalMarker,1,1,no_rule,
+immune suppression,BiologicalMarker,1,1,no_rule,
+infant hiv infection,BiologicalMarker,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+jaundice,BiologicalMarker,1,1,no_rule,
+late infection,BiologicalMarker,1,1,no_rule,
+late-haart era,Treatment,1,1,out_of_scope,"Health-system, facility, policy or calendar-period factor; the Registered Tier has no facility / provider identifiers (provider and care_site tables are suppressed)."
+low mid-upper-arm circumference,BiologicalMarker,1,1,no_rule,
+low weight-for-height z-score,BiologicalMarker,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+low-income setting,SocialEnvironmental,1,1,out_of_scope,"Health-system, facility, policy or calendar-period factor; the Registered Tier has no facility / provider identifiers (provider and care_site tables are suppressed)."
+lower weight-for-age,BiologicalMarker,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+negative acid-fast bacilli testing,BiologicalMarker,1,1,no_rule,
+number of sex partners,SocialEnvironmental,1,1,no_rule,
+private sector clinic attendance,SocialEnvironmental,1,1,out_of_scope,"Health-system, facility, policy or calendar-period factor; the Registered Tier has no facility / provider identifiers (provider and care_site tables are suppressed)."
+progressive multifocal leukoencephalopathy,BiologicalMarker,1,1,no_rule,
+resource-limited setting,SocialEnvironmental,1,1,out_of_scope,"Health-system, facility, policy or calendar-period factor; the Registered Tier has no facility / provider identifiers (provider and care_site tables are suppressed)."
+selenium supplementation,Treatment,1,1,no_rule,
+severe stunting,BiologicalMarker,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+symptomatic infection,BiologicalMarker,1,1,no_rule,
+testing due to illness,SocialEnvironmental,1,1,no_rule,
+upper-middle-income country residence,SocialEnvironmental,1,1,out_of_scope,"Health-system, facility, policy or calendar-period factor; the Registered Tier has no facility / provider identifiers (provider and care_site tables are suppressed)."
+x4-tropic hiv,BiologicalMarker,1,1,out_of_scope,"Viral subtype, tropism, reservoir, minority-variant and compartment assays are research measures not captured in EHR data."
+mother-to-child hiv transmission,Outcome,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+natural killer cell activity,BiologicalMarker,1,1,no_rule,
+cerebrospinal fluid hiv persistence,BiologicalMarker,1,1,out_of_scope,"Viral subtype, tropism, reservoir, minority-variant and compartment assays are research measures not captured in EHR data."
+disclosure to neighbors,Psychosocial,1,1,out_of_scope,All of Us has no item on HIV status disclosure.
+feeling guilty about hiv status,Psychosocial,1,1,no_rule,
+feeling worthless about hiv status,Psychosocial,1,1,no_rule,
+physician hiv experience,SocialEnvironmental,1,1,out_of_scope,"Health-system, facility, policy or calendar-period factor; the Registered Tier has no facility / provider identifiers (provider and care_site tables are suppressed)."
+previous clinical events,Outcome,1,1,no_rule,
+kynurenine-to-tryptophan ratio,BiologicalMarker,1,1,out_of_scope,"Research immunology / inflammation biomarkers are not part of routine clinical care, so they rarely appear in EHR measurements."
+stnfr-i,BiologicalMarker,1,1,no_rule,
+stnfr-ii,BiologicalMarker,1,1,no_rule,
+knowing other hiv-positive people,Psychosocial,1,1,no_rule,
+lack of knowledge of partner's hiv status,Psychosocial,1,1,out_of_scope,"Describes another person (partner, parent, family, network); All of Us records data about the participant only."
+husbands' alcohol use,SocialEnvironmental,1,1,no_rule,
+husbands' mobility,SocialEnvironmental,1,1,no_rule,
+healthcare facility level,SocialEnvironmental,1,1,out_of_scope,"Health-system, facility, policy or calendar-period factor; the Registered Tier has no facility / provider identifiers (provider and care_site tables are suppressed)."
+home delivery,SocialEnvironmental,1,1,out_of_scope,"Health-system, facility, policy or calendar-period factor; the Registered Tier has no facility / provider identifiers (provider and care_site tables are suppressed)."
+maternal non-disclosure of hiv status,Psychosocial,1,1,out_of_scope,"Describes another person (partner, parent, family, network); All of Us records data about the participant only."
+noncommunicable disease,Outcome,1,1,no_rule,
+hiv replication,BiologicalMarker,1,1,no_rule,
+oral lesions,Outcome,1,1,no_rule,
+outpatient service use,AdherenceBehavior,1,1,no_rule,
+patient representation,AdherenceBehavior,1,1,no_rule,
+perceived social status,Demographic,1,1,no_rule,
+insecure attachment style,Psychosocial,1,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+perception of art,Psychosocial,1,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+pruritus,Treatment,1,1,no_rule,
+participant responsiveness,Psychosocial,1,1,no_rule,
+physiologic injury,Outcome,1,1,no_rule,
+pre-exposure prophylaxis use,AdherenceBehavior,1,1,out_of_scope,Concerns HIV prevention or onward transmission rather than the participant's own HIV care; not observable in All of Us.
+having a primary partner,Demographic,1,1,no_rule,
+prep use,AdherenceBehavior,1,1,out_of_scope,Concerns HIV prevention or onward transmission rather than the participant's own HIV care; not observable in All of Us.
+proinflammatory cytokines,BiologicalMarker,1,1,out_of_scope,"Research immunology / inflammation biomarkers are not part of routine clinical care, so they rarely appear in EHR measurements."
+viral replication,BiologicalMarker,1,1,no_rule,
+proviral reservoir,BiologicalMarker,1,1,out_of_scope,"Viral subtype, tropism, reservoir, minority-variant and compartment assays are research measures not captured in EHR data."
+psychological outcomes,Outcome,1,1,no_rule,
+self-education,Psychosocial,1,1,no_rule,
+symptom experience,BiologicalMarker,1,1,no_rule,
+rantes level,BiologicalMarker,1,1,no_rule,
+hla-b*35:05,BiologicalMarker,1,1,out_of_scope,Host genotype data (srWGS / arrays) are available only in the Controlled Tier.
+cash transfers,SocialEnvironmental,1,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+community art groups,SocialEnvironmental,1,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+conditional release,SocialEnvironmental,1,1,no_rule,
+disclosure to spouse,Psychosocial,1,1,out_of_scope,All of Us has no item on HIV status disclosure.
+family planning,SocialEnvironmental,1,1,no_rule,
+nutritional support,SocialEnvironmental,1,1,no_rule,
+parental obligation,Psychosocial,1,1,no_rule,
+peer-support services,SocialEnvironmental,1,1,no_rule,
+positive perceptions of hiv service providers,SocialEnvironmental,1,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+residential stability,SocialEnvironmental,1,1,no_rule,
+rigid clinical scheduling,SocialEnvironmental,1,1,no_rule,
+self-stigmatizing beliefs,Psychosocial,1,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+telehealth,SocialEnvironmental,1,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+transitional case management,Treatment,1,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+satisfaction with hiv care services,Outcome,1,1,no_rule,
+scd14 level,BiologicalMarker,1,1,out_of_scope,"Research immunology / inflammation biomarkers are not part of routine clinical care, so they rarely appear in EHR measurements."
+child-caregiver communication,SocialEnvironmental,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+uncontrolled hiv replication,BiologicalMarker,1,1,no_rule,
+hiv support group access,SocialEnvironmental,1,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+infectiousness belief,Psychosocial,1,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+no disclosure status,Psychosocial,1,1,out_of_scope,All of Us has no item on HIV status disclosure.
+aids orphanhood,SocialEnvironmental,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+disclosing hiv positive status,Psychosocial,1,1,out_of_scope,All of Us has no item on HIV status disclosure.
+disclosure beliefs,Psychosocial,1,1,out_of_scope,All of Us has no item on HIV status disclosure.
+discussing safer sex,Psychosocial,1,1,no_rule,
+hiv support group membership,SocialEnvironmental,1,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+iengage adherence intervention,Treatment,1,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+northern residence,SocialEnvironmental,1,1,no_rule,
+social contact with people living with hiv,SocialEnvironmental,1,1,no_rule,
+undisclosed hiv status,Psychosocial,1,1,out_of_scope,All of Us has no item on HIV status disclosure.
+unwillingness to disclose,Psychosocial,1,1,out_of_scope,All of Us has no item on HIV status disclosure.
+reduced maraviroc susceptibility,BiologicalMarker,1,1,no_rule,
+adhd symptoms,Psychosocial,1,1,no_rule,
+conduct disorder,Psychosocial,1,1,no_rule,
+parental drug or alcohol problems,SocialEnvironmental,1,1,out_of_scope,"Describes another person (partner, parent, family, network); All of Us records data about the participant only."
+negative feelings about hiv status,Psychosocial,1,1,no_rule,
+time on second-line art,Treatment,1,1,no_rule,
+azidothymidine,Treatment,1,1,no_rule,
+tnf level,BiologicalMarker,1,1,out_of_scope,"Research immunology / inflammation biomarkers are not part of routine clinical care, so they rarely appear in EHR measurements."
+experience of rejection due to disclosure,Psychosocial,1,1,out_of_scope,All of Us has no item on HIV status disclosure.
+churn,AdherenceBehavior,1,1,no_rule,
+treatment acceptance,AdherenceBehavior,1,1,no_rule,
+belief that art delays hiv progression,Psychosocial,1,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+cdc category c,BiologicalMarker,1,1,no_rule,
+clinical staging iii/iv,BiologicalMarker,1,1,no_rule,
+duration of follow-up,Treatment,1,1,no_rule,
+estimated glomerular filtration rate,BiologicalMarker,1,1,no_rule,
+functionality status at last visit,BiologicalMarker,1,1,no_rule,
+genital ulcer disease,BiologicalMarker,1,1,no_rule,
+hiv replication capacity,BiologicalMarker,1,1,out_of_scope,"Viral subtype, tropism, reservoir, minority-variant and compartment assays are research measures not captured in EHR data."
+hla-b*40:01,BiologicalMarker,1,1,out_of_scope,Host genotype data (srWGS / arrays) are available only in the Controlled Tier.
+inability to read prescription,Demographic,1,1,no_rule,
+infant prophylaxis for pmtct,Treatment,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+integrated hiv dna,BiologicalMarker,1,1,out_of_scope,"Viral subtype, tropism, reservoir, minority-variant and compartment assays are research measures not captured in EHR data."
+irregular medication dispensation,AdherenceBehavior,1,1,no_rule,
+k103n minority variant,BiologicalMarker,1,1,out_of_scope,"Viral subtype, tropism, reservoir, minority-variant and compartment assays are research measures not captured in EHR data."
+lack of disclosure,Psychosocial,1,1,out_of_scope,All of Us has no item on HIV status disclosure.
+lack of support group participation,Psychosocial,1,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+low drug concentration,BiologicalMarker,1,1,out_of_scope,Antiretroviral drug levels are not routinely measured or stored as structured EHR results.
+low performance score,BiologicalMarker,1,1,no_rule,
+low-frequency drug-resistant variants,BiologicalMarker,1,1,out_of_scope,"Viral subtype, tropism, reservoir, minority-variant and compartment assays are research measures not captured in EHR data."
+nonimmediate or unrelated caregiver,SocialEnvironmental,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+parental death,SocialEnvironmental,1,1,out_of_scope,"Describes another person (partner, parent, family, network); All of Us records data about the participant only."
+prolonged follow-up,AdherenceBehavior,1,1,no_rule,
+serum selenium,BiologicalMarker,1,1,no_rule,
+x4 or dual/mixed viral variants,BiologicalMarker,1,1,no_rule,
+antiretroviral stock-outs,SocialEnvironmental,1,1,out_of_scope,"Health-system, facility, policy or calendar-period factor; the Registered Tier has no facility / provider identifiers (provider and care_site tables are suppressed)."
+community art support group non-participation,SocialEnvironmental,1,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+high staff turnover,SocialEnvironmental,1,1,out_of_scope,"Health-system, facility, policy or calendar-period factor; the Registered Tier has no facility / provider identifiers (provider and care_site tables are suppressed)."
+negative outcome expectations,Psychosocial,1,1,no_rule,
+self-regulatory efficacy,Psychosocial,1,1,no_rule,
+text message reminders,Treatment,1,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+number of new drugs received,Treatment,1,1,no_rule,
+shift to wild-type virus,BiologicalMarker,1,1,no_rule,
+high tb burden country residence,SocialEnvironmental,1,1,out_of_scope,"Health-system, facility, policy or calendar-period factor; the Registered Tier has no facility / provider identifiers (provider and care_site tables are suppressed)."
+trauma-related behavioral difficulties,Psychosocial,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+viral breakthrough,Outcome,1,1,no_rule,
+early peak nevirapine concentration,BiologicalMarker,1,1,out_of_scope,Antiretroviral drug levels are not routinely measured or stored as structured EHR results.
+full hiv disclosure,Psychosocial,1,1,out_of_scope,All of Us has no item on HIV status disclosure.
+multisystemic therapy,Treatment,1,1,no_rule,
+saquinavir plasma concentration,BiologicalMarker,1,1,out_of_scope,Antiretroviral drug levels are not routinely measured or stored as structured EHR results.
+caregiver household vulnerability,SocialEnvironmental,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+child's education status,Demographic,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+psychosocial support group membership,Psychosocial,1,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+voluntary savings and lending association membership,SocialEnvironmental,1,1,no_rule,
+cd8 t-cell activation and exhaustion,BiologicalMarker,1,1,out_of_scope,"Research immunology / inflammation biomarkers are not part of routine clinical care, so they rarely appear in EHR measurements."
+higher hiv dna level,BiologicalMarker,1,1,out_of_scope,"Viral subtype, tropism, reservoir, minority-variant and compartment assays are research measures not captured in EHR data."
+low efavirenz concentration predictability,Treatment,1,1,out_of_scope,Antiretroviral drug levels are not routinely measured or stored as structured EHR results.
+nef transcript levels,BiologicalMarker,1,1,no_rule,
+never sending buddy to collect medication,AdherenceBehavior,1,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+poor cd8 t-cell function,BiologicalMarker,1,1,out_of_scope,"Research immunology / inflammation biomarkers are not part of routine clinical care, so they rarely appear in EHR measurements."
+triple-drug maintenance therapy,Treatment,1,1,no_rule,
+tropism change,BiologicalMarker,1,1,out_of_scope,"Viral subtype, tropism, reservoir, minority-variant and compartment assays are research measures not captured in EHR data."
+viral reservoir decay,BiologicalMarker,1,1,out_of_scope,"Viral subtype, tropism, reservoir, minority-variant and compartment assays are research measures not captured in EHR data."
+adherence counseling attendance,AdherenceBehavior,1,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+adherence counselling referral,Treatment,1,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+adherence support,AdherenceBehavior,1,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+adoption status,Demographic,1,1,no_rule,
+age at transition,Demographic,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+age at transition (18 or older),Demographic,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+art modification,Treatment,1,1,no_rule,
+art use duration of six months or more,Treatment,1,1,no_rule,
+asymmetric support reciprocity,Psychosocial,1,1,no_rule,
+atazanavir concentration,BiologicalMarker,1,1,out_of_scope,Antiretroviral drug levels are not routinely measured or stored as structured EHR results.
+atazanavir hair concentration,Treatment,1,1,out_of_scope,Antiretroviral drug levels are not routinely measured or stored as structured EHR results.
+availability of opioid treatment,SocialEnvironmental,1,1,no_rule,
+biological mother not alive,SocialEnvironmental,1,1,no_rule,
+birth in united states,Demographic,1,1,no_rule,
+broadly neutralizing antibodies,Treatment,1,1,no_rule,
+broadly neutralizing antibody combination therapy,Treatment,1,1,no_rule,
+calendar year of starting haart,Treatment,1,1,out_of_scope,"Health-system, facility, policy or calendar-period factor; the Registered Tier has no facility / provider identifiers (provider and care_site tables are suppressed)."
+caregiver network illicit drug use,SocialEnvironmental,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+caregiver non-kin network size,SocialEnvironmental,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+caregiver perception of care recipient mental health,Psychosocial,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+caregiver physical functioning,SocialEnvironmental,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+cash incentives,SocialEnvironmental,1,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+clinic mobility,SocialEnvironmental,1,1,no_rule,
+clinical trial participation,SocialEnvironmental,1,1,no_rule,
+commitment contract,Treatment,1,1,no_rule,
+community art group membership,SocialEnvironmental,1,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+community-based testing and treatment,SocialEnvironmental,1,1,no_rule,
+denial coping,Psychosocial,1,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+disclosure to sex partners,Psychosocial,1,1,out_of_scope,All of Us has no item on HIV status disclosure.
+drug use criminalization,SocialEnvironmental,1,1,out_of_scope,"Health-system, facility, policy or calendar-period factor; the Registered Tier has no facility / provider identifiers (provider and care_site tables are suppressed)."
+drug user network size,SocialEnvironmental,1,1,no_rule,
+dual partnership,Psychosocial,1,1,no_rule,
+early cdc clinical staging,BiologicalMarker,1,1,no_rule,
+early hiv care and treatment,Treatment,1,1,no_rule,
+eastern europe residence,SocialEnvironmental,1,1,no_rule,
+enhanced adherence counselling initiation timing,Treatment,1,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+expert advice,Treatment,1,1,no_rule,
+family economic empowerment intervention,SocialEnvironmental,1,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+fast-track art care model,Treatment,1,1,out_of_scope,"Health-system, facility, policy or calendar-period factor; the Registered Tier has no facility / provider identifiers (provider and care_site tables are suppressed)."
+fewer pills per day,Treatment,1,1,no_rule,
+financial incentive,Treatment,1,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+free medication provision,SocialEnvironmental,1,1,no_rule,
+high etravirine trough concentration,BiologicalMarker,1,1,out_of_scope,Antiretroviral drug levels are not routinely measured or stored as structured EHR results.
+high nevirapine trough concentration,BiologicalMarker,1,1,out_of_scope,Antiretroviral drug levels are not routinely measured or stored as structured EHR results.
+high school graduation,Demographic,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+hiv care coordination program,Treatment,1,1,no_rule,
+hiv disclosure stigma,Psychosocial,1,1,out_of_scope,All of Us has no item on HIV status disclosure.
+hiv support group care,SocialEnvironmental,1,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+integrated hiv care,Treatment,1,1,no_rule,
+integrated maternal hiv and infant health services,Treatment,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+intimate partner,Psychosocial,1,1,no_rule,
+lack of gender-concordant identity documents,SocialEnvironmental,1,1,no_rule,
+leronlimab,Treatment,1,1,no_rule,
+limited caregiver social support,SocialEnvironmental,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+low hiv patient volume facility,SocialEnvironmental,1,1,out_of_scope,"Health-system, facility, policy or calendar-period factor; the Registered Tier has no facility / provider identifiers (provider and care_site tables are suppressed)."
+medication dispensing reviews,SocialEnvironmental,1,1,no_rule,
+multidisciplinary care model,Treatment,1,1,out_of_scope,"Health-system, facility, policy or calendar-period factor; the Registered Tier has no facility / provider identifiers (provider and care_site tables are suppressed)."
+negative perception about art,Psychosocial,1,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+non-discrimination laws,SocialEnvironmental,1,1,out_of_scope,"Health-system, facility, policy or calendar-period factor; the Registered Tier has no facility / provider identifiers (provider and care_site tables are suppressed)."
+operation triple zero program,SocialEnvironmental,1,1,no_rule,
+peer support group participation,Psychosocial,1,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+pharmacy delivery service,SocialEnvironmental,1,1,out_of_scope,"Health-system, facility, policy or calendar-period factor; the Registered Tier has no facility / provider identifiers (provider and care_site tables are suppressed)."
+phenotype-guided active drug count,Treatment,1,1,no_rule,
+phlebotomy visit adherence,AdherenceBehavior,1,1,no_rule,
+physician patient volume,Treatment,1,1,out_of_scope,"Health-system, facility, policy or calendar-period factor; the Registered Tier has no facility / provider identifiers (provider and care_site tables are suppressed)."
+poor art-related knowledge,Psychosocial,1,1,no_rule,
+representative payee services,SocialEnvironmental,1,1,no_rule,
+same-sex sexual act criminalization,SocialEnvironmental,1,1,out_of_scope,"Health-system, facility, policy or calendar-period factor; the Registered Tier has no facility / provider identifiers (provider and care_site tables are suppressed)."
+screening/diagnosis site care,SocialEnvironmental,1,1,no_rule,
+self-reevaluation,Psychosocial,1,1,no_rule,
+sex work criminalization,SocialEnvironmental,1,1,out_of_scope,"Health-system, facility, policy or calendar-period factor; the Registered Tier has no facility / provider identifiers (provider and care_site tables are suppressed)."
+six-month multi-month dispensing,Treatment,1,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+social support intervention,Psychosocial,1,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+spousal treatment partner,SocialEnvironmental,1,1,no_rule,
+standardized enhanced adherence counseling,Treatment,1,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+streamlined care,Treatment,1,1,no_rule,
+support services only,SocialEnvironmental,1,1,no_rule,
+telephone counseling,Treatment,1,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+tenofovir diphosphate,BiologicalMarker,1,1,out_of_scope,Antiretroviral drug levels are not routinely measured or stored as structured EHR results.
+township residence,SocialEnvironmental,1,1,no_rule,
+treatment intention,Psychosocial,1,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+treatment supporter attendance,SocialEnvironmental,1,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+treatment supporters with enhanced standard of care,Treatment,1,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+ubudehe category 2,SocialEnvironmental,1,1,no_rule,
+ubudehe category 3,SocialEnvironmental,1,1,no_rule,
+view labs tool use,AdherenceBehavior,1,1,no_rule,
+215 hiv revertants,BiologicalMarker,1,1,no_rule,
+activated cd8+ t-cells,BiologicalMarker,1,1,no_rule,
+agoraphobia,Psychosocial,1,1,no_rule,
+attendance at level 2/3 health facility,SocialEnvironmental,1,1,no_rule,
+attending public clinic,SocialEnvironmental,1,1,no_rule,
+baseline nnrti minority mutations,BiologicalMarker,1,1,out_of_scope,"Viral subtype, tropism, reservoir, minority-variant and compartment assays are research measures not captured in EHR data."
+baseline reduced lopinavir susceptibility,BiologicalMarker,1,1,no_rule,
+blood transfusion transmission,Demographic,1,1,out_of_scope,HIV acquisition route / transmission category is not recorded in All of Us.
+c/crf07_bc/crf08_bc subtype,BiologicalMarker,1,1,out_of_scope,"Viral subtype, tropism, reservoir, minority-variant and compartment assays are research measures not captured in EHR data."
+caregiver age,Demographic,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+caregiver age below 40 years,Demographic,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+caregiver support,Psychosocial,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+clinic visit tardiness,AdherenceBehavior,1,1,no_rule,
+cognitively based compassion training,Treatment,1,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+composite inhibition score,Treatment,1,1,no_rule,
+cyp2b6 516g>t genotype,BiologicalMarker,1,1,out_of_scope,Host genotype data (srWGS / arrays) are available only in the Controlled Tier.
+death of mother,SocialEnvironmental,1,1,out_of_scope,"Describes another person (partner, parent, family, network); All of Us records data about the participant only."
+decentralized care unit attendance,SocialEnvironmental,1,1,out_of_scope,"Health-system, facility, policy or calendar-period factor; the Registered Tier has no facility / provider identifiers (provider and care_site tables are suppressed)."
+delayed doses,AdherenceBehavior,1,1,no_rule,
+disbelief in hiv cure,Psychosocial,1,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+disclosure of hiv status to fewer than 5 persons,Psychosocial,1,1,out_of_scope,All of Us has no item on HIV status disclosure.
+disclosure of sero-status,Psychosocial,1,1,out_of_scope,All of Us has no item on HIV status disclosure.
+disease staging,BiologicalMarker,1,1,no_rule,
+dispensary facility level,SocialEnvironmental,1,1,out_of_scope,"Health-system, facility, policy or calendar-period factor; the Registered Tier has no facility / provider identifiers (provider and care_site tables are suppressed)."
+drug experience,Treatment,1,1,no_rule,
+drug resistance mutations in proviral dna,BiologicalMarker,1,1,out_of_scope,"Viral subtype, tropism, reservoir, minority-variant and compartment assays are research measures not captured in EHR data."
+duration of viral undetectability,BiologicalMarker,1,1,no_rule,
+economic empowerment intervention,SocialEnvironmental,1,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+enhanced art adherence counseling,Treatment,1,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+entry via voluntary counseling and testing center,SocialEnvironmental,1,1,no_rule,
+enzyme-inducing antiepileptic drugs,Treatment,1,1,no_rule,
+enzyme-inducing antiepileptic use,Treatment,1,1,no_rule,
+fever,BiologicalMarker,1,1,no_rule,
+foreign birth,Demographic,1,1,no_rule,
+heterosexual men,Demographic,1,1,no_rule,
+heterosexual transmission and drug injection,SocialEnvironmental,1,1,out_of_scope,HIV acquisition route / transmission category is not recorded in All of Us.
+high mutant load,BiologicalMarker,1,1,no_rule,
+hiv dna resistance mutations,BiologicalMarker,1,1,out_of_scope,"Viral subtype, tropism, reservoir, minority-variant and compartment assays are research measures not captured in EHR data."
+hiv immunogen therapy,Treatment,1,1,no_rule,
+hiv tropism switch,BiologicalMarker,1,1,out_of_scope,"Viral subtype, tropism, reservoir, minority-variant and compartment assays are research measures not captured in EHR data."
+hospital-level care,SocialEnvironmental,1,1,no_rule,
+incomplete adherence to drug-refill visits,AdherenceBehavior,1,1,no_rule,
+individual-level barriers,SocialEnvironmental,1,1,no_rule,
+interferon- f10 (ip-10),BiologicalMarker,1,1,no_rule,
+intrapatient variability in efavirenz plasma concentration,Treatment,1,1,out_of_scope,Antiretroviral drug levels are not routinely measured or stored as structured EHR results.
+ip-10,BiologicalMarker,1,1,no_rule,
+key population status,Demographic,1,1,no_rule,
+lack of adherence support,Psychosocial,1,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+lack of multi-month dispensing,Treatment,1,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+lack of refrigerator at home,SocialEnvironmental,1,1,no_rule,
+large outpatient facility care,SocialEnvironmental,1,1,no_rule,
+late anc booking,SocialEnvironmental,1,1,no_rule,
+living outside treatment city,SocialEnvironmental,1,1,no_rule,
+living without family,SocialEnvironmental,1,1,no_rule,
+low antiretroviral drug concentration,BiologicalMarker,1,1,out_of_scope,Antiretroviral drug levels are not routinely measured or stored as structured EHR results.
+low atazanavir hair concentration,Treatment,1,1,out_of_scope,Antiretroviral drug levels are not routinely measured or stored as structured EHR results.
+low drug levels of cabotegravir or rilpivirine,BiologicalMarker,1,1,out_of_scope,Antiretroviral drug levels are not routinely measured or stored as structured EHR results.
+low frequency of anc visits,AdherenceBehavior,1,1,no_rule,
+low glomerular filtration rate,BiologicalMarker,1,1,no_rule,
+low height for age z score,BiologicalMarker,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+low lopinavir plasma or hair concentration,Treatment,1,1,out_of_scope,Antiretroviral drug levels are not routinely measured or stored as structured EHR results.
+low nevirapine plasma trough concentration,Treatment,1,1,out_of_scope,Antiretroviral drug levels are not routinely measured or stored as structured EHR results.
+low nevirapine trough concentration,BiologicalMarker,1,1,out_of_scope,Antiretroviral drug levels are not routinely measured or stored as structured EHR results.
+low or middle income country setting,SocialEnvironmental,1,1,out_of_scope,"Health-system, facility, policy or calendar-period factor; the Registered Tier has no facility / provider identifiers (provider and care_site tables are suppressed)."
+low percentage time virally suppressed,BiologicalMarker,1,1,no_rule,
+low plasma drug levels,AdherenceBehavior,1,1,out_of_scope,Antiretroviral drug levels are not routinely measured or stored as structured EHR results.
+low plasma nevirapine concentration,BiologicalMarker,1,1,out_of_scope,Antiretroviral drug levels are not routinely measured or stored as structured EHR results.
+low raltegravir plasma concentration,BiologicalMarker,1,1,out_of_scope,Antiretroviral drug levels are not routinely measured or stored as structured EHR results.
+low serum drug levels,BiologicalMarker,1,1,out_of_scope,Antiretroviral drug levels are not routinely measured or stored as structured EHR results.
+low trough art concentration,BiologicalMarker,1,1,out_of_scope,Antiretroviral drug levels are not routinely measured or stored as structured EHR results.
+low-frequency hiv drug resistance mutations,BiologicalMarker,1,1,out_of_scope,"Viral subtype, tropism, reservoir, minority-variant and compartment assays are research measures not captured in EHR data."
+low-frequency nevirapine resistant mutants,BiologicalMarker,1,1,out_of_scope,"Viral subtype, tropism, reservoir, minority-variant and compartment assays are research measures not captured in EHR data."
+low-frequency thymidine analog mutations,BiologicalMarker,1,1,out_of_scope,"Viral subtype, tropism, reservoir, minority-variant and compartment assays are research measures not captured in EHR data."
+lower height-for-age z-score,BiologicalMarker,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+lower rilpivirine trough concentration,Treatment,1,1,out_of_scope,Antiretroviral drug levels are not routinely measured or stored as structured EHR results.
+maintenance therapy,Treatment,1,1,no_rule,
+medication-related difficulties,AdherenceBehavior,1,1,no_rule,
+men who have sex with women,Demographic,1,1,no_rule,
+minority drug-resistant hiv variants,BiologicalMarker,1,1,out_of_scope,"Viral subtype, tropism, reservoir, minority-variant and compartment assays are research measures not captured in EHR data."
+minority quasispecies of drug-resistant hiv,BiologicalMarker,1,1,out_of_scope,"Viral subtype, tropism, reservoir, minority-variant and compartment assays are research measures not captured in EHR data."
+minority y181c mutation,BiologicalMarker,1,1,out_of_scope,"Viral subtype, tropism, reservoir, minority-variant and compartment assays are research measures not captured in EHR data."
+missed daily art doses,AdherenceBehavior,1,1,no_rule,
+multiple accompanying caregivers,SocialEnvironmental,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+nnrti-resistant minority variants,BiologicalMarker,1,1,out_of_scope,"Viral subtype, tropism, reservoir, minority-variant and compartment assays are research measures not captured in EHR data."
+nnrtl resistance mutation detected by ultra-deep sequencing,BiologicalMarker,1,1,out_of_scope,"Viral subtype, tropism, reservoir, minority-variant and compartment assays are research measures not captured in EHR data."
+non-b viral subtype,BiologicalMarker,1,1,out_of_scope,"Viral subtype, tropism, reservoir, minority-variant and compartment assays are research measures not captured in EHR data."
+non-b/c subtype,BiologicalMarker,1,1,out_of_scope,"Viral subtype, tropism, reservoir, minority-variant and compartment assays are research measures not captured in EHR data."
+non-disclosure of serostatus,Psychosocial,1,1,out_of_scope,All of Us has no item on HIV status disclosure.
+non-spousal family payment for medical care,SocialEnvironmental,1,1,no_rule,
+nondisclosure of prior art exposure,Psychosocial,1,1,out_of_scope,All of Us has no item on HIV status disclosure.
+normal bilirubin level,BiologicalMarker,1,1,no_rule,
+not having both parents as primary caregivers,SocialEnvironmental,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+not having child,Demographic,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+not knowing hiv status,Psychosocial,1,1,no_rule,
+orphanhood,SocialEnvironmental,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+other hiv risk factor,Demographic,1,1,no_rule,
+oxcarbazepine,Treatment,1,1,no_rule,
+p(t/s)app duplication,BiologicalMarker,1,1,no_rule,
+papular pruritic eruption,BiologicalMarker,1,1,no_rule,
+peer health worker intervention,SocialEnvironmental,1,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+perception of serious illness consequences,Psychosocial,1,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+prior nevirapine-based pmtct treatment,Treatment,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+raltegravir plasma concentration,BiologicalMarker,1,1,out_of_scope,Antiretroviral drug levels are not routinely measured or stored as structured EHR results.
+refusing to take medications,AdherenceBehavior,1,1,no_rule,
+reverse transcriptase polymorphisms,BiologicalMarker,1,1,out_of_scope,Host genotype data (srWGS / arrays) are available only in the Controlled Tier.
+rilpivirine plasma trough concentration,Treatment,1,1,out_of_scope,Antiretroviral drug levels are not routinely measured or stored as structured EHR results.
+running out of medications,AdherenceBehavior,1,1,no_rule,
+rural clinic residence,SocialEnvironmental,1,1,out_of_scope,"Health-system, facility, policy or calendar-period factor; the Registered Tier has no facility / provider identifiers (provider and care_site tables are suppressed)."
+self-advocacy,Psychosocial,1,1,no_rule,
+short-duration health-home use,SocialEnvironmental,1,1,no_rule,
+social instability,SocialEnvironmental,1,1,no_rule,
+suboptimal cabotegravir/rilpivirine trough concentration,BiologicalMarker,1,1,out_of_scope,Antiretroviral drug levels are not routinely measured or stored as structured EHR results.
+suboptimal pharmacokinetics,Treatment,1,1,out_of_scope,Antiretroviral drug levels are not routinely measured or stored as structured EHR results.
+substance use and violence syndemic,SocialEnvironmental,1,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+subtherapeutic art drug concentration,BiologicalMarker,1,1,out_of_scope,Antiretroviral drug levels are not routinely measured or stored as structured EHR results.
+subtherapeutic drug concentration,AdherenceBehavior,1,1,out_of_scope,Antiretroviral drug levels are not routinely measured or stored as structured EHR results.
+subtherapeutic efavirenz levels,BiologicalMarker,1,1,out_of_scope,Antiretroviral drug levels are not routinely measured or stored as structured EHR results.
+subtherapeutic nevirapine concentration,BiologicalMarker,1,1,out_of_scope,Antiretroviral drug levels are not routinely measured or stored as structured EHR results.
+therapeutic drug levels,Treatment,1,1,out_of_scope,Antiretroviral drug levels are not routinely measured or stored as structured EHR results.
+total hiv-dna,BiologicalMarker,1,1,no_rule,
+transition readiness,Psychosocial,1,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+treatment at non-hospital healthcare facilities,SocialEnvironmental,1,1,no_rule,
+trizivir,Treatment,1,1,no_rule,
+two-way mobile phone adherence intervention,Treatment,1,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+unchanged art regimen,Treatment,1,1,no_rule,
+undetectable drug levels,AdherenceBehavior,1,1,out_of_scope,Antiretroviral drug levels are not routinely measured or stored as structured EHR results.
+unemployed family,SocialEnvironmental,1,1,out_of_scope,"Describes another person (partner, parent, family, network); All of Us records data about the participant only."
+xinjiang residence,SocialEnvironmental,1,1,no_rule,
+young caregiver age,Demographic,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+younger maternal age,Demographic,1,1,out_of_scope,"Describes another person (partner, parent, family, network); All of Us records data about the participant only."
+economic difficulties,SocialEnvironmental,1,1,no_rule,
+perceived difficulty attending healthcare,SocialEnvironmental,1,1,no_rule,
+perception of non-serious illness consequences,Psychosocial,1,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+hiv type 1 rna,BiologicalMarker,1,1,no_rule,
+maternal education,Demographic,1,1,out_of_scope,"Describes another person (partner, parent, family, network); All of Us records data about the participant only."
+health facility level,SocialEnvironmental,1,1,out_of_scope,"Health-system, facility, policy or calendar-period factor; the Registered Tier has no facility / provider identifiers (provider and care_site tables are suppressed)."
+cd8+ t cell apoptosis,BiologicalMarker,1,1,out_of_scope,"Research immunology / inflammation biomarkers are not part of routine clinical care, so they rarely appear in EHR measurements."
+patient attitudes towards health care provider,Psychosocial,1,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+cxcr4-tropic strain,BiologicalMarker,1,1,out_of_scope,"Viral subtype, tropism, reservoir, minority-variant and compartment assays are research measures not captured in EHR data."
+hispanic stress,Psychosocial,1,1,no_rule,
+loss of mother,SocialEnvironmental,1,1,no_rule,
+perception that hiv affects all aspects of life,Psychosocial,1,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+poor family relations,Psychosocial,1,1,no_rule,
+detectable drug levels,AdherenceBehavior,1,1,out_of_scope,Antiretroviral drug levels are not routinely measured or stored as structured EHR results.
+nutritional decline,BiologicalMarker,1,1,no_rule,
+cyp2b6 genotype,BiologicalMarker,1,1,out_of_scope,Host genotype data (srWGS / arrays) are available only in the Controlled Tier.
+intracellular drug concentration,BiologicalMarker,1,1,out_of_scope,Antiretroviral drug levels are not routinely measured or stored as structured EHR results.
+functional health,Outcome,1,1,no_rule,
+disclosure appraisal,Psychosocial,1,1,out_of_scope,All of Us has no item on HIV status disclosure.
+own medication administration,AdherenceBehavior,1,1,no_rule,
+black sub-saharan african ethnicity,Demographic,1,1,out_of_scope,"Health-system, facility, policy or calendar-period factor; the Registered Tier has no facility / provider identifiers (provider and care_site tables are suppressed)."
+csf viral load,BiologicalMarker,1,1,out_of_scope,"Viral subtype, tropism, reservoir, minority-variant and compartment assays are research measures not captured in EHR data."
+intrathecal immune activation,BiologicalMarker,1,1,out_of_scope,"Research immunology / inflammation biomarkers are not part of routine clinical care, so they rarely appear in EHR measurements."
+absence of counseling,Psychosocial,1,1,no_rule,
+adherence club,AdherenceBehavior,1,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+disadvantaged community,SocialEnvironmental,1,1,no_rule,
+earlier year of art initiation,Treatment,1,1,out_of_scope,"Health-system, facility, policy or calendar-period factor; the Registered Tier has no facility / provider identifiers (provider and care_site tables are suppressed)."
+hiv rna pcr turnaround time >14 days,SocialEnvironmental,1,1,out_of_scope,"Health-system, facility, policy or calendar-period factor; the Registered Tier has no facility / provider identifiers (provider and care_site tables are suppressed)."
+residence,SocialEnvironmental,1,1,no_rule,
+rural clinic location,SocialEnvironmental,1,1,out_of_scope,"Health-system, facility, policy or calendar-period factor; the Registered Tier has no facility / provider identifiers (provider and care_site tables are suppressed)."
+belief in medicine,Psychosocial,1,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+caregiver involvement,Psychosocial,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+caregiver relationship,Psychosocial,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+clinic visit timeliness,AdherenceBehavior,1,1,no_rule,
+conducive clinic environment,SocialEnvironmental,1,1,no_rule,
+counseling frequency,Treatment,1,1,no_rule,
+disrupted routine,SocialEnvironmental,1,1,no_rule,
+drug using habits,SocialEnvironmental,1,1,no_rule,
+fear of negative evaluation,Psychosocial,1,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+first-time treatment,Treatment,1,1,no_rule,
+illness perceptions,Psychosocial,1,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+intention to adhere to hiv treatment,Psychosocial,1,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+lifestyle structure,Psychosocial,1,1,no_rule,
+mass media campaigns,SocialEnvironmental,1,1,no_rule,
+medication beliefs,Psychosocial,1,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+mobile technology vulnerability,SocialEnvironmental,1,1,no_rule,
+positive states of mind,Psychosocial,1,1,no_rule,
+primary breadwinner status,Demographic,1,1,no_rule,
+quality of care satisfaction,SocialEnvironmental,1,1,no_rule,
+treatment optimism,Psychosocial,1,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+medication concealment,AdherenceBehavior,1,1,no_rule,
+caregiver quality of life,Psychosocial,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+family type,SocialEnvironmental,1,1,no_rule,
+frequent online chatting,SocialEnvironmental,1,1,no_rule,
+low social connectedness,Psychosocial,1,1,no_rule,
+poor intellectual ability,Psychosocial,1,1,no_rule,
+unmarried caregiver status,Demographic,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+youth awareness of hiv status,Psychosocial,1,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+behavioral and emotional difficulties,Psychosocial,1,1,no_rule,
+coagulation,BiologicalMarker,1,1,no_rule,
+fibrinogen,BiologicalMarker,1,1,no_rule,
+gastroenteritis,BiologicalMarker,1,1,no_rule,
+innate immune activation,BiologicalMarker,1,1,out_of_scope,"Research immunology / inflammation biomarkers are not part of routine clinical care, so they rarely appear in EHR measurements."
+mother as primary carer,SocialEnvironmental,1,1,no_rule,
+vacs index,BiologicalMarker,1,1,no_rule,
+decentralization of care,SocialEnvironmental,1,1,out_of_scope,"Health-system, facility, policy or calendar-period factor; the Registered Tier has no facility / provider identifiers (provider and care_site tables are suppressed)."
+differentiated care,SocialEnvironmental,1,1,no_rule,
+longer duration in hiv care,AdherenceBehavior,1,1,no_rule,
+mental health intervention,Treatment,1,1,out_of_scope,"Program or intervention exposure (reminders, navigation, adherence clubs, incentives, peer support) is not recorded in the Registered Tier."
+number of visits at current facility,AdherenceBehavior,1,1,no_rule,
+partnership status,Psychosocial,1,1,no_rule,
+task-shifting of services,SocialEnvironmental,1,1,out_of_scope,"Health-system, facility, policy or calendar-period factor; the Registered Tier has no facility / provider identifiers (provider and care_site tables are suppressed)."
+test-and-treat policy,Treatment,1,1,out_of_scope,"Health-system, facility, policy or calendar-period factor; the Registered Tier has no facility / provider identifiers (provider and care_site tables are suppressed)."
+caregiver type,SocialEnvironmental,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+child's gender,Demographic,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+maternal age under 20 years,Demographic,1,1,out_of_scope,"Describes another person (partner, parent, family, network); All of Us records data about the participant only."
+structural syndemic conditions,SocialEnvironmental,1,1,out_of_scope,"No All of Us survey instrument measures this attitude, belief or psychological construct."
+being raised by grandparents,SocialEnvironmental,1,1,no_rule,
+low tenofovir diphosphate level,BiologicalMarker,1,1,out_of_scope,Antiretroviral drug levels are not routinely measured or stored as structured EHR results.
+treatment backbone,Treatment,1,1,no_rule,
+ub-421,Treatment,1,1,no_rule,
+adulthood,Demographic,1,1,no_rule,
+being prescribed hiv medications,Treatment,1,1,no_rule,
+dried blood spot tenofovir-diphosphate,BiologicalMarker,1,1,out_of_scope,Antiretroviral drug levels are not routinely measured or stored as structured EHR results.
+drug class,Treatment,1,1,no_rule,
+location of health center,SocialEnvironmental,1,1,no_rule,
+nevirapine concentration in hair,BiologicalMarker,1,1,out_of_scope,Antiretroviral drug levels are not routinely measured or stored as structured EHR results.
+outpatient care utilization,AdherenceBehavior,1,1,no_rule,
+pharmacist availability,SocialEnvironmental,1,1,no_rule,
+proportion of days covered,AdherenceBehavior,1,1,no_rule,
+relational orientation,Psychosocial,1,1,no_rule,
+1-week-on-1-week-off treatment schedule,Treatment,1,1,no_rule,
+abcb1 gene variant,BiologicalMarker,1,1,out_of_scope,Host genotype data (srWGS / arrays) are available only in the Controlled Tier.
+abcc1 gene variant,BiologicalMarker,1,1,no_rule,
+cd8 naive count,BiologicalMarker,1,1,no_rule,
+duration of exposure to previous drug regimens,Treatment,1,1,no_rule,
+having hiv-positive family members,SocialEnvironmental,1,1,no_rule,
+heterosexual risk group,Demographic,1,1,out_of_scope,HIV acquisition route / transmission category is not recorded in All of Us.
+hiv-associated clinical events,BiologicalMarker,1,1,no_rule,
+incomplete high school education,Demographic,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+living with nonparent relatives or alone,SocialEnvironmental,1,1,no_rule,
+mean cell volume,BiologicalMarker,1,1,no_rule,
+medication alarms,Treatment,1,1,no_rule,
+mycosis,BiologicalMarker,1,1,no_rule,
+perinatal antiretroviral exposure,Treatment,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."
+pharmacy dispensing ratio,AdherenceBehavior,1,1,no_rule,
+place of treatment,SocialEnvironmental,1,1,no_rule,
+status disclosure to friends,Psychosocial,1,1,out_of_scope,All of Us has no item on HIV status disclosure.
+week 1 hiv-rna change,BiologicalMarker,1,1,no_rule,
+art drug concentration in hair,BiologicalMarker,1,1,out_of_scope,Antiretroviral drug levels are not routinely measured or stored as structured EHR results.
+pi plasma concentration,BiologicalMarker,1,1,out_of_scope,Antiretroviral drug levels are not routinely measured or stored as structured EHR results.
+caregiver mental health,Psychosocial,1,1,out_of_scope,"All of Us enrolls adults (18+); constructs about infants, children, their caregivers or perinatal transmission have no participant-level field."

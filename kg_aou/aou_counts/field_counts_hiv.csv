@@ -1,0 +1,677 @@
+field_id,src,group,name,label,privacy,status,n_hiv_cohort,n_hiv_valid,pct_hiv_valid,n_hiv_any,n_hiv_self,n_all_valid,n_all_any
+ehr/condition_occurrence/aids_oi,ehr,condition_occurrence,aids_oi,AIDS-defining / opportunistic infections,available,ok,9129,655,7.2,655,,4925,4925
+ehr/condition_occurrence/anemia_dx,ehr,condition_occurrence,anemia_dx,Anemia,available,ok,9129,2552,28.0,2552,,107386,107386
+ehr/condition_occurrence/anxiety_dx,ehr,condition_occurrence,anxiety_dx,Anxiety disorders,available,ok,9129,3020,33.1,3020,,126971,126971
+ehr/condition_occurrence/art_adverse,ehr,condition_occurrence,art_adverse,Adverse effects of antiretrovirals,available,ok,9129,50,0.5,50,,128,128
+ehr/condition_occurrence/art_underdosing,ehr,condition_occurrence,art_underdosing,Underdosing of antiretrovirals,available,ok,9129,51,0.6,51,,58,58
+ehr/condition_occurrence/aud_dx,ehr,condition_occurrence,aud_dx,Alcohol-related disorders,available,ok,9129,1755,19.2,1755,,34635,34635
+ehr/condition_occurrence/cancer_dx,ehr,condition_occurrence,cancer_dx,Malignancies,available,ok,9129,1305,14.3,1305,,67528,67533
+ehr/condition_occurrence/cognitive_dx,ehr,condition_occurrence,cognitive_dx,Cognitive impairment / dementia,available,ok,9129,1019,11.2,1019,,40863,40863
+ehr/condition_occurrence/cvd_dx,ehr,condition_occurrence,cvd_dx,Cardiovascular disease,available,ok,9129,2290,25.1,2290,,92445,92445
+ehr/condition_occurrence/depression_dx,ehr,condition_occurrence,depression_dx,Depressive disorders,available,ok,9129,4140,45.3,4140,,140510,140510
+ehr/condition_occurrence/diabetes_dx,ehr,condition_occurrence,diabetes_dx,Diabetes,available,ok,9129,2120,23.2,2120,,87111,87111
+ehr/condition_occurrence/hbv,ehr,condition_occurrence,hbv,Hepatitis B,available,ok,9129,270,3.0,270,,1582,1582
+ehr/condition_occurrence/hcv,ehr,condition_occurrence,hcv,Hepatitis C,available,ok,9129,932,10.2,932,,7769,7769
+ehr/condition_occurrence/hiv,ehr,condition_occurrence,hiv,HIV disease,available,ok,9129,7927,86.8,7927,,7936,7936
+ehr/condition_occurrence/htn_dx,ehr,condition_occurrence,htn_dx,Hypertension,available,ok,9129,4180,45.8,4180,,175781,175781
+ehr/condition_occurrence/kidney_dx,ehr,condition_occurrence,kidney_dx,Kidney disease,available,ok,9129,2280,25.0,2280,,61363,61363
+ehr/condition_occurrence/liver_dx,ehr,condition_occurrence,liver_dx,Liver disease,available,ok,9129,1641,18.0,1641,,57446,57446
+ehr/condition_occurrence/malnutrition_dx,ehr,condition_occurrence,malnutrition_dx,Malnutrition / wasting,available,ok,9129,794,8.7,794,,16599,16599
+ehr/condition_occurrence/nicotine_dx,ehr,condition_occurrence,nicotine_dx,Nicotine dependence / tobacco use,available,ok,9129,4202,46.0,4202,,120628,120628
+ehr/condition_occurrence/obesity_dx,ehr,condition_occurrence,obesity_dx,Obesity / overweight,available,ok,9129,2379,26.1,2379,,134228,134228
+ehr/condition_occurrence/opioid_dx,ehr,condition_occurrence,opioid_dx,Opioid-related disorders,available,ok,9129,1085,11.9,1085,,18871,18871
+ehr/condition_occurrence/other_condition,ehr,condition_occurrence,other_condition,Other specific diagnosis (search by concept),available,generic placeholder (not countable),9129,,,,,,
+ehr/condition_occurrence/pregnancy_dx,ehr,condition_occurrence,pregnancy_dx,Pregnancy,available,ok,9129,3425,37.5,3425,,314457,314460
+ehr/condition_occurrence/ptsd_dx,ehr,condition_occurrence,ptsd_dx,PTSD and acute stress reaction,available,ok,9129,1205,13.2,1205,,32691,32691
+ehr/condition_occurrence/sleep_dx,ehr,condition_occurrence,sleep_dx,Sleep disorders,available,ok,9129,2806,30.7,2806,,126782,126782
+ehr/condition_occurrence/smi_dx,ehr,condition_occurrence,smi_dx,Serious mental illness,available,ok,9129,1412,15.5,1412,,26904,26904
+ehr/condition_occurrence/sti,ehr,condition_occurrence,sti,Sexually transmitted infections,available,ok,9129,2155,23.6,2155,,16533,16533
+ehr/condition_occurrence/stimulant_dx,ehr,condition_occurrence,stimulant_dx,Cocaine / other stimulant disorders,available,ok,9129,1808,19.8,1808,,17450,17450
+ehr/condition_occurrence/sud_dx,ehr,condition_occurrence,sud_dx,Drug use disorders,available,ok,9129,3329,36.5,3329,,52610,52610
+ehr/condition_occurrence/suicide_dx,ehr,condition_occurrence,suicide_dx,Suicidal ideation / attempt,available,ok,9129,791,8.7,791,,14772,14772
+ehr/condition_occurrence/tb,ehr,condition_occurrence,tb,Tuberculosis (active or latent),available,ok,9129,365,4.0,479,,5750,9166
+ehr/drug_exposure/art,ehr,drug_exposure,art,Antiretroviral therapy (any),available,ok,9129,5662,62.0,5662,,30564,30564
+ehr/drug_exposure/art_insti,ehr,drug_exposure,art_insti,Integrase inhibitors,available,ok,9129,4586,50.2,4586,,5912,5912
+ehr/drug_exposure/art_lai,ehr,drug_exposure,art_lai,Long-acting injectable ART,available,ok,9129,239,2.6,239,,363,363
+ehr/drug_exposure/art_nnrti,ehr,drug_exposure,art_nnrti,NNRTIs,available,ok,9129,2139,23.4,2139,,2292,2292
+ehr/drug_exposure/art_nrti,ehr,drug_exposure,art_nrti,NRTI backbones,available,ok,9129,5427,59.4,5427,,10162,10162
+ehr/drug_exposure/art_pi,ehr,drug_exposure,art_pi,Protease inhibitors,available,ok,9129,2003,21.9,2003,,2226,2226
+ehr/drug_exposure/art_str,ehr,drug_exposure,art_str,Single-tablet ART regimens,available,ok,9129,3944,43.2,3944,,4087,4087
+ehr/drug_exposure/moud,ehr,drug_exposure,moud,Opioid agonist / MOUD therapy,available,ok,9129,927,10.2,927,,20578,20578
+ehr/drug_exposure/oi_prophylaxis,ehr,drug_exposure,oi_prophylaxis,OI prophylaxis,available,ok,9129,3268,35.8,3268,,88605,88605
+ehr/drug_exposure/other_drug,ehr,drug_exposure,other_drug,Other specific medication (search by ingredient),available,generic placeholder (not countable),9129,,,,,,
+ehr/drug_exposure/polypharmacy,ehr,drug_exposure,polypharmacy,Concurrent non-ART medications,available,generic placeholder (not countable),9129,,,,,,
+ehr/drug_exposure/psychotropics,ehr,drug_exposure,psychotropics,Antidepressants / anxiolytics / antipsychotics,available,ok,9129,5502,60.3,5502,,237754,237754
+ehr/drug_exposure/tb_drugs,ehr,drug_exposure,tb_drugs,TB treatment / preventive therapy,available,ok,9129,335,3.7,335,,4764,4764
+ehr/measurement/cd4,ehr,measurement,cd4,CD4+ T-cell count / percent,available,ok,9129,4576,50.1,4577,,9113,9217
+ehr/measurement/cd4cd8,ehr,measurement,cd4cd8,CD4/CD8 ratio,available,ok,9129,3327,36.4,3328,,7238,7257
+ehr/measurement/glycemic_labs,ehr,measurement,glycemic_labs,Glucose / HbA1c,available,ok,9129,6922,75.8,6922,,362764,362768
+ehr/measurement/hemoglobin,ehr,measurement,hemoglobin,Hemoglobin,available,ok,9129,6695,73.3,6695,,351369,351373
+ehr/measurement/hep_labs,ehr,measurement,hep_labs,Hepatitis B / C laboratory tests,available,ok,9129,4524,49.6,5079,,147601,173766
+ehr/measurement/hiv_geno,ehr,measurement,hiv_geno,HIV genotypic resistance testing,available,ok,9129,95,1.0,140,,100,148
+ehr/measurement/hiv_test,ehr,measurement,hiv_test,HIV screening / diagnostic tests,available,ok,9129,1848,20.2,2336,,78316,99636
+ehr/measurement/lipid_labs,ehr,measurement,lipid_labs,Lipids,available,ok,9129,5481,60.0,5481,,272141,272153
+ehr/measurement/liver_labs,ehr,measurement,liver_labs,Liver enzymes,available,ok,9129,6827,74.8,6828,,342842,342873
+ehr/measurement/other_lab,ehr,measurement,other_lab,Other routine laboratory test (search by concept),available,generic placeholder (not countable),9129,,,,,,
+ehr/measurement/renal_labs,ehr,measurement,renal_labs,Creatinine / eGFR,available,ok,9129,6924,75.8,6924,,360462,360576
+ehr/measurement/vl,ehr,measurement,vl,HIV-1 RNA viral load,available,ok,9129,4109,45.0,4249,,5792,6359
+ehr/measurement/weight_bmi,ehr,measurement,weight_bmi,"Body weight, height and BMI",available,ok,9129,8898,97.5,8911,,602623,608549
+ehr/observation/discrimination_z,ehr,observation,discrimination_z,Target of perceived discrimination (Z-code),available,ok,9129,<=20,,<=20,,35,35
+ehr/observation/education_z,ehr,observation,education_z,Education / literacy problems (Z-codes),available,ok,9129,90,1.0,90,,2207,2207
+ehr/observation/food_z,ehr,observation,food_z,Food insecurity (Z-code),available,ok,9129,257,2.8,257,,2696,2696
+ehr/observation/homeless_z,ehr,observation,homeless_z,Homelessness / inadequate housing (Z-codes),available,ok,9129,748,8.2,748,,12053,12053
+ehr/observation/incarceration_z,ehr,observation,incarceration_z,Imprisonment / legal problems (Z-codes),available,ok,9129,82,0.9,82,,1703,1703
+ehr/observation/isolation_z,ehr,observation,isolation_z,Living alone / social exclusion (Z-codes),available,ok,9129,65,0.7,65,,2158,2158
+ehr/observation/noncompliance,ehr,observation,noncompliance,Documented medication / treatment noncompliance,available,ok,9129,1035,11.3,1035,,18679,18679
+ehr/observation/poverty_z,ehr,observation,poverty_z,Low income / poverty (Z-codes),available,ok,9129,75,0.8,75,,1571,1571
+ehr/observation/transport_z,ehr,observation,transport_z,Transportation insecurity (Z-code),available,ok,9129,37,0.4,37,,947,947
+ehr/observation/trauma_hx_z,ehr,observation,trauma_hx_z,Personal history of psychological trauma (Z-codes),available,ok,9129,0,0.0,0,,185,185
+ehr/observation/unemployment_z,ehr,observation,unemployment_z,Unemployment (Z-code),available,ok,9129,228,2.5,228,,4813,4813
+ehr/observation/violence_z,ehr,observation,violence_z,Abuse / violence exposure,available,ok,9129,0,0.0,0,,26,26
+ehr/procedure_occurrence/mh_services,ehr,procedure_occurrence,mh_services,Mental health / behavioral services,available,ok,9129,1931,21.2,1931,,65142,65142
+ehr/procedure_occurrence/sud_services,ehr,procedure_occurrence,sud_services,Substance use treatment services,available,ok,9129,271,3.0,274,,7535,7584
+ehr/visit_occurrence/inpatient,ehr,visit_occurrence,inpatient,Inpatient and emergency visits,available,ok,9129,6012,65.9,6012,,264444,264444
+ehr/visit_occurrence/outpatient,ehr,visit_occurrence,outpatient,Outpatient visits,available,ok,9129,8907,97.6,8907,,608039,608039
+survey/basics/activeduty_activedutyservestatus,survey,The Basics,activeduty_activedutyservestatus,"Have you ever served on active duty in the United States Armed Forces, either in the regular military or in a National Guard or military reserve unit? Note: Act",suppressed,question not found in CDR,9129,0,0.0,0,,0,0
+survey/basics/aian_aianspecific,survey,The Basics,aian_aianspecific,American Indian or Alaska Native (Select all that apply),suppressed,question not found in CDR,9129,0,0.0,0,,0,0
+survey/basics/asian_asianspecific,survey,The Basics,asian_asianspecific,Asian (Select all that apply),suppressed,question not found in CDR,9129,0,0.0,0,,0,0
+survey/basics/biologicalsexatbirth_sexatbirth,survey,The Basics,biologicalsexatbirth_sexatbirth,What was your biological sex assigned at birth?,generalized,ok,9129,9115,99.8,9115,,737703,737703
+survey/basics/black_blackspecific,survey,The Basics,black_blackspecific,"Black, African American or African (Select all that apply)",suppressed,question not found in CDR,9129,0,0.0,0,,0,0
+survey/basics/disability_blind,survey,The Basics,disability_blind,"Are you blind or do you have serious difficulty seeing, even when wearing glasses?",available,ok,9129,5516,60.4,5648,,550649,558988
+survey/basics/disability_deaf,survey,The Basics,disability_deaf,Are you deaf or do you have serious difficulty hearing?,available,ok,9129,5543,60.7,5648,,551676,558988
+survey/basics/disability_difficultyconcentrating,survey,The Basics,disability_difficultyconcentrating,"Because of a physical, mental, or emotional condition, do you have serious difficulty concentrating, remembering or making decisions?",available,ok,9129,5455,59.8,5648,,544910,558988
+survey/basics/disability_dressingbathing,survey,The Basics,disability_dressingbathing,Do you have difficulty dressing or bathing?,available,ok,9129,5513,60.4,5648,,550116,558988
+survey/basics/disability_errandsalone,survey,The Basics,disability_errandsalone,"Because of a physical, mental, or emotional condition, do you have difficulty doing errands alone such as visiting doctor's office or shopping?",available,ok,9129,5497,60.2,5648,,549609,558988
+survey/basics/disability_walkingclimbing,survey,The Basics,disability_walkingclimbing,Do you have serious difficulty walking or climbing stairs?,available,ok,9129,5532,60.6,5648,,549625,558988
+survey/basics/educationlevel_highestgrade,survey,The Basics,educationlevel_highestgrade,What is the highest grade or year of school you completed?,generalized,ok,9129,8767,96.0,9129,,721141,737954
+survey/basics/employment_employmentstatus,survey,The Basics,employment_employmentstatus,What is your current employment status? Please select 1 or more of these categories.,generalized,ok,9129,8690,95.2,9129,,716381,737954
+survey/basics/gender_closergenderdescription,survey,The Basics,gender_closergenderdescription,Are any of these a closer description to your gender identity? (Check all that apply),suppressed,question not found in CDR,9129,0,0.0,0,,0,0
+survey/basics/gender_genderidentity,survey,The Basics,gender_genderidentity,What terms best express how you describe your gender identity? (Check all that apply),generalized,ok,9129,9129,100.0,9129,,737954,737954
+survey/basics/genderidentity_sexualitycloserdescription,survey,The Basics,genderidentity_sexualitycloserdescription,Are any of these a closer description of how you think of yourself?,suppressed,question not found in CDR,9129,0,0.0,0,,0,0
+survey/basics/healthinsurance_insurancetypeupdate,survey,The Basics,healthinsurance_insurancetypeupdate,Are you currently covered by any of the following types of health insurance or health coverage plans? Select all that apply from one group.,available,ok,9129,7583,83.1,7690,,625050,631065
+survey/basics/hispanic_hispanicspecific,survey,The Basics,hispanic_hispanicspecific,"Hispanic, Latino, or Spanish (Select all that apply)",suppressed,question not found in CDR,9129,0,0.0,0,,0,0
+survey/basics/homeown_currenthomeown,survey,The Basics,homeown_currenthomeown,Do you own or rent the place where you live?,available,ok,9129,8606,94.3,9129,,708014,737954
+survey/basics/income_annualincome,survey,The Basics,income_annualincome,One of the things we're trying to understand is how people's income may affect their use of health services. Household income includes your income plus the inco,available,ok,9129,7242,79.3,9129,,604101,737954
+survey/basics/insurance_healthinsurance,survey,The Basics,insurance_healthinsurance,Are you covered by health insurance or some other kind of health care plan?,available,ok,9129,8790,96.3,9129,,717627,737954
+survey/basics/livingsituation_currentliving,survey,The Basics,livingsituation_currentliving,Where are you currently living?,suppressed,question not found in CDR,9129,0,0.0,0,,0,0
+survey/basics/livingsituation_howmanylivingyears,survey,The Basics,livingsituation_howmanylivingyears,How many years have you lived at your current address?,available,ok,9129,8948,98.0,9129,,727667,737954
+survey/basics/livingsituation_howmanypeople,survey,The Basics,livingsituation_howmanypeople,"Not including yourself, how many other people live at home with you?",generalized,ok,9129,8690,95.2,9129,,719303,737954
+survey/basics/livingsituation_peopleunder18,survey,The Basics,livingsituation_peopleunder18,Think of other people who live with you. How many are under the age of 18 years?,generalized,ok,9129,5423,59.4,9129,,578741,737954
+survey/basics/livingsituation_stablehouseconcern,survey,The Basics,livingsituation_stablehouseconcern,"In the past 6 months, have you been worried or concerned about NOT having a place to live?",available,ok,9129,8972,98.3,9129,,727701,737954
+survey/basics/maritalstatus_currentmaritalstatus,survey,The Basics,maritalstatus_currentmaritalstatus,What is your current marital status?,available,ok,9129,7800,85.4,8212,,665811,684081
+survey/basics/mena_menaspecific,survey,The Basics,mena_menaspecific,Middle Eastern or North African (Select all that apply),suppressed,question not found in CDR,9129,0,0.0,0,,0,0
+survey/basics/nhpi_nhpispecific,survey,The Basics,nhpi_nhpispecific,Native Hawaiian or other Pacific Islander (Select all that apply),suppressed,question not found in CDR,9129,0,0.0,0,,0,0
+survey/basics/race_whatraceethnicity,survey,The Basics,race_whatraceethnicity,"Which categories describe you? Select all that apply. Note, you may select more than one group.",generalized,ok,9129,8913,97.6,9129,,725246,737954
+survey/basics/thebasics_birthplace,survey,The Basics,thebasics_birthplace,In what country were you born?,available,ok,9129,9005,98.6,9129,,732624,737954
+survey/basics/thebasics_sexualorientation,survey,The Basics,thebasics_sexualorientation,Which of the following best represents how you think of yourself? (Check all that apply),generalized,ok,9129,9129,100.0,9129,,737954,737954
+survey/basics/white_whitespecific,survey,The Basics,white_whitespecific,White (Select all that apply),suppressed,question not found in CDR,9129,0,0.0,0,,0,0
+survey/cope/audit_c_1,survey,COVID-19 Participant Experience (COPE),audit_c_1,In the past month: How often do you have a drink containing alcohol?,available,ok,9129,692,7.6,693,,69078,69329
+survey/cope/audit_c_2,survey,COVID-19 Participant Experience (COPE),audit_c_2,In the past month: How many standard drinks containing alcohol do you have on a typical day?,available,ok,9129,422,4.6,455,,47779,51555
+survey/cope/audit_c_3,survey,COVID-19 Participant Experience (COPE),audit_c_3,In the past month: How often do you have six or more drinks containing alcohol on one occasion?,available,ok,9129,22,0.2,22,,1377,1381
+survey/cope/basics_11,survey,COVID-19 Participant Experience (COPE),basics_11,Are you covered by health insurance or some other kind of health care plan?,available,ok,9129,1072,11.7,1087,,100702,101334
+survey/cope/basics_11a,survey,COVID-19 Participant Experience (COPE),basics_11a,Are you currently covered by any of the following types of health insurance or health care plans? Select all that apply.,available,ok,9129,1049,11.5,1053,,98339,98641
+survey/cope/basics_11a_cope_a_33,survey,COVID-19 Participant Experience (COPE),basics_11a_cope_a_33,Other health insurance or health coverage plan. Please specify.,suppressed,question not found in CDR,9129,0,0.0,0,,0,0
+survey/cope/basics_12,survey,COVID-19 Participant Experience (COPE),basics_12,What is your current employment status? Select all that apply.,available,ok,9129,1067,11.7,1087,,100389,101296
+survey/cope/basics_8,survey,COVID-19 Participant Experience (COPE),basics_8,What is your current marital status?,available,ok,9129,579,6.3,597,,64354,64965
+survey/cope/basics_xx,survey,COVID-19 Participant Experience (COPE),basics_xx,"Not including yourself, how many other people live at home with you?",available,ok,9129,1044,11.4,1087,,98486,101334
+survey/cope/basics_xx20,survey,COVID-19 Participant Experience (COPE),basics_xx20,Think of other people who live with you. How many are under the age of 18 years?,available,ok,9129,673,7.4,716,,79452,82195
+survey/cope/brcs_1,survey,COVID-19 Participant Experience (COPE),brcs_1,Please select the response that best reflects your behavior in the past month. I look for creative ways to alter difficult situations.,available,ok,9129,684,7.5,693,,68900,69329
+survey/cope/brcs_2,survey,COVID-19 Participant Experience (COPE),brcs_2,"Please select the response that best reflects your behavior in the past month. Regardless of what happens to me, I believe I can control my reaction to it.",available,ok,9129,690,7.6,693,,68950,69329
+survey/cope/brcs_3,survey,COVID-19 Participant Experience (COPE),brcs_3,Please select the response that best reflects your behavior in the past month. I believe I can grow in positive ways by dealing with difficult situations.,available,ok,9129,687,7.5,693,,68916,69329
+survey/cope/brcs_4,survey,COVID-19 Participant Experience (COPE),brcs_4,Please select the response that best reflects your behavior in the past month. I actively look for ways to replace the losses I encounter in life.,available,ok,9129,687,7.5,693,,68890,69329
+survey/cope/c19corset_59,survey,COVID-19 Participant Experience (COPE),c19corset_59,"If you know it, what is your blood group/blood type?",available,ok,9129,457,5.0,861,,60092,79701
+survey/cope/cdc_covid_19_18,survey,COVID-19 Participant Experience (COPE),cdc_covid_19_18,"In the past month, how has the COVID-19 outbreak affected you? Please select all that apply.",available,ok,9129,1028,11.3,1087,,95862,101334
+survey/cope/cdc_covid_19_21,survey,COVID-19 Participant Experience (COPE),cdc_covid_19_21,"In the past month, have recommendations for socially distancing caused stress for you?",available,ok,9129,1067,11.7,1087,,100735,101334
+survey/cope/cdc_covid_19_23,survey,COVID-19 Participant Experience (COPE),cdc_covid_19_23,"In the past month, have you experienced the following as a result of COVID-19? Select all that apply.",available,ok,9129,1024,11.2,1087,,93556,101334
+survey/cope/cdc_covid_19_25,survey,COVID-19 Participant Experience (COPE),cdc_covid_19_25,"In the past month, to cope with social distancing and isolation, are you doing any of the following? Select all that apply.",available,ok,9129,1070,11.7,1087,,100408,101334
+survey/cope/cdc_covid_19_26,survey,COVID-19 Participant Experience (COPE),cdc_covid_19_26,"In the past month, have the following behaviors increased in your household? Select all that apply.",available,ok,9129,1035,11.3,1087,,96247,101334
+survey/cope/cdc_covid_19_7_xx22,survey,COVID-19 Participant Experience (COPE),cdc_covid_19_7_xx22,"In the past month, have you been sick for more than one day with a new illness related to COVID-19 or flu-like symptoms?",available,ok,9129,1076,11.8,1087,,100991,101334
+survey/cope/cdc_covid_19_7_xx22_date,survey,COVID-19 Participant Experience (COPE),cdc_covid_19_7_xx22_date,Approximate date of onset,suppressed,question not found in CDR,9129,0,0.0,0,,0,0
+survey/cope/cdc_covid_19_7_xx23,survey,COVID-19 Participant Experience (COPE),cdc_covid_19_7_xx23,Which of the following symptoms did you have? (select all that apply),available,ok,9129,120,1.3,122,,9338,9414
+survey/cope/cdc_covid_19_7_xx23_other,survey,COVID-19 Participant Experience (COPE),cdc_covid_19_7_xx23_other,Are there other important symptoms you want to share with us?,suppressed,question not found in CDR,9129,0,0.0,0,,0,0
+survey/cope/cdc_covid_19_7_xx23_other_cope_a_204,survey,COVID-19 Participant Experience (COPE),cdc_covid_19_7_xx23_other_cope_a_204,Please specify:,suppressed,question not found in CDR,9129,0,0.0,0,,0,0
+survey/cope/cdc_covid_19_9_xx24,survey,COVID-19 Participant Experience (COPE),cdc_covid_19_9_xx24,Was the test for COVID-19 positive?,suppressed,question not found in CDR,9129,0,0.0,0,,0,0
+survey/cope/cdc_covid_19_9_xx25,survey,COVID-19 Participant Experience (COPE),cdc_covid_19_9_xx25,Were you tested for COVID-19 in the past month?,suppressed,question not found in CDR,9129,0,0.0,0,,0,0
+survey/cope/cdc_covid_19_9b,survey,COVID-19 Participant Experience (COPE),cdc_covid_19_9b,Were you tested for influenza (flu) in the past month?,suppressed,question not found in CDR,9129,0,0.0,0,,0,0
+survey/cope/cdc_covid_19_n_a,survey,COVID-19 Participant Experience (COPE),cdc_covid_19_n_a,How were you tested? Select all that apply.,suppressed,question not found in CDR,9129,0,0.0,0,,0,0
+survey/cope/cdc_covid_19_n_a2,survey,COVID-19 Participant Experience (COPE),cdc_covid_19_n_a2,How many times were you tested?,suppressed,question not found in CDR,9129,0,0.0,0,,0,0
+survey/cope/cdc_covid_19_n_a3,survey,COVID-19 Participant Experience (COPE),cdc_covid_19_n_a3,Did you have difficulty with the following aspects of getting a test? Please select all that apply.,suppressed,question not found in CDR,9129,0,0.0,0,,0,0
+survey/cope/cdc_covid_19_n_a4,survey,COVID-19 Participant Experience (COPE),cdc_covid_19_n_a4,Please specify:,suppressed,question not found in CDR,9129,0,0.0,0,,0,0
+survey/cope/cdc_covid_19_n_a6,survey,COVID-19 Participant Experience (COPE),cdc_covid_19_n_a6,What was your reason(s) for testing? Please select all that apply.,suppressed,question not found in CDR,9129,0,0.0,0,,0,0
+survey/cope/cdc_covid_19_n_a8,survey,COVID-19 Participant Experience (COPE),cdc_covid_19_n_a8,Please specify:,suppressed,question not found in CDR,9129,0,0.0,0,,0,0
+survey/cope/cdc_covid_xx,survey,COVID-19 Participant Experience (COPE),cdc_covid_xx,Did you receive the COVID-19 vaccination?,suppressed,question not found in CDR,9129,0,0.0,0,,0,0
+survey/cope/cdc_covid_xx_a,survey,COVID-19 Participant Experience (COPE),cdc_covid_xx_a,How many doses of the vaccine did you receive?,suppressed,question not found in CDR,9129,0,0.0,0,,0,0
+survey/cope/cdc_covid_xx_a_date1,survey,COVID-19 Participant Experience (COPE),cdc_covid_xx_a_date1,Enter date of vaccine dose 1,suppressed,question not found in CDR,9129,0,0.0,0,,0,0
+survey/cope/cdc_covid_xx_a_date2,survey,COVID-19 Participant Experience (COPE),cdc_covid_xx_a_date2,Enter date of vaccine dose 2,suppressed,question not found in CDR,9129,0,0.0,0,,0,0
+survey/cope/cdc_covid_xx_b,survey,COVID-19 Participant Experience (COPE),cdc_covid_xx_b,Which vaccine did you receive?,available,question not found in CDR,9129,0,0.0,0,,0,0
+survey/cope/cdc_covid_xx_b_other,survey,COVID-19 Participant Experience (COPE),cdc_covid_xx_b_other,Please specify:,suppressed,question not found in CDR,9129,0,0.0,0,,0,0
+survey/cope/cope_a_126,survey,COVID-19 Participant Experience (COPE),cope_a_126,What other breathing treatment did you receive? Please specify,suppressed,question not found in CDR,9129,0,0.0,0,,0,0
+survey/cope/cope_a_160,survey,COVID-19 Participant Experience (COPE),cope_a_160,"<div class=""rich-text-field-label""><p><span style=""font-weight: normal;"">Hours per day</span></p></div>",available,ok,9129,482,5.3,516,,55237,57374
+survey/cope/cope_a_85,survey,COVID-19 Participant Experience (COPE),cope_a_85,"<div class=""rich-text-field-label""><p><span style=""font-weight: normal;"">Minutes per day</span></p></div>",available,ok,9129,97,1.1,288,,8805,30822
+survey/cope/cope_aou_xx_1,survey,COVID-19 Participant Experience (COPE),cope_aou_xx_1,Are you receiving prenatal care?,available,ok,9129,<=20,,<=20,,483,488
+survey/cope/cope_aou_xx_2,survey,COVID-19 Participant Experience (COPE),cope_aou_xx_2,"How has your prenatal care changed since COVID-19? (If you became pregnant during COVID-19, compare to any prior pregnancies if relevant.) Select all that apply",available,ok,9129,<=20,,<=20,,337,344
+survey/cope/cope_aou_xx_2_a,survey,COVID-19 Participant Experience (COPE),cope_aou_xx_2_a,Please specify:,suppressed,question not found in CDR,9129,0,0.0,0,,0,0
+survey/cope/copect_17,survey,COVID-19 Participant Experience (COPE),copect_17,"Have you EVER been near someone that you know, or suspect, had COVID-19 (such as co-workers, family members, or others)? Select all that apply.",available,ok,9129,1079,11.8,1087,,101092,101334
+survey/cope/copect_40_xx15,survey,COVID-19 Participant Experience (COPE),copect_40_xx15,Do you think you have had COVID-19?,available,ok,9129,1084,11.9,1087,,101153,101334
+survey/cope/copect_40_xx15_a,survey,COVID-19 Participant Experience (COPE),copect_40_xx15_a,When did your symptoms begin?,available,ok,9129,222,2.4,232,,16786,17384
+survey/cope/copect_50_xx17,survey,COVID-19 Participant Experience (COPE),copect_50_xx17,"In the past month: Did someone in your home smoke tobacco/nicotine (including cigarettes, cigar, cigarillos, pipes, hookah) every day, some days, or not at all?",available,ok,9129,690,7.6,693,,68958,69329
+survey/cope/copect_50_xx18,survey,COVID-19 Participant Experience (COPE),copect_50_xx18,"In the past month: Did you smoke tobacco/nicotine (including cigarettes, cigar, cigarillos, pipes, hookah) every day, some days, or not at all?",available,ok,9129,691,7.6,693,,68957,69329
+survey/cope/copect_50_xx19,survey,COVID-19 Participant Experience (COPE),copect_50_xx19,How long has it been since you last smoked?,available,ok,9129,184,2.0,185,,13792,13857
+survey/cope/copect_50_xx19_cope_a_152,survey,COVID-19 Participant Experience (COPE),copect_50_xx19_cope_a_152,Enter the number of years,available,ok,9129,137,1.5,154,,11589,12581
+survey/cope/copect_50_xx19_cope_a_198,survey,COVID-19 Participant Experience (COPE),copect_50_xx19_cope_a_198,Enter the number of months,available,ok,9129,23,0.3,29,,960,1139
+survey/cope/copect_50_xx19_cope_a_57,survey,COVID-19 Participant Experience (COPE),copect_50_xx19_cope_a_57,Enter the number of weeks,available,ok,9129,<=20,,<=20,,322,404
+survey/cope/copect_54,survey,COVID-19 Participant Experience (COPE),copect_54,Are you currently on chemotherapy or immunotherapy?,available,ok,9129,692,7.6,693,,69141,69329
+survey/cope/copect_58,survey,COVID-19 Participant Experience (COPE),copect_58,"Do you regularly take immunosuppressant medications (including steroids, methotrexate, biologic agents)?",available,ok,9129,689,7.5,693,,69058,69329
+survey/cope/copect_63_xx20,survey,COVID-19 Participant Experience (COPE),copect_63_xx20,"In the past month, if you were sick with COVID-19 symptoms, how did you receive treatment(s)? Please select all that apply.",suppressed,question not found in CDR,9129,0,0.0,0,,0,0
+survey/cope/copect_63_xx21,survey,COVID-19 Participant Experience (COPE),copect_63_xx21,What breathing treatment did you receive? Please select all that apply.,suppressed,question not found in CDR,9129,0,0.0,0,,0,0
+survey/cope/cpss_1,survey,COVID-19 Participant Experience (COPE),cpss_1,"In the last month, how often have you been upset because of something that happened unexpectedly?",available,ok,9129,688,7.5,693,,69023,69329
+survey/cope/cpss_10,survey,COVID-19 Participant Experience (COPE),cpss_10,"In the last month, how often have you felt difficulties were piling up so high that you could not overcome them?",available,ok,9129,685,7.5,693,,68953,69329
+survey/cope/cpss_2,survey,COVID-19 Participant Experience (COPE),cpss_2,"In the last month, how often have you felt that you were unable to control the important things in your life?",available,ok,9129,689,7.5,693,,69045,69329
+survey/cope/cpss_3,survey,COVID-19 Participant Experience (COPE),cpss_3,"In the last month, how often have you felt nervous and ""stressed""?",available,ok,9129,685,7.5,693,,69053,69329
+survey/cope/cpss_4,survey,COVID-19 Participant Experience (COPE),cpss_4,"In the last month, how often have you felt confident about your ability to handle your personal problems?",available,ok,9129,691,7.6,693,,68992,69329
+survey/cope/cpss_5,survey,COVID-19 Participant Experience (COPE),cpss_5,"In the last month, how often have you felt that things were going your way?",available,ok,9129,689,7.5,693,,68988,69329
+survey/cope/cpss_6,survey,COVID-19 Participant Experience (COPE),cpss_6,"In the last month, how often have you found that you could not cope with all the things that you had to do?",available,ok,9129,690,7.6,693,,69005,69329
+survey/cope/cpss_7,survey,COVID-19 Participant Experience (COPE),cpss_7,"In the last month, how often have you been able to control irritations in your life?",available,ok,9129,687,7.5,693,,68942,69329
+survey/cope/cpss_8,survey,COVID-19 Participant Experience (COPE),cpss_8,"In the last month, how often have you felt that you were on top of things?",available,ok,9129,688,7.5,693,,68944,69329
+survey/cope/cpss_9,survey,COVID-19 Participant Experience (COPE),cpss_9,"In the last month, how often have you been angered because of things that were outside of your control?",available,ok,9129,688,7.5,693,,69031,69329
+survey/cope/cu_covid,survey,COVID-19 Participant Experience (COPE),cu_covid,What type of household do you live in?,suppressed,question not found in CDR,9129,0,0.0,0,,0,0
+survey/cope/cu_covid_cope_a_204,survey,COVID-19 Participant Experience (COPE),cu_covid_cope_a_204,Please specify.,suppressed,question not found in CDR,9129,0,0.0,0,,0,0
+survey/cope/dmfs_27,survey,COVID-19 Participant Experience (COPE),dmfs_27,Did you receive the flu vaccination in the past month?,suppressed,ok,9129,859,9.4,861,,79463,79701
+survey/cope/dmfs_28,survey,COVID-19 Participant Experience (COPE),dmfs_28,Do you plan to get the flu vaccine this season?,available,ok,9129,550,6.0,578,,56360,58875
+survey/cope/dmfs_29,survey,COVID-19 Participant Experience (COPE),dmfs_29,What factors might make you less likely to get the vaccine? Please select all that apply.,suppressed,question not found in CDR,9129,0,0.0,0,,0,0
+survey/cope/dmfs_29a,survey,COVID-19 Participant Experience (COPE),dmfs_29a,Please specify:,suppressed,question not found in CDR,9129,0,0.0,0,,0,0
+survey/cope/dmfs_xx_1,survey,COVID-19 Participant Experience (COPE),dmfs_xx_1,"When a COVID-19 vaccine is available, how likely are you to want to receive vaccination?",available,ok,9129,889,9.7,900,,82640,83351
+survey/cope/eds_1,survey,COVID-19 Participant Experience (COPE),eds_1,"In your day-to-day life, how often did this happen to you during the past month? You are treated with less courtesy than other people are.",available,ok,9129,685,7.5,693,,68823,69329
+survey/cope/eds_2,survey,COVID-19 Participant Experience (COPE),eds_2,"In your day-to-day life, how often did this happen to you during the past month? You are treated with less respect than other people are.",available,ok,9129,688,7.5,693,,68851,69329
+survey/cope/eds_3,survey,COVID-19 Participant Experience (COPE),eds_3,"In your day-to-day life, how often did this happen to you during the past month? You receive poorer service than other people at restaurants or stores.",available,ok,9129,691,7.6,693,,68768,69329
+survey/cope/eds_4,survey,COVID-19 Participant Experience (COPE),eds_4,"In your day-to-day life, how often did this happen to you during the past month? People act as if they think you are not smart.",available,ok,9129,687,7.5,693,,68848,69329
+survey/cope/eds_5,survey,COVID-19 Participant Experience (COPE),eds_5,"In your day-to-day life, how often did this happen to you during the past month? People act as if they are afraid of you.",available,ok,9129,685,7.5,693,,68869,69329
+survey/cope/eds_6,survey,COVID-19 Participant Experience (COPE),eds_6,"In your day-to-day life, how often did this happen to you during the past month? People act as if they think you are dishonest.",available,ok,9129,688,7.5,693,,68852,69329
+survey/cope/eds_7,survey,COVID-19 Participant Experience (COPE),eds_7,"In your day-to-day life, how often did this happen to you during the past month? People act as if they're better than you are.",available,ok,9129,689,7.5,693,,68802,69329
+survey/cope/eds_8,survey,COVID-19 Participant Experience (COPE),eds_8,"In your day-to-day life, how often did this happen to you during the past month? You are called names or insulted.",available,ok,9129,686,7.5,693,,68867,69329
+survey/cope/eds_9,survey,COVID-19 Participant Experience (COPE),eds_9,"In your day-to-day life, how often did this happen to you during the past month? You are threatened or harassed.",available,ok,9129,687,7.5,693,,68877,69329
+survey/cope/eds_follow_up_1,survey,COVID-19 Participant Experience (COPE),eds_follow_up_1,What do you think is the main reason(s) for these experiences? Select all that apply.,available,ok,9129,431,4.7,453,,36476,39194
+survey/cope/eds_follow_up_1_xx,survey,COVID-19 Participant Experience (COPE),eds_follow_up_1_xx,Other reason - please specify.,suppressed,question not found in CDR,9129,0,0.0,0,,0,0
+survey/cope/gad_7_1,survey,COVID-19 Participant Experience (COPE),gad_7_1,"In the past 2 weeks, how often have you been bothered by the following problem? Feeling nervous, anxious, or on edge",available,ok,9129,1077,11.8,1087,,100886,101334
+survey/cope/gad_7_2,survey,COVID-19 Participant Experience (COPE),gad_7_2,"In the past 2 weeks, how often have you been bothered by the following problem? Not being able to stop or control worrying",available,ok,9129,1082,11.9,1087,,100852,101334
+survey/cope/gad_7_3,survey,COVID-19 Participant Experience (COPE),gad_7_3,"In the past 2 weeks, how often have you been bothered by the following problem? Worrying too much about different things",available,ok,9129,685,7.5,693,,68961,69329
+survey/cope/gad_7_4,survey,COVID-19 Participant Experience (COPE),gad_7_4,"In the past 2 weeks, how often have you been bothered by the following problem? Trouble relaxing",available,ok,9129,689,7.5,693,,69056,69329
+survey/cope/gad_7_5,survey,COVID-19 Participant Experience (COPE),gad_7_5,"In the past 2 weeks, how often have you been bothered by the following problem? Being so restless that it's hard to sit still",available,ok,9129,692,7.6,693,,69060,69329
+survey/cope/gad_7_6,survey,COVID-19 Participant Experience (COPE),gad_7_6,"In the past 2 weeks, how often have you been bothered by the following problem? Becoming easily annoyed or irritable",available,ok,9129,691,7.6,693,,69017,69329
+survey/cope/gad_7_7,survey,COVID-19 Participant Experience (COPE),gad_7_7,"In the past 2 weeks, how often have you been bothered by the following problem? Feeling afraid as if something awful might happen",available,ok,9129,690,7.6,693,,69040,69329
+survey/cope/ies_r_6_1,survey,COVID-19 Participant Experience (COPE),ies_r_6_1,"In the past 7 days, I thought about COVID-19 when I didn't mean to.",available,ok,9129,689,7.5,693,,69103,69329
+survey/cope/ies_r_6_2,survey,COVID-19 Participant Experience (COPE),ies_r_6_2,"In the past 7 days, I felt watchful or on-guard.",available,ok,9129,689,7.5,693,,69101,69329
+survey/cope/ies_r_6_3,survey,COVID-19 Participant Experience (COPE),ies_r_6_3,"In the past 7 days, other things kept making me think about COVID-19.",available,ok,9129,685,7.5,693,,68981,69329
+survey/cope/ies_r_6_4,survey,COVID-19 Participant Experience (COPE),ies_r_6_4,"In the past 7 days, I was aware that I still had a lot of feelings about COVID-19, but I didn't deal with them.",available,ok,9129,690,7.6,693,,69007,69329
+survey/cope/ies_r_6_5,survey,COVID-19 Participant Experience (COPE),ies_r_6_5,"In the past 7 days, I tried not to think about COVID-19.",available,ok,9129,687,7.5,693,,69029,69329
+survey/cope/ies_r_6_6,survey,COVID-19 Participant Experience (COPE),ies_r_6_6,"In the past 7 days, I had trouble concentrating.",available,ok,9129,690,7.6,693,,69053,69329
+survey/cope/ipaq_1,survey,COVID-19 Participant Experience (COPE),ipaq_1,Think about all the vigorous activities that you did in the last 7 days. Vigorous physical activities refer to activities that take hard physical effort and mak,available,ok,9129,678,7.4,693,,68660,69329
+survey/cope/ipaq_1_cope_a_24,survey,COVID-19 Participant Experience (COPE),ipaq_1_cope_a_24,How many days per week?,available,ok,9129,189,2.1,238,,28950,34533
+survey/cope/ipaq_2_cope_a_160,survey,COVID-19 Participant Experience (COPE),ipaq_2_cope_a_160,How much time did you usually spend doing vigorous physical activities on one of those days (hours per day)?,available,ok,9129,58,0.6,127,,10348,19751
+survey/cope/ipaq_2_cope_a_85,survey,COVID-19 Participant Experience (COPE),ipaq_2_cope_a_85,"Minutes per day (Please enter a number) Note: Half an hour=30 minutes, 1 hour=60 minutes, 1 and a half hours=90 minutes",available,ok,9129,168,1.8,238,,26582,34533
+survey/cope/ipaq_3,survey,COVID-19 Participant Experience (COPE),ipaq_3,Think about all the moderate activities that you did in the last 7 days. Moderate activities refer to activities that take moderate physical effort and make you,available,ok,9129,684,7.5,693,,68983,69329
+survey/cope/ipaq_3_cope_a_24,survey,COVID-19 Participant Experience (COPE),ipaq_3_cope_a_24,How many days per week?,available,ok,9129,296,3.2,340,,41239,46947
+survey/cope/ipaq_4_cope_a_160,survey,COVID-19 Participant Experience (COPE),ipaq_4_cope_a_160,How much time did you usually spend doing moderate physical activities on one of those days (hours per day)?,available,ok,9129,102,1.1,180,,15565,26676
+survey/cope/ipaq_4_cope_a_85,survey,COVID-19 Participant Experience (COPE),ipaq_4_cope_a_85,"Minutes per day (Please enter a number) Note: Half an hour=30 minutes, 1 hour=60 minutes, 1 and a half hours=90 minutes",available,ok,9129,268,2.9,340,,37816,46947
+survey/cope/ipaq_5,survey,COVID-19 Participant Experience (COPE),ipaq_5,"Think about the time you spent walking in the last 7 days. This includes at work and at home, walking to travel from place to place, and any other walking that ",available,ok,9129,687,7.5,693,,69060,69329
+survey/cope/ipaq_5_cope_a_24,survey,COVID-19 Participant Experience (COPE),ipaq_5_cope_a_24,How many days per week?,available,ok,9129,473,5.2,547,,53943,59201
+survey/cope/ipaq_6_cope_a_160,survey,COVID-19 Participant Experience (COPE),ipaq_6_cope_a_160,How much time did you usually spend walking on one of those days (hours per day)?,available,ok,9129,195,2.1,317,,22469,35462
+survey/cope/ipaq_6_cope_a_85,survey,COVID-19 Participant Experience (COPE),ipaq_6_cope_a_85,"Minutes per day (Please enter a number) Note: Half an hour=30 minutes, 1 hour=60 minutes, 1 and a half hours=90 minutes",available,ok,9129,426,4.7,547,,49377,59206
+survey/cope/ipaq_7,survey,COVID-19 Participant Experience (COPE),ipaq_7,"The last question is about the time you spent sitting on weekdays during the last 7 days. Include time spent at work, at home, while doing course work and durin",available,ok,9129,516,5.7,693,,57332,69329
+survey/cope/lifestyle_2_xx12,survey,COVID-19 Participant Experience (COPE),lifestyle_2_xx12,How long has it been since you last used an electronic nicotine product?,available,ok,9129,65,0.7,65,,2463,2544
+survey/cope/lifestyle_2_xx12_cope_a_152,survey,COVID-19 Participant Experience (COPE),lifestyle_2_xx12_cope_a_152,Enter the number of years,available,ok,9129,36,0.4,38,,1427,1626
+survey/cope/lifestyle_2_xx12_cope_a_198,survey,COVID-19 Participant Experience (COPE),lifestyle_2_xx12_cope_a_198,Enter the number of months,available,ok,9129,<=20,,26,,638,801
+survey/cope/lifestyle_2_xx12_cope_a_57,survey,COVID-19 Participant Experience (COPE),lifestyle_2_xx12_cope_a_57,Enter the number of weeks,available,ok,9129,<=20,,<=20,,117,166
+survey/cope/lifestyle_2_xx13,survey,COVID-19 Participant Experience (COPE),lifestyle_2_xx13,"In the past month: Did you use any type of electronic nicotine product? This includes e- cigarettes, vape pens, hookah pens, personal vaporizers and mods, e-cig",available,ok,9129,689,7.5,693,,68949,69329
+survey/cope/lot_r_1,survey,COVID-19 Participant Experience (COPE),lot_r_1,"Choose the answer that best describes how you felt in the past month. In uncertain times, I usually expect the best.",available,ok,9129,689,7.5,693,,68992,69329
+survey/cope/mos_ss_1,survey,COVID-19 Participant Experience (COPE),mos_ss_1,Choose the answer that best describes how often you can find this kind of support in the past month. Someone to help you if you were confined to bed,available,ok,9129,688,7.5,693,,68721,69329
+survey/cope/mos_ss_13,survey,COVID-19 Participant Experience (COPE),mos_ss_13,Choose the answer that best describes how often you can find this kind of support in the past month. Someone to confide in or talk to about yourself or your pro,available,ok,9129,687,7.5,693,,68981,69329
+survey/cope/mos_ss_17,survey,COVID-19 Participant Experience (COPE),mos_ss_17,Choose the answer that best describes how often you can find this kind of support in the past month. Someone to do things with to help you get your mind off thi,available,ok,9129,689,7.5,693,,68984,69329
+survey/cope/mos_ss_2,survey,COVID-19 Participant Experience (COPE),mos_ss_2,Choose the answer that best describes how often you can find this kind of support in the past month. Someone to take you to the doctor if you needed it,available,ok,9129,686,7.5,693,,68870,69329
+survey/cope/mos_ss_3,survey,COVID-19 Participant Experience (COPE),mos_ss_3,Choose the answer that best describes how often you can find this kind of support in the past month. Someone to prepare your meals if you were unable to do it y,available,ok,9129,686,7.5,693,,68861,69329
+survey/cope/mos_ss_4,survey,COVID-19 Participant Experience (COPE),mos_ss_4,Choose the answer that best describes how often you can find this kind of support in the past month. Someone to help with daily chores if you were sick,available,ok,9129,687,7.5,693,,68848,69329
+survey/cope/mos_ss_5,survey,COVID-19 Participant Experience (COPE),mos_ss_5,Choose the answer that best describes how often you can find this kind of support in the past month. Someone to have a good time with,available,ok,9129,689,7.5,693,,69017,69329
+survey/cope/mos_ss_6,survey,COVID-19 Participant Experience (COPE),mos_ss_6,Choose the answer that best describes how often you can find this kind of support in the past month. Someone to turn to for suggestions about how to deal with a,available,ok,9129,688,7.5,693,,68992,69329
+survey/cope/mos_ss_7,survey,COVID-19 Participant Experience (COPE),mos_ss_7,Choose the answer that best describes how often you can find this kind of support in the past month. Someone who understands your problems,available,ok,9129,689,7.5,693,,68963,69329
+survey/cope/mos_ss_8,survey,COVID-19 Participant Experience (COPE),mos_ss_8,Choose the answer that best describes how often you can find this kind of support in the past month. Someone to love and make you feel wanted,available,ok,9129,689,7.5,693,,68972,69329
+survey/cope/msds_10,survey,COVID-19 Participant Experience (COPE),msds_10,"Thinking about your current social habits, in the last 5 days: I have gone to my workplace or volunteer site that is outside my home.",available,ok,9129,1035,11.3,1038,,97081,97854
+survey/cope/msds_10_a,survey,COVID-19 Participant Experience (COPE),msds_10_a,How often did you wear a face mask or face covering?,available,ok,9129,246,2.7,323,,25794,32372
+survey/cope/msds_11,survey,COVID-19 Participant Experience (COPE),msds_11,"Thinking about your current social habits, in the last 5 days: I have attended social gatherings outside my home of MORE than 10 people.",available,ok,9129,1022,11.2,1038,,97383,97854
+survey/cope/msds_11_a,survey,COVID-19 Participant Experience (COPE),msds_11_a,How often did you wear a face mask or face covering?,available,ok,9129,68,0.7,111,,6854,9762
+survey/cope/msds_12,survey,COVID-19 Participant Experience (COPE),msds_12,"Thinking about your current social habits, in the last 5 days: I have attended social gatherings outside my home of LESS than 10 people.",available,ok,9129,1029,11.3,1038,,97295,97854
+survey/cope/msds_12_a,survey,COVID-19 Participant Experience (COPE),msds_12_a,How often did you wear a face mask or face covering?,available,ok,9129,216,2.4,297,,22899,30836
+survey/cope/msds_13,survey,COVID-19 Participant Experience (COPE),msds_13,"Thinking about your current social habits, in the last 5 days: I have gone on shopping trips or outings that were ""just for fun"".",available,ok,9129,1028,11.3,1038,,97301,97854
+survey/cope/msds_13_a,survey,COVID-19 Participant Experience (COPE),msds_13_a,How often did you wear a face mask or face covering?,available,ok,9129,233,2.6,325,,21148,27877
+survey/cope/msds_14,survey,COVID-19 Participant Experience (COPE),msds_14,"Thinking about your current social habits, in the last 5 days: I have visited nursing homes or long-term care facilities (outside of work duties).",available,ok,9129,1029,11.3,1038,,97469,97854
+survey/cope/msds_14_a,survey,COVID-19 Participant Experience (COPE),msds_14_a,How often did you wear a face mask or face covering?,available,ok,9129,<=20,,26,,1263,1768
+survey/cope/msds_15,survey,COVID-19 Participant Experience (COPE),msds_15,"Thinking about your current social habits, in the last 5 days: I have been in close contact with someone who is in a risk group for COVID-19 (adults age 50+, pe",available,ok,9129,1060,11.6,1087,,99933,101334
+survey/cope/msds_16,survey,COVID-19 Participant Experience (COPE),msds_16,"Thinking about these activities in the last 5 days, my social interaction with people outside my home was",available,ok,9129,1082,11.9,1087,,101014,101334
+survey/cope/msds_17,survey,COVID-19 Participant Experience (COPE),msds_17,"Thinking about your current social habits, in the last 5 days: I have attended social gatherings of MORE than 50 people.",available,ok,9129,776,8.5,783,,72644,72950
+survey/cope/msds_17_a,survey,COVID-19 Participant Experience (COPE),msds_17_a,How often did you wear a face mask or face covering?,available,ok,9129,40,0.4,59,,3384,4212
+survey/cope/msds_17_b,survey,COVID-19 Participant Experience (COPE),msds_17_b,What was the purpose of the large gathering? Select all that apply.,available,ok,9129,59,0.6,59,,4115,4212
+survey/cope/msds_17_c,survey,COVID-19 Participant Experience (COPE),msds_17_c,Please specify:,suppressed,question not found in CDR,9129,0,0.0,0,,0,0
+survey/cope/msds_18,survey,COVID-19 Participant Experience (COPE),msds_18,"Now, thinking about the COVID-19 recommendations and mandates...How often in the past month are you doing the recommended pandemic hygiene, like washing hands f",available,ok,9129,1083,11.9,1087,,101066,101334
+survey/cope/msds_9,survey,COVID-19 Participant Experience (COPE),msds_9,"Thinking about your current social habits, in the last 5 days: I have stayed home all day.",available,ok,9129,1083,11.9,1087,,101048,101334
+survey/cope/nhs_covid_fhc17a,survey,COVID-19 Participant Experience (COPE),nhs_covid_fhc17a,Do you personally know someone who has died of COVID-19?,available,ok,9129,942,10.3,944,,88331,88520
+survey/cope/nhs_covid_fhc17b,survey,COVID-19 Participant Experience (COPE),nhs_covid_fhc17b,Who do you know who has died? Check all that apply.,available,ok,9129,373,4.1,385,,29761,30534
+survey/cope/nhs_covid_fhc17b_cope_a_226,survey,COVID-19 Participant Experience (COPE),nhs_covid_fhc17b_cope_a_226,Please specify.,suppressed,question not found in CDR,9129,0,0.0,0,,0,0
+survey/cope/overallhealth_14b,survey,COVID-19 Participant Experience (COPE),overallhealth_14b,Are you currently pregnant?,available,ok,9129,209,2.3,210,,61602,61972
+survey/cope/phq_9_1,survey,COVID-19 Participant Experience (COPE),phq_9_1,"In the past 2 weeks, how often have you been bothered by: Little interest or pleasure in doing things",available,ok,9129,1078,11.8,1087,,100740,101334
+survey/cope/phq_9_2,survey,COVID-19 Participant Experience (COPE),phq_9_2,"In the past 2 weeks, how often have you been bothered by: Feeling down, depressed, or hopeless",available,ok,9129,1078,11.8,1087,,100793,101334
+survey/cope/phq_9_3,survey,COVID-19 Participant Experience (COPE),phq_9_3,"In the past 2 weeks, how often have you been bothered by: Trouble falling or staying asleep, or sleeping too much",available,ok,9129,690,7.6,693,,69023,69329
+survey/cope/phq_9_4,survey,COVID-19 Participant Experience (COPE),phq_9_4,"In the past 2 weeks, how often have you been bothered by: Feeling tired or having little energy",available,ok,9129,689,7.5,693,,69033,69329
+survey/cope/phq_9_5,survey,COVID-19 Participant Experience (COPE),phq_9_5,"In the past 2 weeks, how often have you been bothered by: Poor appetite or overeating",available,ok,9129,689,7.5,693,,69043,69329
+survey/cope/phq_9_6,survey,COVID-19 Participant Experience (COPE),phq_9_6,"In the past 2 weeks, how often have you been bothered by: Feeling bad about yourself or that you are a failure or have let yourself or your family down",available,ok,9129,688,7.5,693,,69069,69329
+survey/cope/phq_9_7,survey,COVID-19 Participant Experience (COPE),phq_9_7,"In the past 2 weeks, how often have you been bothered by: Trouble concentrating on things, such as reading the newspaper or watching television",available,ok,9129,687,7.5,693,,69021,69329
+survey/cope/phq_9_8,survey,COVID-19 Participant Experience (COPE),phq_9_8,"In the past 2 weeks, how often have you been bothered by: Moving or speaking so slowly that other people could have noticed? Or the opposite - being so fidgety ",available,ok,9129,688,7.5,693,,68999,69329
+survey/cope/phq_9_9,survey,COVID-19 Participant Experience (COPE),phq_9_9,"In the past 2 weeks, how often have you been bothered by: Thoughts that you would be better off dead or of hurting yourself in some way",available,ok,9129,1080,11.8,1087,,100848,101334
+survey/cope/rand_alp_csq_1,survey,COVID-19 Participant Experience (COPE),rand_alp_csq_1,"Do you have a child that is currently enrolled in childcare centers, schools, or colleges?",available,ok,9129,854,9.4,861,,79414,79701
+survey/cope/rand_alp_csq_2a,survey,COVID-19 Participant Experience (COPE),rand_alp_csq_2a,"Compared with when they were in person at school or a childcare center, how much time are you spending on care and supervision of your children?",available,ok,9129,54,0.6,55,,12417,12555
+survey/cope/rand_alp_csq_2b,survey,COVID-19 Participant Experience (COPE),rand_alp_csq_2b,"Compared with when they were in in person school or a childcare center, how much time are you spending on helping your children with learning activities provide",available,ok,9129,54,0.6,55,,12343,12555
+survey/cope/rand_alp_csq_xx_1,survey,COVID-19 Participant Experience (COPE),rand_alp_csq_xx_1,"In the past month, did you have a child enrolled in childcare centers, schools, or colleges that is learning remotely because of COVID-19?",available,ok,9129,74,0.8,74,,16681,16725
+survey/cope/section_participation,survey,COVID-19 Participant Experience (COPE),section_participation,You can choose not to answer any question at any time. This survey will take approximately 20 to 30 minutes to complete.,suppressed,question not found in CDR,9129,0,0.0,0,,0,0
+survey/cope/tsu_ds5_13_xx,survey,COVID-19 Participant Experience (COPE),tsu_ds5_13_xx,"In the past month, have you used any of the following drugs? Select all that apply.",available,ok,9129,672,7.4,693,,66768,69329
+survey/cope/tsu_ds5_13_xx1,survey,COVID-19 Participant Experience (COPE),tsu_ds5_13_xx1,How often did you use prescription opioids?,available,ok,9129,40,0.4,41,,3044,3066
+survey/cope/tsu_ds5_13_xx10,survey,COVID-19 Participant Experience (COPE),tsu_ds5_13_xx10,How often did you use hallucinogens?,available,ok,9129,<=20,,<=20,,391,393
+survey/cope/tsu_ds5_13_xx11,survey,COVID-19 Participant Experience (COPE),tsu_ds5_13_xx11,How often did you use prescription stimulants?,available,ok,9129,<=20,,<=20,,2145,2158
+survey/cope/tsu_ds5_13_xx2,survey,COVID-19 Participant Experience (COPE),tsu_ds5_13_xx2,How often did you use heroin?,available,ok,9129,<=20,,<=20,,30,31
+survey/cope/tsu_ds5_13_xx20,survey,COVID-19 Participant Experience (COPE),tsu_ds5_13_xx20,Did your use include smoking cannabis?,available,ok,9129,200,2.2,200,,8224,8248
+survey/cope/tsu_ds5_13_xx21,survey,COVID-19 Participant Experience (COPE),tsu_ds5_13_xx21,Do you think you have used more or less cannabis in the past month than you used to?,available,ok,9129,199,2.2,200,,8205,8248
+survey/cope/tsu_ds5_13_xx22,survey,COVID-19 Participant Experience (COPE),tsu_ds5_13_xx22,Did your use include smoking synthetic marijuana or fake weed?,available,ok,9129,<=20,,<=20,,34,35
+survey/cope/tsu_ds5_13_xx23,survey,COVID-19 Participant Experience (COPE),tsu_ds5_13_xx23,Do you think you have used more or less synthetic marijuana or fake weed in the past month than you used to?,available,ok,9129,<=20,,<=20,,34,35
+survey/cope/tsu_ds5_13_xx24,survey,COVID-19 Participant Experience (COPE),tsu_ds5_13_xx24,Did your use include smoking cocaine?,available,ok,9129,24,0.3,24,,283,284
+survey/cope/tsu_ds5_13_xx25,survey,COVID-19 Participant Experience (COPE),tsu_ds5_13_xx25,Do you think you have used more or less cocaine in the past month than you used to?,available,ok,9129,24,0.3,24,,277,284
+survey/cope/tsu_ds5_13_xx26,survey,COVID-19 Participant Experience (COPE),tsu_ds5_13_xx26,Did you use prescription stimulants in any way a doctor did not direct you to use it?,available,ok,9129,<=20,,<=20,,2151,2158
+survey/cope/tsu_ds5_13_xx27,survey,COVID-19 Participant Experience (COPE),tsu_ds5_13_xx27,Do you think you have used more or less prescription stimulants in the past month than you used to?,available,ok,9129,<=20,,<=20,,2149,2158
+survey/cope/tsu_ds5_13_xx28,survey,COVID-19 Participant Experience (COPE),tsu_ds5_13_xx28,Did your use include smoking methamphetamine?,available,ok,9129,45,0.5,46,,216,221
+survey/cope/tsu_ds5_13_xx29,survey,COVID-19 Participant Experience (COPE),tsu_ds5_13_xx29,Do you think you have used more or less methamphetamine in the past month than you used to?,available,ok,9129,46,0.5,46,,218,221
+survey/cope/tsu_ds5_13_xx3,survey,COVID-19 Participant Experience (COPE),tsu_ds5_13_xx3,How often did you use cannabis?,available,ok,9129,200,2.2,200,,8218,8248
+survey/cope/tsu_ds5_13_xx30,survey,COVID-19 Participant Experience (COPE),tsu_ds5_13_xx30,Did your use include smoking synthetic stimulants?,available,ok,9129,<=20,,<=20,,30,32
+survey/cope/tsu_ds5_13_xx31,survey,COVID-19 Participant Experience (COPE),tsu_ds5_13_xx31,Do you think you have used more or less synthetic stimulants in the past month than you used to?,available,ok,9129,<=20,,<=20,,30,32
+survey/cope/tsu_ds5_13_xx32,survey,COVID-19 Participant Experience (COPE),tsu_ds5_13_xx32,Do you think you have used more or less inhalants in the past month than you used to?,available,ok,9129,<=20,,<=20,,115,119
+survey/cope/tsu_ds5_13_xx33,survey,COVID-19 Participant Experience (COPE),tsu_ds5_13_xx33,Did you use prescription sedatives or prescription sleeping pills in any way a doctor did not direct you to use it?,available,ok,9129,97,1.1,97,,6548,6568
+survey/cope/tsu_ds5_13_xx34,survey,COVID-19 Participant Experience (COPE),tsu_ds5_13_xx34,Do you think you have used more or less prescription sedatives or prescription sleeping pills in the past month than you used to?,available,ok,9129,96,1.1,97,,6527,6568
+survey/cope/tsu_ds5_13_xx35,survey,COVID-19 Participant Experience (COPE),tsu_ds5_13_xx35,Did your use include smoking hallucinogens?,available,ok,9129,<=20,,<=20,,391,393
+survey/cope/tsu_ds5_13_xx36,survey,COVID-19 Participant Experience (COPE),tsu_ds5_13_xx36,Do you think you have used more or less hallucinogens in the past month than you used to?,available,ok,9129,<=20,,<=20,,389,393
+survey/cope/tsu_ds5_13_xx37,survey,COVID-19 Participant Experience (COPE),tsu_ds5_13_xx37,Did your use include smoking heroin?,available,ok,9129,<=20,,<=20,,30,31
+survey/cope/tsu_ds5_13_xx38,survey,COVID-19 Participant Experience (COPE),tsu_ds5_13_xx38,Do you think you have used more or less heroin in the past month than you used to?,available,ok,9129,<=20,,<=20,,29,31
+survey/cope/tsu_ds5_13_xx39,survey,COVID-19 Participant Experience (COPE),tsu_ds5_13_xx39,Did you use prescription opioids in any way a doctor did not direct you to use it?,available,ok,9129,41,0.4,41,,3056,3066
+survey/cope/tsu_ds5_13_xx4,survey,COVID-19 Participant Experience (COPE),tsu_ds5_13_xx4,How often did you use synthetic stimulants?,available,ok,9129,<=20,,<=20,,29,32
+survey/cope/tsu_ds5_13_xx40,survey,COVID-19 Participant Experience (COPE),tsu_ds5_13_xx40,Did your use include smoking prescription opioids?,available,ok,9129,41,0.4,41,,3059,3066
+survey/cope/tsu_ds5_13_xx41,survey,COVID-19 Participant Experience (COPE),tsu_ds5_13_xx41,Do you think you have used more or less prescription opioids in the past month than you used to?,available,ok,9129,41,0.4,41,,3024,3066
+survey/cope/tsu_ds5_13_xx42_cope_a_226,survey,COVID-19 Participant Experience (COPE),tsu_ds5_13_xx42_cope_a_226,Other substance - please specify,suppressed,question not found in CDR,9129,0,0.0,0,,0,0
+survey/cope/tsu_ds5_13_xx42_cope_a_226_2,survey,COVID-19 Participant Experience (COPE),tsu_ds5_13_xx42_cope_a_226_2,How often did you use the other substance?,available,ok,9129,<=20,,<=20,,1109,1148
+survey/cope/tsu_ds5_13_xx43,survey,COVID-19 Participant Experience (COPE),tsu_ds5_13_xx43,Did your use include smoking the other substance?,available,ok,9129,<=20,,<=20,,1129,1148
+survey/cope/tsu_ds5_13_xx44,survey,COVID-19 Participant Experience (COPE),tsu_ds5_13_xx44,Do you think you have used more or less of the other substance in the past month than you used to?,available,ok,9129,<=20,,<=20,,1104,1148
+survey/cope/tsu_ds5_13_xx5,survey,COVID-19 Participant Experience (COPE),tsu_ds5_13_xx5,How often did you use inhalants?,available,ok,9129,<=20,,<=20,,117,119
+survey/cope/tsu_ds5_13_xx6,survey,COVID-19 Participant Experience (COPE),tsu_ds5_13_xx6,How often did you use methamphetamine?,available,ok,9129,46,0.5,46,,219,221
+survey/cope/tsu_ds5_13_xx7,survey,COVID-19 Participant Experience (COPE),tsu_ds5_13_xx7,How often did you use synthetic marijuana or fake weed?,available,ok,9129,<=20,,<=20,,33,35
+survey/cope/tsu_ds5_13_xx8,survey,COVID-19 Participant Experience (COPE),tsu_ds5_13_xx8,How often did you use prescription sedatives or prescription sleeping pills?,available,ok,9129,96,1.1,97,,6517,6568
+survey/cope/tsu_ds5_13_xx9,survey,COVID-19 Participant Experience (COPE),tsu_ds5_13_xx9,How often did you use cocaine?,available,ok,9129,24,0.3,24,,280,284
+survey/cope/ucla_ls8_11,survey,COVID-19 Participant Experience (COPE),ucla_ls8_11,Choose the answer that is true for you in the past month. I feel left out,available,ok,9129,690,7.6,693,,69004,69329
+survey/cope/ucla_ls8_14,survey,COVID-19 Participant Experience (COPE),ucla_ls8_14,Choose the answer that is true for you in the past month. I feel isolated from others,available,ok,9129,689,7.5,693,,69043,69329
+survey/cope/ucla_ls8_15,survey,COVID-19 Participant Experience (COPE),ucla_ls8_15,Choose the answer that is true for you in the past month. I can find companionship when I want it,available,ok,9129,687,7.5,693,,68975,69329
+survey/cope/ucla_ls8_17,survey,COVID-19 Participant Experience (COPE),ucla_ls8_17,Choose the answer that is true for you in the past month. I am unhappy being so withdrawn,available,ok,9129,691,7.6,693,,68886,69329
+survey/cope/ucla_ls8_18,survey,COVID-19 Participant Experience (COPE),ucla_ls8_18,Choose the answer that is true for you in the past month. People are around me but not with me,available,ok,9129,692,7.6,693,,68830,69329
+survey/cope/ucla_ls8_2,survey,COVID-19 Participant Experience (COPE),ucla_ls8_2,Choose the answer that is true for you in the past month. I lack companionship,available,ok,9129,689,7.5,693,,68999,69329
+survey/cope/ucla_ls8_3,survey,COVID-19 Participant Experience (COPE),ucla_ls8_3,Choose the answer that is true for you in the past month. There is no one I can turn to,available,ok,9129,690,7.6,693,,69006,69329
+survey/cope/ucla_ls8_9,survey,COVID-19 Participant Experience (COPE),ucla_ls8_9,Choose the answer that is true for you in the past month. I am an outgoing person,available,ok,9129,689,7.5,693,,68970,69329
+survey/cope/ukmh_j1,survey,COVID-19 Participant Experience (COPE),ukmh_j1,"Choose the answer that best describes how you felt in the past month. In general, how happy are you?",available,ok,9129,674,7.4,693,,68190,69329
+survey/cope/ukmh_j3,survey,COVID-19 Participant Experience (COPE),ukmh_j3,Choose the answer that best describes how you felt in the past month. To what extent do you feel your life to be meaningful?,available,ok,9129,669,7.3,693,,67840,69329
+survey/hcau/cantaffordcare_alternativetherapies,survey,Health Care Access & Utilization,cantaffordcare_alternativetherapies,You used alternative therapies to save money,available,ok,9129,3797,41.6,4188,,334874,364446
+survey/hcau/cantaffordcare_boughtrxfromothercountry,survey,Health Care Access & Utilization,cantaffordcare_boughtrxfromothercountry,You bought prescription drugs from another country to save money,available,ok,9129,3854,42.2,4188,,338394,364446
+survey/hcau/cantaffordcare_delayedfillingrxtosavemoney,survey,Health Care Access & Utilization,cantaffordcare_delayedfillingrxtosavemoney,You delayed filling a prescription to save money,available,ok,9129,3985,43.7,4188,,350420,364446
+survey/hcau/cantaffordcare_dentalcare,survey,Health Care Access & Utilization,cantaffordcare_dentalcare,Dental care (including check ups),available,ok,9129,3854,42.2,4188,,336721,364446
+survey/hcau/cantaffordcare_emergencycare,survey,Health Care Access & Utilization,cantaffordcare_emergencycare,Emergency care,available,ok,9129,3897,42.7,4188,,342853,364446
+survey/hcau/cantaffordcare_eyeglasses,survey,Health Care Access & Utilization,cantaffordcare_eyeglasses,Eyeglasses,available,ok,9129,3714,40.7,4188,,325077,364446
+survey/hcau/cantaffordcare_followupcare,survey,Health Care Access & Utilization,cantaffordcare_followupcare,Follow-up care,available,ok,9129,3622,39.7,4188,,320419,364446
+survey/hcau/cantaffordcare_healthcareprovider,survey,Health Care Access & Utilization,cantaffordcare_healthcareprovider,"To see a regular doctor or general health provider (in primary care, general practice, internal medicine, family medicine)",available,ok,9129,3695,40.5,4188,,324923,364446
+survey/hcau/cantaffordcare_lowercostrxtosavemoney,survey,Health Care Access & Utilization,cantaffordcare_lowercostrxtosavemoney,You asked your doctor for a lower cost medication to save money,available,ok,9129,3914,42.9,4188,,342582,364446
+survey/hcau/cantaffordcare_mentalhealthcounseling,survey,Health Care Access & Utilization,cantaffordcare_mentalhealthcounseling,Mental health care or counseling,available,ok,9129,3961,43.4,4188,,349087,364446
+survey/hcau/cantaffordcare_prescriptionmedicines,survey,Health Care Access & Utilization,cantaffordcare_prescriptionmedicines,Prescription medicines,available,ok,9129,4064,44.5,4188,,355113,364446
+survey/hcau/cantaffordcare_skippedmedtosavemoney,survey,Health Care Access & Utilization,cantaffordcare_skippedmedtosavemoney,You skipped medication doses to save money,available,ok,9129,4083,44.7,4188,,357759,364446
+survey/hcau/cantaffordcare_specialist,survey,Health Care Access & Utilization,cantaffordcare_specialist,To see a specialist,available,ok,9129,3641,39.9,4188,,321906,364446
+survey/hcau/cantaffordcare_tooklessmedtosavemoney,survey,Health Care Access & Utilization,cantaffordcare_tooklessmedtosavemoney,You took less medicine to save money,available,ok,9129,4042,44.3,4188,,355621,364446
+survey/hcau/cantaffordcare_worriedaboutpaying,survey,Health Care Access & Utilization,cantaffordcare_worriedaboutpaying,"If you get sick or have an accident, how worried are you that you will be able to pay your medical bills? Are you very worried, somewhat worried, or not at all ",available,ok,9129,4009,43.9,4180,,352332,363790
+survey/hcau/delayedmedicalcare_cantaffordcopay,survey,Health Care Access & Utilization,delayedmedicalcare_cantaffordcopay,Couldn't afford the copay.,available,ok,9129,3642,39.9,4188,,321331,364446
+survey/hcau/delayedmedicalcare_childcare,survey,Health Care Access & Utilization,delayedmedicalcare_childcare,Couldn't get child care.,available,ok,9129,3601,39.4,4188,,322894,364446
+survey/hcau/delayedmedicalcare_deductibletoohigh,survey,Health Care Access & Utilization,delayedmedicalcare_deductibletoohigh,Your deductible was too high/or could not afford the deductible.,available,ok,9129,3601,39.4,4188,,318412,364446
+survey/hcau/delayedmedicalcare_elderlycare,survey,Health Care Access & Utilization,delayedmedicalcare_elderlycare,You provide care to an adult and could not leave him/her.,available,ok,9129,3637,39.8,4188,,323216,364446
+survey/hcau/delayedmedicalcare_hadtopayoutofpocket,survey,Health Care Access & Utilization,delayedmedicalcare_hadtopayoutofpocket,You had to pay out of pocket for some or all of the procedure.,available,ok,9129,3615,39.6,4188,,318887,364446
+survey/hcau/delayedmedicalcare_nervous,survey,Health Care Access & Utilization,delayedmedicalcare_nervous,You were nervous about seeing a health care provider.,available,ok,9129,3882,42.5,4188,,343497,364446
+survey/hcau/delayedmedicalcare_ruralarea,survey,Health Care Access & Utilization,delayedmedicalcare_ruralarea,You live in a rural area where distance to the health care provider is too far.,available,ok,9129,3924,43.0,4188,,349360,364446
+survey/hcau/delayedmedicalcare_timeoffwork,survey,Health Care Access & Utilization,delayedmedicalcare_timeoffwork,Couldn't get time off work.,available,ok,9129,3772,41.3,4188,,335223,364446
+survey/hcau/delayedmedicalcare_transportation,survey,Health Care Access & Utilization,delayedmedicalcare_transportation,Didn't have transportation.,available,ok,9129,4059,44.5,4188,,355317,364446
+survey/hcau/healthadvice_askedforopinion,survey,Health Care Access & Utilization,healthadvice_askedforopinion,"How often did your doctors or health care providers ask for your opinions or beliefs about your medical care or treatment? For example, what kind of tests, proc",available,ok,9129,3964,43.4,4103,,332222,343259
+survey/hcau/healthadvice_easeofunderstanding,survey,Health Care Access & Utilization,healthadvice_easeofunderstanding,How often did your doctors or health care providers tell or give you information about your health and health care that was easy to understand? Would you say...,available,ok,9129,4000,43.8,4103,,337221,343259
+survey/hcau/healthadvice_generaldoctorvisits,survey,Health Care Access & Utilization,healthadvice_generaldoctorvisits,What is the total number of general doctor visits you made in the last 12 months?,available,ok,9129,3630,39.8,3689,,296742,301960
+survey/hcau/healthadvice_medicalspecialistvisits,survey,Health Care Access & Utilization,healthadvice_medicalspecialistvisits,What is the total number of visits to a medical doctor who specializes in a particular medical disease or problem that you made in the last 12 months?,available,ok,9129,2527,27.7,2592,,159262,162856
+survey/hcau/healthadvice_mentalhealthprofessionalvisits,survey,Health Care Access & Utilization,healthadvice_mentalhealthprofessionalvisits,What is the total number of visits to a mental health professional that you made in the last 12 months?,available,ok,9129,1596,17.5,1686,,87167,90310
+survey/hcau/healthadvice_placeforhealthadvice,survey,Health Care Access & Utilization,healthadvice_placeforhealthadvice,Is there a place that you USUALLY go when you are sick or need advice about your health?,available,ok,9129,4045,44.3,4188,,353984,364446
+survey/hcau/healthadvice_respectedbyprovider,survey,Health Care Access & Utilization,healthadvice_respectedbyprovider,How often were you treated with respect by your doctors or health care providers? Would you say...,available,ok,9129,4023,44.1,4103,,338330,343259
+survey/hcau/healthadvice_spokentomentalhealthprofessional,survey,Health Care Access & Utilization,healthadvice_spokentomentalhealthprofessional,"A mental health professional such as a psychiatrist, psychologist, psychiatric nurse, or clinical social worker?",available,ok,9129,3643,39.9,4103,,306574,343259
+survey/hcau/healthadvice_spokentoprofessional,survey,Health Care Access & Utilization,healthadvice_spokentoprofessional,About how long has it been since you last saw or talked to a doctor or other health care provider about your own health?,available,ok,9129,4101,44.9,4188,,359126,364446
+survey/hcau/healthadvice_spokentotraditionalhealer,survey,Health Care Access & Utilization,healthadvice_spokentotraditionalhealer,"Traditional healers such as, Shaman, acupuncturist, or non-western medicine?",available,ok,9129,3319,36.4,4103,,286148,343259
+survey/hcau/healthadvice_traditionalhealervisits,survey,Health Care Access & Utilization,healthadvice_traditionalhealervisits,What is the total number of visits to traditional healers that you made in the last 12 months?,available,ok,9129,217,2.4,232,,18242,19243
+survey/hcau/healthadvice_whatkindofplace,survey,Health Care Access & Utilization,healthadvice_whatkindofplace,What kind of place do you go to most often?,available,ok,9129,3941,43.2,4009,,340321,344989
+survey/hcau/healthproviderracereligion_delayedornocare,survey,Health Care Access & Utilization,healthproviderracereligion_delayedornocare,How often have you either delayed or not gone to see doctors or health care providers because they were different from you in any of these ways?,available,ok,9129,3905,42.8,4188,,343172,364446
+survey/hcau/healthproviderracereligion_howimportant,survey,Health Care Access & Utilization,healthproviderracereligion_howimportant,How important is it to you that your doctors or health care providers understand or are similar to you in any of these ways? Would you say...,available,ok,9129,4019,44.0,4188,,350588,364446
+survey/hcau/healthproviderracereligion_howoften,survey,Health Care Access & Utilization,healthproviderracereligion_howoften,How often were you able to see doctors or health care providers who were similar to you in any of these ways? Would you say...,available,ok,9129,3815,41.8,4188,,328496,364446
+survey/hcau/insurance_healthcarecoverage,survey,Health Care Access & Utilization,insurance_healthcarecoverage,"In regard to your health insurance or health care coverage, how does it compare to a year ago? Is it better, worse, or about the same?",available,ok,9129,3994,43.8,4188,,349883,364446
+survey/hcau/insurance_insuranceaccepted,survey,Health Care Access & Utilization,insurance_insuranceaccepted,"DURING THE PAST 12 MONTHS, were you told by a health care provider or doctor's office that they did not accept your health care coverage?",available,ok,9129,4065,44.5,4188,,356345,364446
+survey/lifestyle/alcohol_6ormoredrinksoccurence,survey,Lifestyle,alcohol_6ormoredrinksoccurence,How often did you have six or more drinks on one occasion in the past year?,available,ok,9129,5798,63.5,5972,,473980,483727
+survey/lifestyle/alcohol_alcoholparticipant,survey,Lifestyle,alcohol_alcoholparticipant,"In your entire life, have you had at least 1 drink of any kind of alcohol, not counting small tastes or sips? (By a ""drink,"" we mean a can or bottle of beer, a ",available,ok,9129,8816,96.6,9030,,655201,665495
+survey/lifestyle/alcohol_averagedailydrinkcount,survey,Lifestyle,alcohol_averagedailydrinkcount,"On a typical day when you drink, how many drinks do you have?",available,ok,9129,5747,63.0,5973,,468619,483679
+survey/lifestyle/alcohol_drinkfrequencypastyear,survey,Lifestyle,alcohol_drinkfrequencypastyear,How often did you have a drink containing alcohol in the past year?,available,ok,9129,7564,82.9,7787,,586557,596995
+survey/lifestyle/attemptquitsmoking_completelyquit,survey,Lifestyle,attemptquitsmoking_completelyquit,"If you have completely stopped smoking cigarettes, how old were you when you stopped?",suppressed,question not found in CDR,9129,0,0.0,0,,0,0
+survey/lifestyle/attemptquitsmoking_completelyquitage,survey,Lifestyle,attemptquitsmoking_completelyquitage,Age when you stopped smoking:,available,ok,9129,2510,27.5,4308,,161463,221220
+survey/lifestyle/cigarsmoking_cigarsmokeparticipant,survey,Lifestyle,cigarsmoking_cigarsmokeparticipant,"Have you ever smoked a traditional cigar, cigarillo, or filtered cigar, even one or two puffs?",available,ok,9129,8688,95.2,9030,,649937,665495
+survey/lifestyle/cigarsmoking_currentcigarfrequency,survey,Lifestyle,cigarsmoking_currentcigarfrequency,"Do you now smoke a traditional cigar, cigarillo, or filtered cigar...",available,ok,9129,3543,38.8,3809,,249560,260952
+survey/lifestyle/electronicsmoking_electricsmokefrequency,survey,Lifestyle,electronicsmoking_electricsmokefrequency,Do you now use electronic nicotine products...,available,ok,9129,2208,24.2,2392,,126127,134729
+survey/lifestyle/electronicsmoking_electricsmokeparticipant,survey,Lifestyle,electronicsmoking_electricsmokeparticipant,"Have you ever used an electronic nicotine product, even one or two times? (Electronic nicotine products include e-cigarettes, vape pens, hookah pens, personal v",available,ok,9129,8723,95.6,9030,,652169,665495
+survey/lifestyle/hookahsmoking_currenthookahfrequency,survey,Lifestyle,hookahsmoking_currenthookahfrequency,Do you now smoke hookah...,available,ok,9129,1894,20.7,2096,,125578,134077
+survey/lifestyle/hookahsmoking_hookahsmokeparticipant,survey,Lifestyle,hookahsmoking_hookahsmokeparticipant,"Have you ever smoked tobacco in a hookah, even one or two puffs?",available,ok,9129,8697,95.3,9030,,650202,665495
+survey/lifestyle/past3monthusefrequency_cocaine3monthuse,survey,Lifestyle,past3monthusefrequency_cocaine3monthuse,"In the PAST THREE MONTHS, how often have you used cocaine (coke, crack, etc.)?",available,ok,9129,252,2.8,273,,3792,4078
+survey/lifestyle/past3monthusefrequency_hallucinogen3monthuse,survey,Lifestyle,past3monthusefrequency_hallucinogen3monthuse,"In the PAST THREE MONTHS, how often have you used hallucinogens (LSD, acid, mushrooms, PCP, Special K, ecstasy, etc.)?",available,ok,9129,<=20,,<=20,,534,575
+survey/lifestyle/past3monthusefrequency_inhalant3monthuse,survey,Lifestyle,past3monthusefrequency_inhalant3monthuse,"In the PAST THREE MONTHS, how often have you used inhalants (nitrous oxide, glue, gas, paint thinner, etc.)?",available,ok,9129,<=20,,<=20,,545,557
+survey/lifestyle/past3monthusefrequency_marijuana3monthuse,survey,Lifestyle,past3monthusefrequency_marijuana3monthuse,"In the PAST THREE MONTHS, how often have you used marijuana (cannabis, pot, grass, hash, etc.)?",available,ok,9129,1689,18.5,1774,,167944,171456
+survey/lifestyle/past3monthusefrequency_other3monthuse,survey,Lifestyle,past3monthusefrequency_other3monthuse,"In the PAST THREE MONTHS, how often have you used other drugs?",available,ok,9129,21,0.2,26,,1420,1599
+survey/lifestyle/past3monthusefrequency_otherstimulant3monthuse,survey,Lifestyle,past3monthusefrequency_otherstimulant3monthuse,"In the PAST THREE MONTHS, how often have you used other stimulants (methamphetamine, speed, crystal meth, ice, k2/spice, bath salts, etc.)",available,ok,9129,45,0.5,45,,828,864
+survey/lifestyle/past3monthusefrequency_prescriptionopiod3monthuse,survey,Lifestyle,past3monthusefrequency_prescriptionopiod3monthuse,"In the PAST THREE MONTHS, how often have you used prescription opioids for non-medical reasons (obana, fentanyl, oxycodone [OxyContin, Percocet], hydrocodone [V",available,ok,9129,33,0.4,36,,6137,6260
+survey/lifestyle/past3monthusefrequency_prescriptionstimulant3monthuse,survey,Lifestyle,past3monthusefrequency_prescriptionstimulant3monthuse,"In the PAST THREE MONTHS, how often have you used prescription stimulants for non-medical reasons (Vyvanse, Ritalin, Concerta, Dexedrine, Adderall, diet pills, ",available,question not found in CDR,9129,0,0.0,0,,0,0
+survey/lifestyle/past3monthusefrequency_sedative3monthuse,survey,Lifestyle,past3monthusefrequency_sedative3monthuse,"In the PAST THREE MONTHS, how often have you used sedatives or sleeping pills for non-medical reasons (Valium, Serepax, Ativan, Xanax, Librium, Rohypnol, GHB, e",available,ok,9129,<=20,,<=20,,4501,4611
+survey/lifestyle/past3monthusefrequency_streetopioid3monthuse,survey,Lifestyle,past3monthusefrequency_streetopioid3monthuse,"In the PAST THREE MONTHS, how often have you used street opioids (heroin, opium, etc.)?",available,ok,9129,29,0.3,32,,594,689
+survey/lifestyle/recreationaldruguse_whichdrugsused,survey,Lifestyle,recreationaldruguse_whichdrugsused,"In your LIFETIME, which of the following substances have you ever used?",available,ok,9129,8409,92.1,9030,,627821,665495
+survey/lifestyle/smokelesstobacco_smokelesstobaccofrequency,survey,Lifestyle,smokelesstobacco_smokelesstobaccofrequency,Do you now use smokeless tobacco products...,available,ok,9129,1002,11.0,1184,,67413,75078
+survey/lifestyle/smokelesstobacco_smokelesstobaccoparticipant,survey,Lifestyle,smokelesstobacco_smokelesstobaccoparticipant,"Have you ever used smokeless tobacco products, even one or two times? (Smokeless tobacco products include snus pouches, Skoal Bandits, loose snus, moist snuff, ",available,ok,9129,8742,95.8,9030,,653285,665495
+survey/lifestyle/smoking_100cigslifetime,survey,Lifestyle,smoking_100cigslifetime,Have you smoked at least 100 cigarettes in your entire life? (There are 20 cigarettes in a pack.),available,ok,9129,8760,96.0,9030,,648807,665495
+survey/lifestyle/smoking_averagedailycigarette,survey,Lifestyle,smoking_averagedailycigarette,"On average, over the entire time that you smoked, how many cigarettes did you smoke each day? (There are 20 cigarettes in a pack.)",suppressed,question not found in CDR,9129,0,0.0,0,,0,0
+survey/lifestyle/smoking_averagedailycigarettenumber,survey,Lifestyle,smoking_averagedailycigarettenumber,Number of cigarettes per day:,available,ok,9129,3866,42.3,5363,,198814,256115
+survey/lifestyle/smoking_currentdailycigarette,survey,Lifestyle,smoking_currentdailycigarette,"On average, how many cigarettes do you smoke per day now? (There are 20 cigarettes in a pack.)",suppressed,question not found in CDR,9129,0,0.0,0,,0,0
+survey/lifestyle/smoking_currentdailycigarettenumber,survey,Lifestyle,smoking_currentdailycigarettenumber,Number of cigarettes per day:,available,ok,9129,4294,47.0,5362,,215767,256082
+survey/lifestyle/smoking_dailysmokestartingage,survey,Lifestyle,smoking_dailysmokestartingage,How old were you when you first started regular cigarette smoking?,suppressed,ok,9129,4827,52.9,5377,,232413,256481
+survey/lifestyle/smoking_dailysmokestartingagenumber,survey,Lifestyle,smoking_dailysmokestartingagenumber,Age:,available,question not found in CDR,9129,0,0.0,0,,0,0
+survey/lifestyle/smoking_numberofyears,survey,Lifestyle,smoking_numberofyears,How many years have you or did you smoke cigarettes?,suppressed,ok,9129,4127,45.2,5361,,210877,256209
+survey/lifestyle/smoking_numberofyearsnumber,survey,Lifestyle,smoking_numberofyearsnumber,Number of years:,available,question not found in CDR,9129,0,0.0,0,,0,0
+survey/lifestyle/smoking_seriousquitattempt,survey,Lifestyle,smoking_seriousquitattempt,"In the past, have you ever made a serious attempt to quit smoking? That is, have you stopped smoking for at least one day or longer because you were trying to q",available,ok,9129,5139,56.3,5381,,245109,256482
+survey/lifestyle/smoking_smokefrequency,survey,Lifestyle,smoking_smokefrequency,"Do you now smoke cigarettes every day, some days, or not at all?",available,ok,9129,5282,57.9,5384,,252040,256568
+survey/overall_health/overallhealth_averagefatigue7days,survey,Overall Health,overallhealth_averagefatigue7days,"In the past 7 days, how would you rate your fatigue?",available,ok,9129,8866,97.1,9039,,664211,671485
+survey/overall_health/overallhealth_averagepain7days,survey,Overall Health,overallhealth_averagepain7days,"In the past 7 days, how would you rate your pain on average?",available,ok,9129,8243,90.3,9039,,632840,671485
+survey/overall_health/overallhealth_difficultunderstandinfo,survey,Overall Health,overallhealth_difficultunderstandinfo,How often do you have problems learning about your medical condition because of difficulty understanding written information?,available,ok,9129,8801,96.4,9039,,660009,671485
+survey/overall_health/overallhealth_emotionalproblem7days,survey,Overall Health,overallhealth_emotionalproblem7days,"In the past 7 days, how often have you been bothered by emotional problems such as feeling anxious, depressed, or irritable?",available,ok,9129,8864,97.1,9039,,663031,671485
+survey/overall_health/overallhealth_everydayactivities,survey,Overall Health,overallhealth_everydayactivities,"To what extent are you able to carry out your everyday physical activities such as walking, climbing stairs, carrying groceries, or moving a chair?",available,ok,9129,8876,97.2,9039,,664236,671485
+survey/overall_health/overallhealth_generalhealth,survey,Overall Health,overallhealth_generalhealth,"In general, would you say your health is:",available,ok,9129,8912,97.6,9039,,664886,671485
+survey/overall_health/overallhealth_generalmentalhealth,survey,Overall Health,overallhealth_generalmentalhealth,"In general, how would you rate your mental health, including your mood and your ability to think?",available,ok,9129,8856,97.0,9039,,664022,671485
+survey/overall_health/overallhealth_generalphysicalhealth,survey,Overall Health,overallhealth_generalphysicalhealth,"In general, how would you rate your physical health?",available,ok,9129,8812,96.5,9039,,662446,671485
+survey/overall_health/overallhealth_generalquality,survey,Overall Health,overallhealth_generalquality,"In general, would you say your quality of life is:",available,ok,9129,8795,96.3,9039,,661391,671485
+survey/overall_health/overallhealth_generalsocial,survey,Overall Health,overallhealth_generalsocial,"In general, please rate how well you carry out your usual social roles. (This includes activities at home, at work and in your community, and responsibilities a",available,ok,9129,8849,96.9,9039,,661809,671485
+survey/overall_health/overallhealth_healthmaterialassistance,survey,Overall Health,overallhealth_healthmaterialassistance,How often do you have someone help you read health-related materials?,available,ok,9129,8887,97.3,9039,,663653,671485
+survey/overall_health/overallhealth_medicalformconfidence,survey,Overall Health,overallhealth_medicalformconfidence,How confident are you filling out medical forms by yourself?,available,ok,9129,8879,97.3,9039,,664074,671485
+survey/overall_health/overallhealth_socialsatisfaction,survey,Overall Health,overallhealth_socialsatisfaction,"In general, how would you rate your satisfaction with your social activities and relationships?",available,ok,9129,8867,97.1,9039,,663022,671485
+survey/overall_health/pregnancy_1pregnancystatus,survey,Overall Health,pregnancy_1pregnancystatus,Are you currently pregnant?,available,ok,9129,1114,12.2,1253,,192264,201438
+survey/pfhh/circulatorycondition_aorticaneurysm_yes,survey,Personal and Family Health History,circulatorycondition_aorticaneurysm_yes,"Including yourself, who in your family has had aortic aneurysm? Select all that apply.",available,ok,9129,107,1.2,111,<=20,12231,12660
+survey/pfhh/circulatorycondition_atrialfibrilation_yes,survey,Personal and Family Health History,circulatorycondition_atrialfibrilation_yes,"Including yourself, who in your family has had atrial fibrillation (or a-fib) or atrial flutter (or a-flutter)? Select all that apply.",available,ok,9129,323,3.5,329,91,41095,41770
+survey/pfhh/circulatorycondition_bleedingdisorder_yes,survey,Personal and Family Health History,circulatorycondition_bleedingdisorder_yes,"Including yourself, who in your family has had a bleeding disorder? Select all that apply.",available,ok,9129,62,0.7,63,29,7243,7489
+survey/pfhh/circulatorycondition_congestiveheartfailure_yes,survey,Personal and Family Health History,circulatorycondition_congestiveheartfailure_yes,"Including yourself, who in your family has had congestive heart failure? Select all that apply.",available,ok,9129,577,6.3,597,71,54420,55278
+survey/pfhh/circulatorycondition_coronaryarteryheartdisease_yes,survey,Personal and Family Health History,circulatorycondition_coronaryarteryheartdisease_yes,"Including yourself, who in your family has had coronary artery/coronary heart disease? Select all that apply.",available,question not found in CDR,9129,0,0.0,0,0,0,0
+survey/pfhh/circulatorycondition_heartattack_yes,survey,Personal and Family Health History,circulatorycondition_heartattack_yes,"Including yourself, who in your family has had a heart attack? Select all that apply.",available,ok,9129,971,10.6,994,106,86633,88164
+survey/pfhh/circulatorycondition_heartvalvedisease_yes,survey,Personal and Family Health History,circulatorycondition_heartvalvedisease_yes,"Including yourself, who in your family has had heart valve disease? Select all that apply.",available,ok,9129,194,2.1,200,34,19363,19917
+survey/pfhh/circulatorycondition_highbloodpressure_yes,survey,Personal and Family Health History,circulatorycondition_highbloodpressure_yes,"Including yourself, who in your family has had high blood pressure (hypertension)? Select all that apply.",available,ok,9129,1768,19.4,1794,810,153722,154967
+survey/pfhh/circulatorycondition_highcholesterol_yes,survey,Personal and Family Health History,circulatorycondition_highcholesterol_yes,"Including yourself, who in your family has had high cholesterol? Select all that apply.",available,ok,9129,1323,14.5,1345,688,124246,125509
+survey/pfhh/circulatorycondition_otherheartorbloodcondition_ye,survey,Personal and Family Health History,circulatorycondition_otherheartorbloodcondition_ye,"Including yourself, who in your family has had other heart or blood condition? Select all that apply.",available,ok,9129,202,2.2,212,,16932,17869
+survey/pfhh/circulatorycondition_peripheralvasculardisease_yes,survey,Personal and Family Health History,circulatorycondition_peripheralvasculardisease_yes,"Including yourself, who in your family has had peripheral vascular disease? Select all that apply.",available,ok,9129,90,1.0,97,25,8770,9020
+survey/pfhh/circulatorycondition_pulmonaryembolismthrombosis_yes,survey,Personal and Family Health History,circulatorycondition_pulmonaryembolismthrombosis_yes,"Including yourself, who in your family has had pulmonary embolism or deep vein thrombosis (DVT)? Select all that apply.",available,question not found in CDR,9129,0,0.0,0,0,0,0
+survey/pfhh/circulatorycondition_sicklecelldisease_yes,survey,Personal and Family Health History,circulatorycondition_sicklecelldisease_yes,"Including yourself, who in your family has had sickle cell disease? Select all that apply.",available,ok,9129,56,0.6,69,<=20,1617,1983
+survey/pfhh/circulatorycondition_stroke_yes,survey,Personal and Family Health History,circulatorycondition_stroke_yes,"Including yourself, who in your family has had a stroke? Select all that apply.",available,ok,9129,664,7.3,690,76,62736,64121
+survey/pfhh/circulatorycondition_suddendeath_yes,survey,Personal and Family Health History,circulatorycondition_suddendeath_yes,Who in your family has had sudden death? Select all that apply.,available,ok,9129,166,1.8,177,0,13841,14473
+survey/pfhh/circulatorycondition_transientischemicattack_yes,survey,Personal and Family Health History,circulatorycondition_transientischemicattack_yes,"Including yourself, who in your family has had transient ischemic attacks (TIAs or mini-strokes)? Select all that apply.",available,ok,9129,183,2.0,188,60,20951,21323
+survey/pfhh/diagnosedhealthcondition_cancercondition,survey,Personal and Family Health History,diagnosedhealthcondition_cancercondition,Have you or anyone in your family ever been diagnosed with the following cancer conditions? Think only of the people you are related to by blood. Select all tha,available,ok,9129,2350,25.7,2707,,209914,233475
+survey/pfhh/diagnosedhealthcondition_livercondition_yes,survey,Personal and Family Health History,diagnosedhealthcondition_livercondition_yes,"Including yourself, who in your family has had a liver condition (e.g., cirrhosis)? Select all that apply.",available,ok,9129,263,2.9,278,141,17212,17670
+survey/pfhh/diagnosedhealthcondition_mentalcondition,survey,Personal and Family Health History,diagnosedhealthcondition_mentalcondition,Have you or anyone in your family ever been diagnosed with the following mental health or substance use conditions? Think only of the people you are related to ,available,ok,9129,2506,27.5,2826,,217115,242583
+survey/pfhh/endocrinecondition_type2diabetes_yes,survey,Personal and Family Health History,endocrinecondition_type2diabetes_yes,"Including yourself, who in your family has had type 2 diabetes? Select all that apply.",available,ok,9129,1013,11.1,1025,311,91861,92975
+survey/pfhh/infectiousdiseases_hivaidscurrently,survey,Personal and Family Health History,infectiousdiseases_hivaidscurrently,Are you still seeing a doctor or health care provider for HIV/AIDS?,available,ok,9129,3293,36.1,3324,,3294,3325
+survey/pfhh/infectiousdiseases_howoldwereyouhivaids,survey,Personal and Family Health History,infectiousdiseases_howoldwereyouhivaids,About how old were you when you were first told you had HIV/AIDS?,available,ok,9129,3269,35.8,3324,,3270,3325
+survey/pfhh/infectiousdiseases_infectiousdiseasecondition,survey,Personal and Family Health History,infectiousdiseases_infectiousdiseasecondition,Have you ever been diagnosed with the following conditions? Select all that apply.,available,ok,9129,3971,43.5,4069,,331058,345568
+survey/pfhh/infectiousdiseases_rxmedsforhivaids,survey,Personal and Family Health History,infectiousdiseases_rxmedsforhivaids,Are you currently prescribed medications and/or receiving treatment for HIV/AIDS?,available,ok,9129,3290,36.0,3324,,3291,3325
+survey/pfhh/infectiousdiseases_tuberculosiscurrently,survey,Personal and Family Health History,infectiousdiseases_tuberculosiscurrently,Are you still seeing a doctor or health care provider for tuberculosis?,available,ok,9129,124,1.4,125,,3595,3649
+survey/pfhh/kidneycondition_acutekidneynodialysis_yes,survey,Personal and Family Health History,kidneycondition_acutekidneynodialysis_yes,"Including yourself, who in your family has had acute kidney disease with no current dialysis? Select all that apply.",available,ok,9129,108,1.2,109,59,6586,6689
+survey/pfhh/kidneycondition_kidneystones_yes,survey,Personal and Family Health History,kidneycondition_kidneystones_yes,"Including yourself, who in your family has had kidney stones? Select all that apply.",available,ok,9129,461,5.0,466,221,46861,47356
+survey/pfhh/kidneycondition_kidneywithdialysis_yes,survey,Personal and Family Health History,kidneycondition_kidneywithdialysis_yes,"Including yourself, who in your family has had kidney disease with dialysis? Select all that apply.",available,ok,9129,164,1.8,172,35,11185,11654
+survey/pfhh/kidneycondition_kidneywithoutdialysis_yes,survey,Personal and Family Health History,kidneycondition_kidneywithoutdialysis_yes,"Including yourself, who in your family has had kidney disease without dialysis? Select all that apply.",available,ok,9129,165,1.8,167,95,11411,11573
+survey/pfhh/kidneycondition_otherkidneycondition_yes,survey,Personal and Family Health History,kidneycondition_otherkidneycondition_yes,"Including yourself, who in your family has had other kidney condition(s)? Select all that apply.",available,ok,9129,98,1.1,104,53,10622,11012
+survey/pfhh/mentalcondition_alcoholuse_yes,survey,Personal and Family Health History,mentalcondition_alcoholuse_yes,"Including yourself, who in your family has had alcohol use disorder? Select all that apply.",available,ok,9129,848,9.3,860,279,61985,62857
+survey/pfhh/mentalcondition_anxietypanic_yes,survey,Personal and Family Health History,mentalcondition_anxietypanic_yes,"Including yourself, who in your family has had anxiety reaction/panic disorder? Select all that apply.",available,ok,9129,835,9.1,844,628,76900,77512
+survey/pfhh/mentalcondition_bipolar_yes,survey,Personal and Family Health History,mentalcondition_bipolar_yes,"Including yourself, who in your family has had bipolar disorder? Select all that apply.",available,ok,9129,507,5.6,520,255,32516,33336
+survey/pfhh/mentalcondition_depression_yes,survey,Personal and Family Health History,mentalcondition_depression_yes,"Including yourself, who in your family has had depression? Select all that apply.",available,ok,9129,1293,14.2,1306,956,104191,104968
+survey/pfhh/mentalcondition_druguse_yes,survey,Personal and Family Health History,mentalcondition_druguse_yes,"Including yourself, who in your family has had a drug use disorder? Select all that apply.",available,ok,9129,592,6.5,604,374,24364,24949
+survey/pfhh/mentalcondition_personalitydisorder_yes,survey,Personal and Family Health History,mentalcondition_personalitydisorder_yes,"Including yourself, who in your family has had a personality disorder? Select all that apply.",available,ok,9129,140,1.5,144,76,8949,9126
+survey/pfhh/mentalcondition_ptsd_yes,survey,Personal and Family Health History,mentalcondition_ptsd_yes,"Including yourself, who in your family has had post-traumatic stress disorder (PTSD)? Select all that apply.",available,ok,9129,399,4.4,402,335,31591,31860
+survey/pfhh/mentalcondition_schizophrenia_yes,survey,Personal and Family Health History,mentalcondition_schizophrenia_yes,"Including yourself, who in your family has had schizophrenia? Select all that apply.",available,ok,9129,217,2.4,228,65,10070,10794
+survey/pfhh/nervouscondition_chronicfatigue_yes,survey,Personal and Family Health History,nervouscondition_chronicfatigue_yes,"Including yourself, who in your family has had chronic fatigue? Select all that apply.",available,ok,9129,160,1.8,163,134,14121,14253
+survey/pfhh/nervouscondition_dementia_yes,survey,Personal and Family Health History,nervouscondition_dementia_yes,"Including yourself, who in your family has had dementia (includes Alzheimer's, vascular, etc.)? Select all that apply.",available,ok,9129,586,6.4,597,<=20,63234,63894
+survey/pfhh/nervouscondition_insomnia_yes,survey,Personal and Family Health History,nervouscondition_insomnia_yes,"Including yourself, who in your family has had insomnia? Select all that apply.",available,ok,9129,354,3.9,359,322,28197,28401
+survey/pfhh/nervouscondition_memoryloss_yes,survey,Personal and Family Health History,nervouscondition_memoryloss_yes,"Including yourself, who in your family has had memory loss or impairment? Select all that apply.",available,ok,9129,277,3.0,285,133,21284,21483
+survey/pfhh/otherhealthcondition_obesity_yes,survey,Personal and Family Health History,otherhealthcondition_obesity_yes,"Including yourself, who in your family has had obesity? Select all that apply.",available,ok,9129,620,6.8,626,426,68600,69039
+survey/sdoh/ahc_2,survey,Social Determinants of Health,ahc_2,Think about the place you live. Do you have problems with any of the following? Select all that apply.,available,ok,9129,3090,33.8,3217,,297414,311237
+survey/sdoh/bmmrs_1,survey,Social Determinants of Health,bmmrs_1,I feel God's (or a higher power's) presence,available,ok,9129,3148,34.5,3217,,305933,311237
+survey/sdoh/bmmrs_2,survey,Social Determinants of Health,bmmrs_2,I find strength and comfort in my religion,available,ok,9129,3130,34.3,3217,,303860,311237
+survey/sdoh/bmmrs_3,survey,Social Determinants of Health,bmmrs_3,I feel deep inner peace or harmony,available,ok,9129,3143,34.4,3217,,303391,311237
+survey/sdoh/bmmrs_4,survey,Social Determinants of Health,bmmrs_4,I desire to be closer to or in union with God (or a higher power),available,ok,9129,3138,34.4,3217,,302995,311237
+survey/sdoh/bmmrs_5,survey,Social Determinants of Health,bmmrs_5,"I feel God's (or a higher power's) love for me, directly or through others",available,ok,9129,3110,34.1,3217,,301393,311237
+survey/sdoh/bmmrs_6,survey,Social Determinants of Health,bmmrs_6,I am spiritually touched by the beauty of creation,available,ok,9129,3134,34.3,3217,,302591,311237
+survey/sdoh/chis_1,survey,Social Determinants of Health,chis_1,Do you speak a language other than English at home?,available,ok,9129,3133,34.3,3217,,306599,311237
+survey/sdoh/chis_1_xx,survey,Social Determinants of Health,chis_1_xx,"Since you speak a language other than English at home, we are interested in your own thoughts about how well you think you speak English. Would you say you spea",available,ok,9129,704,7.7,715,,51969,52710
+survey/sdoh/hvs_1,survey,Social Determinants of Health,hvs_1,"Within the past 12 months, we worried whether our food would run out before we got money to buy more.",available,ok,9129,3160,34.6,3215,,307509,311129
+survey/sdoh/hvs_2,survey,Social Determinants of Health,hvs_2,"Within the past 12 months, the food we bought just didn't last and we didn't have money to get more.",available,ok,9129,3147,34.5,3215,,306420,311107
+survey/sdoh/ips_1,survey,Social Determinants of Health,ips_1,What is the main type of housing in your neighborhood?,available,ok,9129,3073,33.7,3217,,302626,311237
+survey/sdoh/ips_16,survey,Social Determinants of Health,ips_16,The crime rate in my neighborhood makes it unsafe to go on walks during the day. Would you say that you...,available,ok,9129,2855,31.3,3203,,276694,310882
+survey/sdoh/ips_2,survey,Social Determinants of Health,ips_2,"Many shops, stores, markets or other places to buy things I need are within easy walking distance of my home. Would you say that you...",available,ok,9129,3127,34.3,3214,,303489,311147
+survey/sdoh/ips_3,survey,Social Determinants of Health,ips_3,"It is within a 10-15 minute walk to a transit stop (such as bus, train, trolley, or tram) from my home. Would you say that you...",available,ok,9129,3012,33.0,3213,,288832,311056
+survey/sdoh/ips_4,survey,Social Determinants of Health,ips_4,There are sidewalks on most of the streets in my neighborhood. Would you say that you...,available,ok,9129,3110,34.1,3214,,301352,311149
+survey/sdoh/ips_5,survey,Social Determinants of Health,ips_5,"There are facilities to bicycle in or near my neighborhood, such as special lanes, separate paths or trails, or shared use paths for cycles and pedestrians. Wou",available,ok,9129,3003,32.9,3211,,294456,311027
+survey/sdoh/ips_6,survey,Social Determinants of Health,ips_6,"My neighborhood has several free or low-cost recreation facilities, such as parks, walking trails, bike paths, recreation centers, playgrounds, public swimming ",available,ok,9129,3006,32.9,3215,,295384,311143
+survey/sdoh/ips_7,survey,Social Determinants of Health,ips_7,The crime rate in my neighborhood makes it unsafe to go on walks at night. Would you say that you...,available,ok,9129,2963,32.5,3212,,289119,311027
+survey/sdoh/nds_1,survey,Social Determinants of Health,nds_1,There is a lot of graffiti in my neighborhood.,available,ok,9129,3141,34.4,3214,,305694,311112
+survey/sdoh/nds_10,survey,Social Determinants of Health,nds_10,There is too much alcohol use in my neighborhood.,available,ok,9129,2975,32.6,3214,,288857,310967
+survey/sdoh/nds_11,survey,Social Determinants of Health,nds_11,I'm always having trouble with my neighbors.,available,ok,9129,3126,34.2,3214,,301981,311134
+survey/sdoh/nds_12,survey,Social Determinants of Health,nds_12,"In my neighborhood, people watch out for each other.",available,ok,9129,3103,34.0,3216,,300930,311079
+survey/sdoh/nds_13,survey,Social Determinants of Health,nds_13,My neighborhood is safe.,available,ok,9129,3093,33.9,3216,,300630,311095
+survey/sdoh/nds_2,survey,Social Determinants of Health,nds_2,My neighborhood is noisy.,available,ok,9129,3117,34.1,3216,,303601,311065
+survey/sdoh/nds_3,survey,Social Determinants of Health,nds_3,Vandalism is common in my neighborhood.,available,ok,9129,3090,33.8,3216,,300793,311047
+survey/sdoh/nds_4,survey,Social Determinants of Health,nds_4,There are lot of abandoned buildings in my neighborhood.,available,ok,9129,3053,33.4,3215,,298192,311018
+survey/sdoh/nds_5,survey,Social Determinants of Health,nds_5,My neighborhood is clean.,available,ok,9129,3033,33.2,3213,,294785,311045
+survey/sdoh/nds_6,survey,Social Determinants of Health,nds_6,People in my neighborhood take good care of their houses and apartments.,available,ok,9129,3112,34.1,3216,,301275,311150
+survey/sdoh/nds_7,survey,Social Determinants of Health,nds_7,There are too many people hanging around on the streets near my home.,available,ok,9129,3101,34.0,3215,,300356,311081
+survey/sdoh/nds_8,survey,Social Determinants of Health,nds_8,There is a lot of crime in my neighborhood.,available,ok,9129,3082,33.8,3215,,302573,311060
+survey/sdoh/nds_9,survey,Social Determinants of Health,nds_9,There is too much drug use in my neighborhood.,available,ok,9129,3052,33.4,3214,,298111,311017
+survey/sdoh/nhs_xx,survey,Social Determinants of Health,nhs_xx,How often do you go to religious meetings or services?,available,ok,9129,3034,33.2,3217,,290285,311237
+survey/sdoh/scns_1,survey,Social Determinants of Health,scns_1,People around here are willing to help their neighbors.,available,ok,9129,3168,34.7,3215,,307634,311165
+survey/sdoh/scns_2,survey,Social Determinants of Health,scns_2,People in my neighborhood generally get along with each other.,available,ok,9129,3128,34.3,3214,,303896,311072
+survey/sdoh/scns_3,survey,Social Determinants of Health,scns_3,People in my neighborhood can be trusted.,available,ok,9129,3113,34.1,3213,,300459,311045
+survey/sdoh/scns_4,survey,Social Determinants of Health,scns_4,People in my neighborhood share the same values.,available,ok,9129,3084,33.8,3213,,298047,311013
+survey/sdoh/sdoh_cpss_1,survey,Social Determinants of Health,sdoh_cpss_1,"In the last month, how often have you been upset because of something that happened unexpectedly?",available,ok,9129,3156,34.6,3215,,306740,311124
+survey/sdoh/sdoh_cpss_10,survey,Social Determinants of Health,sdoh_cpss_10,"In the last month, how often have you felt difficulties were piling up so high that you could not overcome them?",available,ok,9129,2950,32.3,3212,,286763,310927
+survey/sdoh/sdoh_cpss_2,survey,Social Determinants of Health,sdoh_cpss_2,"In the last month, how often have you felt that you were unable to control the important things in your life?",available,ok,9129,3141,34.4,3214,,304641,311090
+survey/sdoh/sdoh_cpss_3,survey,Social Determinants of Health,sdoh_cpss_3,"In the last month, how often have you felt nervous and ""stressed""?",available,ok,9129,3099,33.9,3214,,300702,311079
+survey/sdoh/sdoh_cpss_4,survey,Social Determinants of Health,sdoh_cpss_4,"In the last month, how often have you felt confident about your ability to handle your personal problems?",available,ok,9129,3046,33.4,3214,,295459,311045
+survey/sdoh/sdoh_cpss_5,survey,Social Determinants of Health,sdoh_cpss_5,"In the last month, how often have you felt that things were going your way?",available,ok,9129,2973,32.6,3212,,289297,310969
+survey/sdoh/sdoh_cpss_6,survey,Social Determinants of Health,sdoh_cpss_6,"In the last month, how often have you found that you could not cope with all the things that you had to do?",available,ok,9129,3123,34.2,3214,,302999,311092
+survey/sdoh/sdoh_cpss_7,survey,Social Determinants of Health,sdoh_cpss_7,"In the last month, how often have you been able to control irritations in your life?",available,ok,9129,3106,34.0,3214,,301609,311059
+survey/sdoh/sdoh_cpss_8,survey,Social Determinants of Health,sdoh_cpss_8,"In the last month, how often have you felt that you were on top of things?",available,ok,9129,3069,33.6,3212,,298221,311052
+survey/sdoh/sdoh_cpss_9,survey,Social Determinants of Health,sdoh_cpss_9,"In the last month, how often have you been angered because of things that were outside of your control?",available,ok,9129,3015,33.0,3212,,294868,311024
+survey/sdoh/sdoh_dms_1,survey,Social Determinants of Health,sdoh_dms_1,You are treated with less courtesy than other people.,available,ok,9129,3149,34.5,3213,,305511,311074
+survey/sdoh/sdoh_dms_2,survey,Social Determinants of Health,sdoh_dms_2,You are treated with less respect than other people.,available,ok,9129,3118,34.2,3214,,303228,311012
+survey/sdoh/sdoh_dms_3,survey,Social Determinants of Health,sdoh_dms_3,You receive poorer service than others.,available,ok,9129,3095,33.9,3214,,301460,311003
+survey/sdoh/sdoh_dms_4,survey,Social Determinants of Health,sdoh_dms_4,A doctor or nurse acts as if he or she thinks you are not smart.,available,ok,9129,3062,33.5,3214,,299420,310956
+survey/sdoh/sdoh_dms_5,survey,Social Determinants of Health,sdoh_dms_5,A doctor or nurse acts as if he or she is afraid of you.,available,ok,9129,3005,32.9,3210,,293131,310866
+survey/sdoh/sdoh_dms_6,survey,Social Determinants of Health,sdoh_dms_6,You feel like a doctor or nurse is not listening to what you were saying.,available,ok,9129,3102,34.0,3212,,302681,311056
+survey/sdoh/sdoh_dms_7,survey,Social Determinants of Health,sdoh_dms_7,A doctor or nurse acts as if he or she is better than you.,available,ok,9129,3126,34.2,3212,,303580,311083
+survey/sdoh/sdoh_eds_1,survey,Social Determinants of Health,sdoh_eds_1,You are treated with less courtesy than other people are.,available,ok,9129,3161,34.6,3211,,306981,311121
+survey/sdoh/sdoh_eds_2,survey,Social Determinants of Health,sdoh_eds_2,You are treated with less respect than other people are.,available,ok,9129,3126,34.2,3213,,304461,311088
+survey/sdoh/sdoh_eds_3,survey,Social Determinants of Health,sdoh_eds_3,You receive poorer service than other people at restaurants or stores.,available,ok,9129,3103,34.0,3212,,302842,311072
+survey/sdoh/sdoh_eds_4,survey,Social Determinants of Health,sdoh_eds_4,People act as if they think you are not smart.,available,ok,9129,3062,33.5,3212,,299749,311066
+survey/sdoh/sdoh_eds_5,survey,Social Determinants of Health,sdoh_eds_5,People act as if they are afraid of you.,available,ok,9129,3026,33.1,3211,,295431,311023
+survey/sdoh/sdoh_eds_6,survey,Social Determinants of Health,sdoh_eds_6,People act as if they think you are dishonest.,available,ok,9129,3130,34.3,3215,,303523,311118
+survey/sdoh/sdoh_eds_7,survey,Social Determinants of Health,sdoh_eds_7,People act as if they're better than you are.,available,ok,9129,3103,34.0,3215,,302427,311079
+survey/sdoh/sdoh_eds_8,survey,Social Determinants of Health,sdoh_eds_8,You are called names or insulted.,available,ok,9129,3095,33.9,3215,,301606,311067
+survey/sdoh/sdoh_eds_9,survey,Social Determinants of Health,sdoh_eds_9,You are threatened or harassed.,available,ok,9129,3065,33.6,3215,,299431,311051
+survey/sdoh/sdoh_eds_follow_up_1,survey,Social Determinants of Health,sdoh_eds_follow_up_1,What do you think is the main reason for these experiences?,available,ok,9129,2104,23.0,2167,,171664,177910
+survey/sdoh/sdoh_eds_follow_up_1_xx,survey,Social Determinants of Health,sdoh_eds_follow_up_1_xx,Please specify.,suppressed,question not found in CDR,9129,0,0.0,0,,0,0
+survey/sdoh/sdoh_mos_ss_1,survey,Social Determinants of Health,sdoh_mos_ss_1,Someone to help you if you were confined to bed,available,ok,9129,3161,34.6,3216,,307264,311133
+survey/sdoh/sdoh_mos_ss_2,survey,Social Determinants of Health,sdoh_mos_ss_2,Someone to take you to the doctor if you need it,available,ok,9129,3133,34.3,3216,,305452,311105
+survey/sdoh/sdoh_mos_ss_3,survey,Social Determinants of Health,sdoh_mos_ss_3,Someone to prepare your meals if you were unable to do it yourself,available,ok,9129,3119,34.2,3216,,303917,311088
+survey/sdoh/sdoh_mos_ss_4,survey,Social Determinants of Health,sdoh_mos_ss_4,Someone to help with daily chores if you were sick,available,ok,9129,3087,33.8,3216,,301361,311062
+survey/sdoh/sdoh_mos_ss_5,survey,Social Determinants of Health,sdoh_mos_ss_5,Someone to have a good time with,available,ok,9129,3046,33.4,3215,,297684,311035
+survey/sdoh/sdoh_mos_ss_6,survey,Social Determinants of Health,sdoh_mos_ss_6,Someone to turn to for suggestions about how to deal with a personal problem,available,ok,9129,3133,34.3,3215,,304337,311135
+survey/sdoh/sdoh_mos_ss_7,survey,Social Determinants of Health,sdoh_mos_ss_7,Someone who understands your problems,available,ok,9129,3111,34.1,3214,,302662,311096
+survey/sdoh/sdoh_mos_ss_8,survey,Social Determinants of Health,sdoh_mos_ss_8,Someone to love and make you feel wanted,available,ok,9129,3087,33.8,3213,,301698,311082
+survey/sdoh/sdoh_ucla_ls8_11,survey,Social Determinants of Health,sdoh_ucla_ls8_11,I feel left out,available,ok,9129,3102,34.0,3215,,302562,311079
+survey/sdoh/sdoh_ucla_ls8_14,survey,Social Determinants of Health,sdoh_ucla_ls8_14,I feel isolated from others,available,ok,9129,3076,33.7,3215,,300297,311060
+survey/sdoh/sdoh_ucla_ls8_15,survey,Social Determinants of Health,sdoh_ucla_ls8_15,I can find companionship when I want it,available,ok,9129,3111,34.1,3215,,303153,311133
+survey/sdoh/sdoh_ucla_ls8_17,survey,Social Determinants of Health,sdoh_ucla_ls8_17,I am unhappy being so withdrawn,available,ok,9129,3099,33.9,3215,,302405,311086
+survey/sdoh/sdoh_ucla_ls8_18,survey,Social Determinants of Health,sdoh_ucla_ls8_18,People are around me but not with me,available,ok,9129,3081,33.7,3215,,301569,311074
+survey/sdoh/sdoh_ucla_ls8_2,survey,Social Determinants of Health,sdoh_ucla_ls8_2,I lack companionship,available,ok,9129,3149,34.5,3216,,306481,311125
+survey/sdoh/sdoh_ucla_ls8_3,survey,Social Determinants of Health,sdoh_ucla_ls8_3,There is no one I can turn to,available,ok,9129,3128,34.3,3216,,304463,311082
+survey/sdoh/sdoh_ucla_ls8_9,survey,Social Determinants of Health,sdoh_ucla_ls8_9,I am an outgoing person,available,ok,9129,3111,34.1,3214,,303833,311105
+survey/sdoh/urs_8c,survey,Social Determinants of Health,urs_8c,"In the last 12 months, how many times have you or your family moved from one home to another? Number of moves in past 12 months:",available,ok,9129,3054,33.5,3217,,301078,311237
+ds/ds_person/date_of_birth,ds,ds_person,date_of_birth,date_of_birth,generalized,no person_id column,9129,,,,,,
+ds/ds_person/ethnicity,ds,ds_person,ethnicity,ethnicity,suppressed,no person_id column,9129,,,,,,
+ds/ds_person/gender,ds,ds_person,gender,gender,suppressed,no person_id column,9129,,,,,,
+ds/ds_person/race,ds,ds_person,race,race,suppressed,no person_id column,9129,,,,,,
+ds/ds_person/sex_at_birth,ds,ds_person,sex_at_birth,sex_at_birth,available,no person_id column,9129,,,,,,
+ds/ds_zip_code_socioeconomic/deprivation_index,ds,ds_zip_code_socioeconomic,deprivation_index,deprivation_index,available,table not found,9129,,,,,,
+ds/ds_zip_code_socioeconomic/fraction_assisted_income,ds,ds_zip_code_socioeconomic,fraction_assisted_income,fraction_assisted_income,available,table not found,9129,,,,,,
+ds/ds_zip_code_socioeconomic/fraction_high_school_edu,ds,ds_zip_code_socioeconomic,fraction_high_school_edu,fraction_high_school_edu,available,table not found,9129,,,,,,
+ds/ds_zip_code_socioeconomic/fraction_no_health_ins,ds,ds_zip_code_socioeconomic,fraction_no_health_ins,fraction_no_health_ins,available,table not found,9129,,,,,,
+ds/ds_zip_code_socioeconomic/fraction_poverty,ds,ds_zip_code_socioeconomic,fraction_poverty,fraction_poverty,available,table not found,9129,,,,,,
+ds/ds_zip_code_socioeconomic/fraction_vacant_housing,ds,ds_zip_code_socioeconomic,fraction_vacant_housing,fraction_vacant_housing,available,table not found,9129,,,,,,
+ds/ds_zip_code_socioeconomic/median_income,ds,ds_zip_code_socioeconomic,median_income,median_income,available,table not found,9129,,,,,,
+ds/ds_zip_code_socioeconomic/zip3_as_string,ds,ds_zip_code_socioeconomic,zip3_as_string,zip3_as_string,available,table not found,9129,,,,,,
+emt/delaydiscounting_task/any_timeouts,emt,delaydiscounting_task,any_timeouts,any_timeouts,available,table not found,9129,,,,,,
+emt/delaydiscounting_task/aou_version,emt,delaydiscounting_task,aou_version,aou_version,available,table not found,9129,,,,,,
+emt/delaydiscounting_task/catch_score,emt,delaydiscounting_task,catch_score,catch_score,available,table not found,9129,,,,,,
+emt/delaydiscounting_task/flag_catch_trials,emt,delaydiscounting_task,flag_catch_trials,flag_catch_trials,available,table not found,9129,,,,,,
+emt/delaydiscounting_task/flag_median_rt,emt,delaydiscounting_task,flag_median_rt,flag_median_rt,available,table not found,9129,,,,,,
+emt/delaydiscounting_task/lnk,emt,delaydiscounting_task,lnk,lnk,available,table not found,9129,,,,,,
+emt/delaydiscounting_task/mean_rt,emt,delaydiscounting_task,mean_rt,mean_rt,available,table not found,9129,,,,,,
+emt/delaydiscounting_task/median_rt,emt,delaydiscounting_task,median_rt,median_rt,available,table not found,9129,,,,,,
+emt/delaydiscounting_task/one_month_lnk,emt,delaydiscounting_task,one_month_lnk,one_month_lnk,available,table not found,9129,,,,,,
+emt/delaydiscounting_task/one_year_lnk,emt,delaydiscounting_task,one_year_lnk,one_year_lnk,available,table not found,9129,,,,,,
+emt/delaydiscounting_task/operating_system,emt,delaydiscounting_task,operating_system,operating_system,available,table not found,9129,,,,,,
+emt/delaydiscounting_task/person_id,emt,delaydiscounting_task,person_id,person_id,available,table not found,9129,,,,,,
+emt/delaydiscounting_task/response_device,emt,delaydiscounting_task,response_device,response_device,available,table not found,9129,,,,,,
+emt/delaydiscounting_task/score,emt,delaydiscounting_task,score,score,available,table not found,9129,,,,,,
+emt/delaydiscounting_task/screen_height,emt,delaydiscounting_task,screen_height,screen_height,available,table not found,9129,,,,,,
+emt/delaydiscounting_task/screen_width,emt,delaydiscounting_task,screen_width,screen_width,available,table not found,9129,,,,,,
+emt/delaydiscounting_task/sd_rt,emt,delaydiscounting_task,sd_rt,sd_rt,available,table not found,9129,,,,,,
+emt/delaydiscounting_task/sitting_id,emt,delaydiscounting_task,sitting_id,sitting_id,available,table not found,9129,,,,,,
+emt/delaydiscounting_task/src_id,emt,delaydiscounting_task,src_id,src_id,available,table not found,9129,,,,,,
+emt/delaydiscounting_task/ten_years_lnk,emt,delaydiscounting_task,ten_years_lnk,ten_years_lnk,available,table not found,9129,,,,,,
+emt/delaydiscounting_task/test_duration,emt,delaydiscounting_task,test_duration,test_duration,available,table not found,9129,,,,,,
+emt/delaydiscounting_task/test_end_date_time,emt,delaydiscounting_task,test_end_date_time,test_end_date_time,available,table not found,9129,,,,,,
+emt/delaydiscounting_task/test_language,emt,delaydiscounting_task,test_language,test_language,available,table not found,9129,,,,,,
+emt/delaydiscounting_task/test_name,emt,delaydiscounting_task,test_name,test_name,available,table not found,9129,,,,,,
+emt/delaydiscounting_task/test_params,emt,delaydiscounting_task,test_params,test_params,available,table not found,9129,,,,,,
+emt/delaydiscounting_task/test_restarted,emt,delaydiscounting_task,test_restarted,test_restarted,available,table not found,9129,,,,,,
+emt/delaydiscounting_task/test_short_name,emt,delaydiscounting_task,test_short_name,test_short_name,available,table not found,9129,,,,,,
+emt/delaydiscounting_task/test_start_date_time,emt,delaydiscounting_task,test_start_date_time,test_start_date_time,available,table not found,9129,,,,,,
+emt/delaydiscounting_task/test_version,emt,delaydiscounting_task,test_version,test_version,available,table not found,9129,,,,,,
+emt/delaydiscounting_task/touch,emt,delaydiscounting_task,touch,touch,available,table not found,9129,,,,,,
+emt/delaydiscounting_task/two_weeks_lnk,emt,delaydiscounting_task,two_weeks_lnk,two_weeks_lnk,available,table not found,9129,,,,,,
+emt/delaydiscounting_task/user_agent,emt,delaydiscounting_task,user_agent,user_agent,available,table not found,9129,,,,,,
+emt/flanker_task/accuracy,emt,flanker_task,accuracy,accuracy,available,table not found,9129,,,,,,
+emt/flanker_task/accuracy_congruent,emt,flanker_task,accuracy_congruent,accuracy_congruent,available,table not found,9129,,,,,,
+emt/flanker_task/accuracy_incongruent,emt,flanker_task,accuracy_incongruent,accuracy_incongruent,available,table not found,9129,,,,,,
+emt/flanker_task/accuracy_interference,emt,flanker_task,accuracy_interference,accuracy_interference,available,table not found,9129,,,,,,
+emt/flanker_task/any_timeouts,emt,flanker_task,any_timeouts,any_timeouts,available,table not found,9129,,,,,,
+emt/flanker_task/aou_version,emt,flanker_task,aou_version,aou_version,available,table not found,9129,,,,,,
+emt/flanker_task/flag_accuracy,emt,flanker_task,flag_accuracy,flag_accuracy,available,table not found,9129,,,,,,
+emt/flanker_task/flag_trial_flags,emt,flanker_task,flag_trial_flags,flag_trial_flags,available,table not found,9129,,,,,,
+emt/flanker_task/integer,emt,flanker_task,integer,integer,available,table not found,9129,,,,,,
+emt/flanker_task/mean_rtc,emt,flanker_task,mean_rtc,mean_rtc,available,table not found,9129,,,,,,
+emt/flanker_task/median_rt_congruent,emt,flanker_task,median_rt_congruent,median_rt_congruent,available,table not found,9129,,,,,,
+emt/flanker_task/median_rt_incongruent,emt,flanker_task,median_rt_incongruent,median_rt_incongruent,available,table not found,9129,,,,,,
+emt/flanker_task/median_rt_interference,emt,flanker_task,median_rt_interference,median_rt_interference,available,table not found,9129,,,,,,
+emt/flanker_task/median_rtc,emt,flanker_task,median_rtc,median_rtc,available,table not found,9129,,,,,,
+emt/flanker_task/operating_system,emt,flanker_task,operating_system,operating_system,available,table not found,9129,,,,,,
+emt/flanker_task/person_id,emt,flanker_task,person_id,person_id,available,table not found,9129,,,,,,
+emt/flanker_task/rcs_congruent,emt,flanker_task,rcs_congruent,rcs_congruent,available,table not found,9129,,,,,,
+emt/flanker_task/rcs_incongruent,emt,flanker_task,rcs_incongruent,rcs_incongruent,available,table not found,9129,,,,,,
+emt/flanker_task/rcs_interference,emt,flanker_task,rcs_interference,rcs_interference,available,table not found,9129,,,,,,
+emt/flanker_task/response_device,emt,flanker_task,response_device,response_device,available,table not found,9129,,,,,,
+emt/flanker_task/score,emt,flanker_task,score,score,available,table not found,9129,,,,,,
+emt/flanker_task/screen_height,emt,flanker_task,screen_height,screen_height,available,table not found,9129,,,,,,
+emt/flanker_task/screen_width,emt,flanker_task,screen_width,screen_width,available,table not found,9129,,,,,,
+emt/flanker_task/sd_rtc,emt,flanker_task,sd_rtc,sd_rtc,available,table not found,9129,,,,,,
+emt/flanker_task/sitting_id,emt,flanker_task,sitting_id,sitting_id,available,table not found,9129,,,,,,
+emt/flanker_task/src_id,emt,flanker_task,src_id,src_id,available,table not found,9129,,,,,,
+emt/flanker_task/test_duration,emt,flanker_task,test_duration,test_duration,available,table not found,9129,,,,,,
+emt/flanker_task/test_end_date_time,emt,flanker_task,test_end_date_time,test_end_date_time,available,table not found,9129,,,,,,
+emt/flanker_task/test_language,emt,flanker_task,test_language,test_language,available,table not found,9129,,,,,,
+emt/flanker_task/test_name,emt,flanker_task,test_name,test_name,available,table not found,9129,,,,,,
+emt/flanker_task/test_params,emt,flanker_task,test_params,test_params,available,table not found,9129,,,,,,
+emt/flanker_task/test_restarted,emt,flanker_task,test_restarted,test_restarted,available,table not found,9129,,,,,,
+emt/flanker_task/test_short_name,emt,flanker_task,test_short_name,test_short_name,available,table not found,9129,,,,,,
+emt/flanker_task/test_start_date_time,emt,flanker_task,test_start_date_time,test_start_date_time,available,table not found,9129,,,,,,
+emt/flanker_task/test_version,emt,flanker_task,test_version,test_version,available,table not found,9129,,,,,,
+emt/flanker_task/touch,emt,flanker_task,touch,touch,available,table not found,9129,,,,,,
+emt/flanker_task/user_agent,emt,flanker_task,user_agent,user_agent,available,table not found,9129,,,,,,
+emt/gradcpt_task/accuracy,emt,gradcpt_task,accuracy,accuracy,available,table not found,9129,,,,,,
+emt/gradcpt_task/aou_version,emt,gradcpt_task,aou_version,aou_version,available,table not found,9129,,,,,,
+emt/gradcpt_task/crit,emt,gradcpt_task,crit,crit,available,table not found,9129,,,,,,
+emt/gradcpt_task/cv_rtc,emt,gradcpt_task,cv_rtc,cv_rtc,available,table not found,9129,,,,,,
+emt/gradcpt_task/dprime,emt,gradcpt_task,dprime,dprime,available,table not found,9129,,,,,,
+emt/gradcpt_task/flag_non_response,emt,gradcpt_task,flag_non_response,flag_non_response,available,table not found,9129,,,,,,
+emt/gradcpt_task/flag_omission_error_rate,emt,gradcpt_task,flag_omission_error_rate,flag_omission_error_rate,available,table not found,9129,,,,,,
+emt/gradcpt_task/flag_trial_flags,emt,gradcpt_task,flag_trial_flags,flag_trial_flags,available,table not found,9129,,,,,,
+emt/gradcpt_task/go_accuracy,emt,gradcpt_task,go_accuracy,go_accuracy,available,table not found,9129,,,,,,
+emt/gradcpt_task/mean_rtc,emt,gradcpt_task,mean_rtc,mean_rtc,available,table not found,9129,,,,,,
+emt/gradcpt_task/median_rtc,emt,gradcpt_task,median_rtc,median_rtc,available,table not found,9129,,,,,,
+emt/gradcpt_task/nogo_accuracy,emt,gradcpt_task,nogo_accuracy,nogo_accuracy,available,table not found,9129,,,,,,
+emt/gradcpt_task/operating_system,emt,gradcpt_task,operating_system,operating_system,available,table not found,9129,,,,,,
+emt/gradcpt_task/person_id,emt,gradcpt_task,person_id,person_id,available,table not found,9129,,,,,,
+emt/gradcpt_task/response_device,emt,gradcpt_task,response_device,response_device,available,table not found,9129,,,,,,
+emt/gradcpt_task/score,emt,gradcpt_task,score,score,available,table not found,9129,,,,,,
+emt/gradcpt_task/screen_height,emt,gradcpt_task,screen_height,screen_height,available,table not found,9129,,,,,,
+emt/gradcpt_task/screen_width,emt,gradcpt_task,screen_width,screen_width,available,table not found,9129,,,,,,
+emt/gradcpt_task/sd_rtc,emt,gradcpt_task,sd_rtc,sd_rtc,available,table not found,9129,,,,,,
+emt/gradcpt_task/sitting_id,emt,gradcpt_task,sitting_id,sitting_id,available,table not found,9129,,,,,,
+emt/gradcpt_task/src_id,emt,gradcpt_task,src_id,src_id,available,table not found,9129,,,,,,
+emt/gradcpt_task/test_duration,emt,gradcpt_task,test_duration,test_duration,available,table not found,9129,,,,,,
+emt/gradcpt_task/test_end_date_time,emt,gradcpt_task,test_end_date_time,test_end_date_time,available,table not found,9129,,,,,,
+emt/gradcpt_task/test_language,emt,gradcpt_task,test_language,test_language,available,table not found,9129,,,,,,
+emt/gradcpt_task/test_name,emt,gradcpt_task,test_name,test_name,available,table not found,9129,,,,,,
+emt/gradcpt_task/test_params,emt,gradcpt_task,test_params,test_params,available,table not found,9129,,,,,,
+emt/gradcpt_task/test_restarted,emt,gradcpt_task,test_restarted,test_restarted,available,table not found,9129,,,,,,
+emt/gradcpt_task/test_short_name,emt,gradcpt_task,test_short_name,test_short_name,available,table not found,9129,,,,,,
+emt/gradcpt_task/test_start_date_time,emt,gradcpt_task,test_start_date_time,test_start_date_time,available,table not found,9129,,,,,,
+emt/gradcpt_task/test_version,emt,gradcpt_task,test_version,test_version,available,table not found,9129,,,,,,
+emt/gradcpt_task/touch,emt,gradcpt_task,touch,touch,available,table not found,9129,,,,,,
+emt/gradcpt_task/user_agent,emt,gradcpt_task,user_agent,user_agent,available,table not found,9129,,,,,,
+omop/aou_death/death_date,omop,aou_death,death_date,death_date,available,ok,9129,283,3.1,283,,7792,7792
+omop/condition_occurrence/condition_concept_id,omop,condition_occurrence,condition_concept_id,condition_concept_id,available,ok,9129,8207,89.9,8207,,430094,430094
+omop/death/cause_concept_id,omop,death,cause_concept_id,cause_concept_id,suppressed,ok,9129,0,0.0,0,,0,0
+omop/death/death_date,omop,death,death_date,death_date,available,ok,9129,283,3.1,283,,7792,7792
+omop/drug_exposure/days_supply,omop,drug_exposure,days_supply,days_supply,available,ok,9129,3880,42.5,3880,,205304,205304
+omop/drug_exposure/drug_exposure_end_date,omop,drug_exposure,drug_exposure_end_date,drug_exposure_end_date,generalized,ok,9129,7701,84.4,7701,,402871,402871
+omop/drug_exposure/drug_exposure_start_date,omop,drug_exposure,drug_exposure_start_date,drug_exposure_start_date,generalized,ok,9129,7791,85.3,7791,,412089,412089
+omop/drug_exposure/quantity,omop,drug_exposure,quantity,quantity,available,ok,9129,6323,69.3,6323,,315733,315733
+omop/drug_exposure/refills,omop,drug_exposure,refills,refills,available,ok,9129,6256,68.5,6256,,295472,295472
+omop/drug_exposure/sig,omop,drug_exposure,sig,sig,available,ok,9129,0,0.0,0,,0,0
+omop/drug_exposure/stop_reason,omop,drug_exposure,stop_reason,stop_reason,available,ok,9129,0,0.0,0,,0,0
+omop/measurement/measurement_date,omop,measurement,measurement_date,measurement_date,generalized,ok,9129,8921,97.7,8921,,609884,609884
+omop/measurement/operator_concept_id,omop,measurement,operator_concept_id,operator_concept_id,available,ok,9129,8825,96.7,8825,,599475,599475
+omop/measurement/value_as_number,omop,measurement,value_as_number,value_as_number,available,ok,9129,8915,97.7,8915,,608801,608801
+omop/observation_period/observation_period_end_date,omop,observation_period,observation_period_end_date,observation_period_end_date,generalized,ok,9129,9129,100.0,9129,,738044,738044
+omop/observation_period/observation_period_start_date,omop,observation_period,observation_period_start_date,observation_period_start_date,generalized,ok,9129,9129,100.0,9129,,738044,738044
+omop/person/birth_datetime,omop,person,birth_datetime,birth_datetime,generalized,ok,9129,9129,100.0,9129,,738044,738044
+omop/person/sex_at_birth_concept_id,omop,person,sex_at_birth_concept_id,sex_at_birth_concept_id,available,ok,9129,9129,100.0,9129,,738044,738044
+omop/person/year_of_birth,omop,person,year_of_birth,year_of_birth,suppressed,ok,9129,9129,100.0,9129,,738044,738044
+omop/visit_occurrence/visit_concept_id,omop,visit_occurrence,visit_concept_id,visit_concept_id,available,ok,9129,8910,97.6,8910,,608383,608383
+omop/visit_occurrence/visit_start_date,omop,visit_occurrence,visit_start_date,visit_start_date,generalized,ok,9129,8910,97.6,8910,,608383,608383
+wear/fitbit/activity_measurements/sedentary_minutes,wear,Fitbit · activity_measurements,sedentary_minutes,sedentary_minutes,available,ok,9129,638,7.0,638,,68021,68021
+wear/fitbit/activity_measurements/steps,wear,Fitbit · activity_measurements,steps,steps,available,ok,9129,638,7.0,638,,68021,68021
+wear/fitbit/activity_measurements/very_active_minutes,wear,Fitbit · activity_measurements,very_active_minutes,very_active_minutes,available,ok,9129,638,7.0,638,,68021,68021
+wear/fitbit/sleep_daily_summary/minute_asleep,wear,Fitbit · sleep_daily_summary,minute_asleep,minute_asleep,available,ok,9129,586,6.4,586,,62688,62688
+wear/fitbit/sleep_daily_summary_ext/sleep_efficiency,wear,Fitbit · sleep_daily_summary_ext,sleep_efficiency,sleep_efficiency,available,ok,9129,547,6.0,547,,59389,59389
+wear/healthkit/physical_measurements/value,wear,HealthKit · physical_measurements,value,value,available,table not found,9129,,,,,,

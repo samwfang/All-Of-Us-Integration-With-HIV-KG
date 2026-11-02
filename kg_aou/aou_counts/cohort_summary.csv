@@ -1,0 +1,10 @@
+definition,participants
+dx,7925
+dx2,6631
+arv,7195
+self,3324
+dx & self,2120
+dx only (not self),5805
+self only (not dx),1204
+arv & not (dx|self),1940
+COHORT = dx|self,9129

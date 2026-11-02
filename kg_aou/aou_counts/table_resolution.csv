@@ -1,0 +1,142 @@
+field_id,dictionary_table,cdr_table,status,dataset
+wear/fitbit/activity_measurements/sedentary_minutes,activity_measurements,activity_summary,ok,wb-affable-acorn-7941.R2025Q4R6
+wear/fitbit/activity_measurements/steps,activity_measurements,activity_summary,ok,wb-affable-acorn-7941.R2025Q4R6
+wear/fitbit/activity_measurements/very_active_minutes,activity_measurements,activity_summary,ok,wb-affable-acorn-7941.R2025Q4R6
+omop/aou_death/death_date,aou_death,aou_death,ok,wb-affable-acorn-7941.R2025Q4R6
+omop/condition_occurrence/condition_concept_id,condition_occurrence,condition_occurrence,ok,wb-affable-acorn-7941.R2025Q4R6
+omop/death/cause_concept_id,death,death,ok,wb-affable-acorn-7941.R2025Q4R6
+omop/death/death_date,death,death,ok,wb-affable-acorn-7941.R2025Q4R6
+emt/delaydiscounting_task/any_timeouts,delaydiscounting_task,,table not found,
+emt/delaydiscounting_task/aou_version,delaydiscounting_task,,table not found,
+emt/delaydiscounting_task/catch_score,delaydiscounting_task,,table not found,
+emt/delaydiscounting_task/flag_catch_trials,delaydiscounting_task,,table not found,
+emt/delaydiscounting_task/flag_median_rt,delaydiscounting_task,,table not found,
+emt/delaydiscounting_task/lnk,delaydiscounting_task,,table not found,
+emt/delaydiscounting_task/mean_rt,delaydiscounting_task,,table not found,
+emt/delaydiscounting_task/median_rt,delaydiscounting_task,,table not found,
+emt/delaydiscounting_task/one_month_lnk,delaydiscounting_task,,table not found,
+emt/delaydiscounting_task/one_year_lnk,delaydiscounting_task,,table not found,
+emt/delaydiscounting_task/operating_system,delaydiscounting_task,,table not found,
+emt/delaydiscounting_task/person_id,delaydiscounting_task,,table not found,
+emt/delaydiscounting_task/response_device,delaydiscounting_task,,table not found,
+emt/delaydiscounting_task/score,delaydiscounting_task,,table not found,
+emt/delaydiscounting_task/screen_height,delaydiscounting_task,,table not found,
+emt/delaydiscounting_task/screen_width,delaydiscounting_task,,table not found,
+emt/delaydiscounting_task/sd_rt,delaydiscounting_task,,table not found,
+emt/delaydiscounting_task/sitting_id,delaydiscounting_task,,table not found,
+emt/delaydiscounting_task/src_id,delaydiscounting_task,,table not found,
+emt/delaydiscounting_task/ten_years_lnk,delaydiscounting_task,,table not found,
+emt/delaydiscounting_task/test_duration,delaydiscounting_task,,table not found,
+emt/delaydiscounting_task/test_end_date_time,delaydiscounting_task,,table not found,
+emt/delaydiscounting_task/test_language,delaydiscounting_task,,table not found,
+emt/delaydiscounting_task/test_name,delaydiscounting_task,,table not found,
+emt/delaydiscounting_task/test_params,delaydiscounting_task,,table not found,
+emt/delaydiscounting_task/test_restarted,delaydiscounting_task,,table not found,
+emt/delaydiscounting_task/test_short_name,delaydiscounting_task,,table not found,
+emt/delaydiscounting_task/test_start_date_time,delaydiscounting_task,,table not found,
+emt/delaydiscounting_task/test_version,delaydiscounting_task,,table not found,
+emt/delaydiscounting_task/touch,delaydiscounting_task,,table not found,
+emt/delaydiscounting_task/two_weeks_lnk,delaydiscounting_task,,table not found,
+emt/delaydiscounting_task/user_agent,delaydiscounting_task,,table not found,
+omop/drug_exposure/days_supply,drug_exposure,drug_exposure,ok,wb-affable-acorn-7941.R2025Q4R6
+omop/drug_exposure/drug_exposure_end_date,drug_exposure,drug_exposure,ok,wb-affable-acorn-7941.R2025Q4R6
+omop/drug_exposure/drug_exposure_start_date,drug_exposure,drug_exposure,ok,wb-affable-acorn-7941.R2025Q4R6
+omop/drug_exposure/quantity,drug_exposure,drug_exposure,ok,wb-affable-acorn-7941.R2025Q4R6
+omop/drug_exposure/refills,drug_exposure,drug_exposure,ok,wb-affable-acorn-7941.R2025Q4R6
+omop/drug_exposure/sig,drug_exposure,drug_exposure,ok,wb-affable-acorn-7941.R2025Q4R6
+omop/drug_exposure/stop_reason,drug_exposure,drug_exposure,ok,wb-affable-acorn-7941.R2025Q4R6
+ds/ds_person/date_of_birth,ds_person,ds_person,no person_id column,wb-affable-acorn-7941.R2025Q4R6
+ds/ds_person/ethnicity,ds_person,ds_person,no person_id column,wb-affable-acorn-7941.R2025Q4R6
+ds/ds_person/gender,ds_person,ds_person,no person_id column,wb-affable-acorn-7941.R2025Q4R6
+ds/ds_person/race,ds_person,ds_person,no person_id column,wb-affable-acorn-7941.R2025Q4R6
+ds/ds_person/sex_at_birth,ds_person,ds_person,no person_id column,wb-affable-acorn-7941.R2025Q4R6
+ds/ds_zip_code_socioeconomic/deprivation_index,ds_zip_code_socioeconomic,,table not found,
+ds/ds_zip_code_socioeconomic/fraction_assisted_income,ds_zip_code_socioeconomic,,table not found,
+ds/ds_zip_code_socioeconomic/fraction_high_school_edu,ds_zip_code_socioeconomic,,table not found,
+ds/ds_zip_code_socioeconomic/fraction_no_health_ins,ds_zip_code_socioeconomic,,table not found,
+ds/ds_zip_code_socioeconomic/fraction_poverty,ds_zip_code_socioeconomic,,table not found,
+ds/ds_zip_code_socioeconomic/fraction_vacant_housing,ds_zip_code_socioeconomic,,table not found,
+ds/ds_zip_code_socioeconomic/median_income,ds_zip_code_socioeconomic,,table not found,
+ds/ds_zip_code_socioeconomic/zip3_as_string,ds_zip_code_socioeconomic,,table not found,
+emt/flanker_task/accuracy,flanker_task,,table not found,
+emt/flanker_task/accuracy_congruent,flanker_task,,table not found,
+emt/flanker_task/accuracy_incongruent,flanker_task,,table not found,
+emt/flanker_task/accuracy_interference,flanker_task,,table not found,
+emt/flanker_task/any_timeouts,flanker_task,,table not found,
+emt/flanker_task/aou_version,flanker_task,,table not found,
+emt/flanker_task/flag_accuracy,flanker_task,,table not found,
+emt/flanker_task/flag_trial_flags,flanker_task,,table not found,
+emt/flanker_task/integer,flanker_task,,table not found,
+emt/flanker_task/mean_rtc,flanker_task,,table not found,
+emt/flanker_task/median_rt_congruent,flanker_task,,table not found,
+emt/flanker_task/median_rt_incongruent,flanker_task,,table not found,
+emt/flanker_task/median_rt_interference,flanker_task,,table not found,
+emt/flanker_task/median_rtc,flanker_task,,table not found,
+emt/flanker_task/operating_system,flanker_task,,table not found,
+emt/flanker_task/person_id,flanker_task,,table not found,
+emt/flanker_task/rcs_congruent,flanker_task,,table not found,
+emt/flanker_task/rcs_incongruent,flanker_task,,table not found,
+emt/flanker_task/rcs_interference,flanker_task,,table not found,
+emt/flanker_task/response_device,flanker_task,,table not found,
+emt/flanker_task/score,flanker_task,,table not found,
+emt/flanker_task/screen_height,flanker_task,,table not found,
+emt/flanker_task/screen_width,flanker_task,,table not found,
+emt/flanker_task/sd_rtc,flanker_task,,table not found,
+emt/flanker_task/sitting_id,flanker_task,,table not found,
+emt/flanker_task/src_id,flanker_task,,table not found,
+emt/flanker_task/test_duration,flanker_task,,table not found,
+emt/flanker_task/test_end_date_time,flanker_task,,table not found,
+emt/flanker_task/test_language,flanker_task,,table not found,
+emt/flanker_task/test_name,flanker_task,,table not found,
+emt/flanker_task/test_params,flanker_task,,table not found,
+emt/flanker_task/test_restarted,flanker_task,,table not found,
+emt/flanker_task/test_short_name,flanker_task,,table not found,
+emt/flanker_task/test_start_date_time,flanker_task,,table not found,
+emt/flanker_task/test_version,flanker_task,,table not found,
+emt/flanker_task/touch,flanker_task,,table not found,
+emt/flanker_task/user_agent,flanker_task,,table not found,
+emt/gradcpt_task/accuracy,gradcpt_task,,table not found,
+emt/gradcpt_task/aou_version,gradcpt_task,,table not found,
+emt/gradcpt_task/crit,gradcpt_task,,table not found,
+emt/gradcpt_task/cv_rtc,gradcpt_task,,table not found,
+emt/gradcpt_task/dprime,gradcpt_task,,table not found,
+emt/gradcpt_task/flag_non_response,gradcpt_task,,table not found,
+emt/gradcpt_task/flag_omission_error_rate,gradcpt_task,,table not found,
+emt/gradcpt_task/flag_trial_flags,gradcpt_task,,table not found,
+emt/gradcpt_task/go_accuracy,gradcpt_task,,table not found,
+emt/gradcpt_task/mean_rtc,gradcpt_task,,table not found,
+emt/gradcpt_task/median_rtc,gradcpt_task,,table not found,
+emt/gradcpt_task/nogo_accuracy,gradcpt_task,,table not found,
+emt/gradcpt_task/operating_system,gradcpt_task,,table not found,
+emt/gradcpt_task/person_id,gradcpt_task,,table not found,
+emt/gradcpt_task/response_device,gradcpt_task,,table not found,
+emt/gradcpt_task/score,gradcpt_task,,table not found,
+emt/gradcpt_task/screen_height,gradcpt_task,,table not found,
+emt/gradcpt_task/screen_width,gradcpt_task,,table not found,
+emt/gradcpt_task/sd_rtc,gradcpt_task,,table not found,
+emt/gradcpt_task/sitting_id,gradcpt_task,,table not found,
+emt/gradcpt_task/src_id,gradcpt_task,,table not found,
+emt/gradcpt_task/test_duration,gradcpt_task,,table not found,
+emt/gradcpt_task/test_end_date_time,gradcpt_task,,table not found,
+emt/gradcpt_task/test_language,gradcpt_task,,table not found,
+emt/gradcpt_task/test_name,gradcpt_task,,table not found,
+emt/gradcpt_task/test_params,gradcpt_task,,table not found,
+emt/gradcpt_task/test_restarted,gradcpt_task,,table not found,
+emt/gradcpt_task/test_short_name,gradcpt_task,,table not found,
+emt/gradcpt_task/test_start_date_time,gradcpt_task,,table not found,
+emt/gradcpt_task/test_version,gradcpt_task,,table not found,
+emt/gradcpt_task/touch,gradcpt_task,,table not found,
+emt/gradcpt_task/user_agent,gradcpt_task,,table not found,
+omop/measurement/measurement_date,measurement,measurement,ok,wb-affable-acorn-7941.R2025Q4R6
+omop/measurement/operator_concept_id,measurement,measurement,ok,wb-affable-acorn-7941.R2025Q4R6
+omop/measurement/value_as_number,measurement,measurement,ok,wb-affable-acorn-7941.R2025Q4R6
+omop/observation_period/observation_period_end_date,observation_period,observation_period,ok,wb-affable-acorn-7941.R2025Q4R6
+omop/observation_period/observation_period_start_date,observation_period,observation_period,ok,wb-affable-acorn-7941.R2025Q4R6
+omop/person/birth_datetime,person,person,ok,wb-affable-acorn-7941.R2025Q4R6
+omop/person/sex_at_birth_concept_id,person,person,ok,wb-affable-acorn-7941.R2025Q4R6
+omop/person/year_of_birth,person,person,ok,wb-affable-acorn-7941.R2025Q4R6
+wear/healthkit/physical_measurements/value,physical_measurements,,table not found,
+wear/fitbit/sleep_daily_summary/minute_asleep,sleep_daily_summary,sleep_daily_summary,ok,wb-affable-acorn-7941.R2025Q4R6
+wear/fitbit/sleep_daily_summary_ext/sleep_efficiency,sleep_daily_summary_ext,sleep_daily_summary_ext,ok,wb-affable-acorn-7941.R2025Q4R6
+omop/visit_occurrence/visit_concept_id,visit_occurrence,visit_occurrence,ok,wb-affable-acorn-7941.R2025Q4R6
+omop/visit_occurrence/visit_start_date,visit_occurrence,visit_occurrence,ok,wb-affable-acorn-7941.R2025Q4R6
